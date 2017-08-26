@@ -228,7 +228,7 @@ GAME
 	{
 		name = ContractSystem
 		scene = 7, 8, 5, 6
-		update = 904223604.51814747
+		update = 904144733.15805387
 		version = 1.3.0
 		WEIGHTS
 		{
@@ -266,6 +266,429 @@ GAME
 		}
 		CONTRACTS
 		{
+			CONTRACT
+			{
+				guid = 6c6040cd-9eb9-49f2-bf73-d5fc2b8d35a5
+				type = CollectScience
+				prestige = 0
+				seed = -1914260115
+				state = Offered
+				viewed = Unseen
+				agent = Rockomax Conglomerate
+				deadlineType = Floating
+				expiryType = Floating
+				values = 96579.4803726839,411428586.387634,107630.043792022,276250.433187477,111935.241807461,3,7.168933,3,904162886.377192,0,0,0
+				body = 16
+				location = Surface
+				PARAM
+				{
+					name = CollectScience
+					state = Incomplete
+					values = 0,0,0,0,0
+					body = 16
+					location = Surface
+				}
+			}
+			CONTRACT
+			{
+				guid = 00f40091-780e-4455-9cf4-b4d0975e32f6
+				type = TourismContract
+				prestige = 0
+				seed = -1421357311
+				state = Offered
+				viewed = Unseen
+				agent = Experimental Engineering Group
+				deadlineType = Floating
+				expiryType = Floating
+				values = 85544.5547103882,455524753.832817,0,0,0,0,19.04762,10,904169604.498899,0,0,0
+				preposition = 到Eeloo附近
+				homeDestinations = False
+				isGeeAdventure = False
+				tourists = Bogang Kerman|Kailai Kerman
+				PARAM
+				{
+					name = KerbalTourParameter
+					state = Incomplete
+					allowPartialFailure = True
+					values = 195000,0,0,0,0
+					kerbalName = Bogang Kerman
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 32500,0,0,0,0
+						targetBody = 16
+						targetType = Orbit
+						kerbalName = Bogang Kerman
+					}
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 32500,0,0,0,0
+						targetBody = 16
+						targetType = Flyby
+						kerbalName = Bogang Kerman
+					}
+				}
+				PARAM
+				{
+					name = KerbalTourParameter
+					state = Incomplete
+					allowPartialFailure = True
+					values = 195000,0,0,0,0
+					kerbalName = Kailai Kerman
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 32500,0,0,0,0
+						targetBody = 16
+						targetType = Land
+						kerbalName = Kailai Kerman
+					}
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 32500,0,0,0,0
+						targetBody = 16
+						targetType = Orbit
+						kerbalName = Kailai Kerman
+					}
+				}
+			}
+			CONTRACT
+			{
+				guid = 9523d0f4-770d-466a-8572-d91a9591cd4d
+				type = TourismContract
+				prestige = 2
+				seed = -1421357309
+				state = Offered
+				viewed = Unseen
+				agent = Periapsis Rocket Supplies Co
+				deadlineType = Floating
+				expiryType = Floating
+				values = 129600,460080000,0,0,0,0,30,15,904213659.944188,0,0,0
+				preposition = 太阳系
+				homeDestinations = False
+				isGeeAdventure = False
+				tourists = Jingxiu Kerman|Luobei Kerman|Weina Kerman|Marui Kerman|Milan Kerman
+				PARAM
+				{
+					name = KerbalTourParameter
+					state = Incomplete
+					allowPartialFailure = True
+					values = 438750,0,0,0,0
+					kerbalName = Jingxiu Kerman
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 48750,0,0,0,0
+						targetBody = 0
+						targetType = Flyby
+						kerbalName = Jingxiu Kerman
+					}
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 48750,0,0,0,0
+						targetBody = 16
+						targetType = Orbit
+						kerbalName = Jingxiu Kerman
+					}
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 48750,0,0,0,0
+						targetBody = 14
+						targetType = Orbit
+						kerbalName = Jingxiu Kerman
+					}
+				}
+				PARAM
+				{
+					name = KerbalTourParameter
+					state = Incomplete
+					allowPartialFailure = True
+					values = 438750,0,0,0,0
+					kerbalName = Luobei Kerman
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 48750,0,0,0,0
+						targetBody = 0
+						targetType = Orbit
+						kerbalName = Luobei Kerman
+					}
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 48750,0,0,0,0
+						targetBody = 13
+						targetType = Orbit
+						kerbalName = Luobei Kerman
+					}
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 48750,0,0,0,0
+						targetBody = 16
+						targetType = Orbit
+						kerbalName = Luobei Kerman
+					}
+				}
+				PARAM
+				{
+					name = KerbalTourParameter
+					state = Incomplete
+					allowPartialFailure = True
+					values = 585000,0,0,0,0
+					kerbalName = Weina Kerman
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 48750,0,0,0,0
+						targetBody = 13
+						targetType = Land
+						kerbalName = Weina Kerman
+					}
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 48750,0,0,0,0
+						targetBody = 16
+						targetType = Land
+						kerbalName = Weina Kerman
+					}
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 48750,0,0,0,0
+						targetBody = 15
+						targetType = Flyby
+						kerbalName = Weina Kerman
+					}
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 48750,0,0,0,0
+						targetBody = 2
+						targetType = Flyby
+						kerbalName = Weina Kerman
+					}
+				}
+				PARAM
+				{
+					name = KerbalTourParameter
+					state = Incomplete
+					allowPartialFailure = True
+					values = 585000,0,0,0,0
+					kerbalName = Marui Kerman
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 48750,0,0,0,0
+						targetBody = 13
+						targetType = Flyby
+						kerbalName = Marui Kerman
+					}
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 48750,0,0,0,0
+						targetBody = 16
+						targetType = Land
+						kerbalName = Marui Kerman
+					}
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 48750,0,0,0,0
+						targetBody = 8
+						targetType = Orbit
+						kerbalName = Marui Kerman
+					}
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 48750,0,0,0,0
+						targetBody = 2
+						targetType = Land
+						kerbalName = Marui Kerman
+					}
+				}
+				PARAM
+				{
+					name = KerbalTourParameter
+					state = Incomplete
+					allowPartialFailure = True
+					values = 468000,0,0,0,0
+					kerbalName = Milan Kerman
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 39000,0,0,0,0
+						targetBody = 8
+						targetType = Flyby
+						kerbalName = Milan Kerman
+					}
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 39000,0,0,0,0
+						targetBody = 14
+						targetType = Flyby
+						kerbalName = Milan Kerman
+					}
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 39000,0,0,0,0
+						targetBody = 13
+						targetType = Orbit
+						kerbalName = Milan Kerman
+					}
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 39000,0,0,0,0
+						targetBody = 14
+						targetType = Orbit
+						kerbalName = Milan Kerman
+					}
+				}
+			}
+			CONTRACT
+			{
+				guid = 81fa59b7-b970-4e30-a6c5-3b3e44cc37d8
+				type = TourismContract
+				prestige = 0
+				seed = -1206371111
+				state = Offered
+				viewed = Unseen
+				agent = Moving Parts Experts Group
+				deadlineType = Floating
+				expiryType = Floating
+				values = 62289.7272738862,265354238.186755,0,0,0,0,18.49458,9.615385,904162625.617724,0,0,0
+				preposition = 到Dres附近
+				homeDestinations = False
+				isGeeAdventure = False
+				tourists = Gebei Kerman
+				PARAM
+				{
+					name = KerbalTourParameter
+					state = Incomplete
+					allowPartialFailure = True
+					values = 58500,0,0,0,0
+					kerbalName = Gebei Kerman
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 19500,0,0,0,0
+						targetBody = 15
+						targetType = Flyby
+						kerbalName = Gebei Kerman
+					}
+				}
+			}
+			CONTRACT
+			{
+				guid = 9d9836e0-3761-4495-a3f0-2f8a16032ba6
+				type = CollectScience
+				prestige = 1
+				seed = -2024654437
+				state = Offered
+				viewed = Unseen
+				agent = Kerbodyne
+				deadlineType = Floating
+				expiryType = Floating
+				values = 86400,368064000,76500,187000,76500,3,6,3,904216759.09837,0,0,0
+				body = 12
+				location = Space
+				PARAM
+				{
+					name = CollectScience
+					state = Incomplete
+					values = 0,0,0,0,0
+					body = 12
+					location = Space
+				}
+			}
+			CONTRACT
+			{
+				guid = 5d3305ac-ab0b-4c80-9dad-fe199e582012
+				type = SentinelContract
+				prestige = 1
+				seed = -2024654436
+				state = Offered
+				viewed = Unseen
+				agent = Zaltonic Electronics
+				deadlineType = Floating
+				expiryType = Floating
+				values = 43200,8956116000,4467529.53645945,7371421.08992938,4914282.59661959,154,247.9339,140,904173559.09837,0,0,0
+				innerBody = 5
+				outerBody = 1
+				asteroidCount = 12
+				PARAM
+				{
+					name = PartRequestParameter
+					state = Incomplete
+					values = 0,0,0,0,0
+					article = a
+					partDescription = “哨兵”红外望远镜
+					vesselDescription = 载具
+					partNames = InfraredTelescope
+				}
+				PARAM
+				{
+					name = SpecificOrbitParameter
+					state = Incomplete
+					values = 0,0,0,0,0
+					TargetBody = 0
+					deviationWindow = 5
+					orbitType = 6
+					inclination = 0.00097301468485966325
+					eccentricity = 0.0075366552919149399
+					sma = 11127726148.543299
+					lan = 0
+					argumentOfPeriapsis = 0
+					meanAnomalyAtEpoch = 3.1418024421340314
+					epoch = 0
+				}
+				PARAM
+				{
+					name = SentinelParameter
+					state = Incomplete
+					values = 0,0,0,0,0
+					FocusBody = 1
+					ScanType = INCLINATION
+					TargetSize = E
+					MinimumEccentricity = 0
+					MinimumInclination = 36.078764404691654
+					TotalDiscoveries = 12
+					RemainingDiscoveries = 12
+				}
+			}
 			CONTRACT
 			{
 				guid = 41dc4f17-1283-49b2-9313-8a9cf15b665f
@@ -434,6 +857,206 @@ GAME
 			}
 			CONTRACT
 			{
+				guid = 2e70d3b7-af8e-4995-a66a-db047799a29b
+				type = CollectScience
+				prestige = 0
+				seed = -1351718321
+				state = Offered
+				viewed = Unseen
+				agent = O.M.B. Demolition Enterprises
+				deadlineType = Floating
+				expiryType = Floating
+				values = 64800,115020000,25875,66412.496984005,27168.7487661839,3,6.666667,3,904209291.225273,0,0,0
+				body = 3
+				location = Surface
+				PARAM
+				{
+					name = CollectScience
+					state = Incomplete
+					values = 0,0,0,0,0
+					body = 3
+					location = Surface
+				}
+			}
+			CONTRACT
+			{
+				guid = 8259aac9-be34-42b3-8643-d7ae9c7ffa8b
+				type = PartTest
+				prestige = 0
+				seed = -1351718320
+				state = Offered
+				viewed = Unseen
+				agent = Moving Parts Experts Group
+				deadlineType = Floating
+				expiryType = Floating
+				values = 41526.4848492575,8845141.27289184,6953.84980430603,18253.8549073398,7229.24953651429,2,3.698916,2.884615,904186017.710122,0,0,0
+				part = SmallGearBay
+				haul = True
+				dest = 1
+				sit = FLYING
+				exp = False
+				PARAM
+				{
+					name = PartTest
+					state = Incomplete
+					values = 0,0,0,0,0
+					part = SmallGearBay
+					body = Kerbin
+					situation = FLYING
+					uniqueID = 0.17599824079126036
+					haul = True
+					repeatability = ONCEPERPART
+				}
+				PARAM
+				{
+					name = ReachDestination
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					dest = 1
+					title = 
+				}
+				PARAM
+				{
+					name = ReachSituation
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					sit = FLYING
+					title = 
+				}
+			}
+			CONTRACT
+			{
+				guid = 5bfac881-1659-4775-9212-75699096a6ff
+				type = PartTest
+				prestige = 1
+				seed = -1351718319
+				state = Offered
+				viewed = Unseen
+				agent = Integrated Integrals
+				deadlineType = Floating
+				expiryType = Floating
+				values = 42352.9412269592,22552941.2033558,41376.6929150651,113784.829136479,46406.8010058403,5,10.4,9,904186844.1665,0,0,0
+				part = stackDecouplerMini
+				haul = True
+				dest = 3
+				sit = SUB_ORBITAL
+				exp = False
+				PARAM
+				{
+					name = PartTest
+					state = Incomplete
+					values = 0,0,0,0,0
+					part = stackDecouplerMini
+					body = Minmus
+					situation = SUB_ORBITAL
+					uniqueID = 0.22471527532893945
+					haul = True
+					repeatability = BODYANDSITUATION
+				}
+				PARAM
+				{
+					name = ReachDestination
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					dest = 3
+					title = 
+				}
+				PARAM
+				{
+					name = ReachSituation
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					sit = SUB_ORBITAL
+					title = 
+				}
+				PARAM
+				{
+					name = ReachAltitudeEnvelope
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					minAlt = 130000
+					maxAlt = 140000
+				}
+			}
+			CONTRACT
+			{
+				guid = 176025e3-0d24-4793-943f-b6a5b6177efe
+				type = SatelliteContract
+				prestige = 1
+				seed = -1351718318
+				state = Offered
+				viewed = Unseen
+				agent = Reaction Systems Ltd
+				deadlineType = Floating
+				expiryType = Floating
+				values = 43200,115020000,55125,155381.603367805,60637.5013142824,14,12.72727,8,904187691.225273,0,0,0
+				targetBody = 3
+				deviation = 5
+				orbitType = 6
+				placementMode = 0
+				PARAM
+				{
+					name = VesselSystemsParameter
+					state = Incomplete
+					values = 0,0,0,0,0
+					typeString = 探针
+					mannedStatus = 1
+					requireNew = True
+					checkModuleTypes = Antenna|Generator
+					checkModuleDescriptions = 拥有一根天线|能够发电
+					launchID = 0
+				}
+				PARAM
+				{
+					name = SpecificOrbitParameter
+					state = Incomplete
+					values = 0,0,0,0,0
+					TargetBody = 3
+					deviationWindow = 5
+					orbitType = 6
+					inclination = 166.42012343921886
+					eccentricity = 0.038795163964761181
+					sma = 828662.73154164513
+					lan = 224.81910622903101
+					argumentOfPeriapsis = 36.31790082730236
+					meanAnomalyAtEpoch = 0.83873264067187481
+					epoch = 0
+				}
+				PARAM
+				{
+					name = PartRequestParameter
+					state = Incomplete
+					values = 0,0,0,0,0
+					article = a
+					partDescription = 材料舱
+					vesselDescription = 卫星
+					partNames = science_module
+				}
+				PARAM
+				{
+					name = PartRequestParameter
+					state = Incomplete
+					values = 0,0,0,0,0
+					article = a
+					partDescription = 引力子探测器
+					vesselDescription = 卫星
+					partNames = sensorGravimeter
+				}
+				PARAM
+				{
+					name = StabilityParameter
+					state = Incomplete
+					values = 0,0,0,0,0
+					holdSeconds = 10
+				}
+			}
+			CONTRACT
+			{
 				guid = 986d02f2-957f-4b24-9b92-cba490dcef66
 				type = SatelliteContract
 				prestige = 2
@@ -502,657 +1125,6 @@ GAME
 					state = Incomplete
 					values = 0,0,0,0,0
 					holdSeconds = 10
-				}
-			}
-			CONTRACT
-			{
-				guid = 740f12a0-99cc-46d8-8744-ff689396e29f
-				type = SentinelContract
-				prestige = 2
-				seed = -1102141250
-				state = Offered
-				viewed = Unseen
-				agent = Goliath National Products
-				deadlineType = Floating
-				expiryType = Floating
-				values = 108000,6310936800,2098698,3148036,2098698,93,184,93,904289553.27738,0,0,0
-				innerBody = 4
-				outerBody = 5
-				asteroidCount = 19
-				PARAM
-				{
-					name = PartRequestParameter
-					state = Incomplete
-					values = 0,0,0,0,0
-					article = a
-					partDescription = “哨兵”红外望远镜
-					vesselDescription = 载具
-					partNames = InfraredTelescope
-				}
-				PARAM
-				{
-					name = SpecificOrbitParameter
-					state = Incomplete
-					values = 0,0,0,0,0
-					TargetBody = 0
-					deviationWindow = 3
-					orbitType = 6
-					inclination = 2.1001896261004749
-					eccentricity = 0.011796852224506436
-					sma = 5871759154.3840094
-					lan = 15.0054931640625
-					argumentOfPeriapsis = 0
-					meanAnomalyAtEpoch = 3.1398597359610343
-					epoch = 0
-				}
-				PARAM
-				{
-					name = SentinelParameter
-					state = Incomplete
-					values = 0,0,0,0,0
-					FocusBody = 5
-					ScanType = INCLINATION
-					TargetSize = E
-					MinimumEccentricity = 0
-					MinimumInclination = 10.19751050626715
-					TotalDiscoveries = 19
-					RemainingDiscoveries = 19
-				}
-			}
-			CONTRACT
-			{
-				guid = 4d999fac-b4f3-4907-8346-5d692a6fdc0f
-				type = SurveyContract
-				prestige = 0
-				seed = -1405834163
-				state = Offered
-				viewed = Unseen
-				agent = Integrated Integrals
-				deadlineType = Floating
-				expiryType = Floating
-				values = 128316.832065582,364419803.066254,237647.056862887,440835.270460975,251999.988555908,0,8.742858,9,904321121.440284,0,0,0
-				targetBody = 9
-				centerLatitude = -32.378039528699034
-				centerLongitude = -145.51091594878162
-				dataName = 重力
-				anomalyName = 异常点
-				reportName = 读数
-				locationName = Laythe^N
-				focusedSurvey = False
-				targetBand = HIGH
-				contextual = False
-				PARAM
-				{
-					name = SurveyWaypointParameter
-					state = Incomplete
-					values = 57600,0,3,3,0
-					targetBody = 9
-					actionDescription = 记录重力
-					experiment = gravityScan
-					flightThreshold = 46000
-					band = 3
-					clusterState = MIXED
-					verified = True
-					contextual = False
-					wpSeed = -493495885
-					wpIndex = 0
-					wpTexture = gravity
-					wpLatitude = -31.113741513357784
-					wpLongitude = -157.24203844916752
-					wpLandlocked = False
-					wpNavigationId = 5f2afff3-7281-4c27-baa8-658fd6ec2615
-				}
-			}
-			CONTRACT
-			{
-				guid = 96865003-0c02-42bf-90f6-9cfee179942e
-				type = SurveyContract
-				prestige = 0
-				seed = -1405834162
-				state = Offered
-				viewed = Unseen
-				agent = WinterOwl Aircraft Emporium
-				deadlineType = Floating
-				expiryType = Floating
-				values = 105365.856170654,224429273.643494,140845.066308975,261267.586138187,157499.992847443,0,9.084259,8.737864,904298170.464389,0,0,0
-				targetBody = 6
-				centerLatitude = 35.438062829440732
-				centerLongitude = 40.04590372557098
-				dataName = 重力
-				anomalyName = 异常点
-				reportName = 读数
-				locationName = Duna^N
-				focusedSurvey = False
-				targetBand = HIGH
-				contextual = False
-				PARAM
-				{
-					name = SurveyWaypointParameter
-					state = Incomplete
-					values = 36000,0,3,3,0
-					targetBody = 6
-					actionDescription = 记录重力
-					experiment = gravityScan
-					flightThreshold = 55800
-					band = 3
-					clusterState = MIXED
-					verified = True
-					contextual = False
-					wpSeed = -822414161
-					wpIndex = 0
-					wpTexture = gravity
-					wpLatitude = 44.888223618848265
-					wpLongitude = 49.941594784540499
-					wpLandlocked = False
-					wpNavigationId = 1ab067e7-1c0f-42a5-b328-5cd5ea645b65
-				}
-				PARAM
-				{
-					name = SurveyWaypointParameter
-					state = Incomplete
-					values = 36000,0,3,3,0
-					targetBody = 6
-					actionDescription = 记录重力
-					experiment = gravityScan
-					flightThreshold = 57100
-					band = 3
-					clusterState = MIXED
-					verified = True
-					contextual = False
-					wpSeed = -822414161
-					wpIndex = 1
-					wpTexture = gravity
-					wpLatitude = 42.423187988222764
-					wpLongitude = 51.728325250309553
-					wpLandlocked = False
-					wpNavigationId = 4990673e-a3bb-4fc5-b20f-a91a1f4c6bb4
-				}
-			}
-			CONTRACT
-			{
-				guid = b4b85204-3bf5-4904-96d9-28c1e18f0caa
-				type = ISRUContract
-				prestige = 0
-				seed = -1405834160
-				state = Offered
-				viewed = Unseen
-				agent = O.M.B. Demolition Enterprises
-				deadlineType = Floating
-				expiryType = Floating
-				values = 43200,515289600,265152,709497.567779541,278409.587356567,0,22.85714,12,904236004.608219,0,0,0
-				targetBody = 14
-				gatherGoal = 550
-				targetResource = Ore
-				resourceTitle = 矿石
-				isDelivering = False
-				PARAM
-				{
-					name = ResourceExtractionParameter
-					state = Incomplete
-					values = 0,0,0,0,0
-					targetBody = 14
-					totalHarvested = 0
-					goalHarvested = 550
-					resourceName = Ore
-					resourceTitle = 矿石
-					notifyLevel = 0.25
-					modules = ModuleResourceHarvester
-				}
-			}
-			CONTRACT
-			{
-				guid = 4b8eb408-4fc1-4d80-8ca8-673e62108d08
-				type = TourismContract
-				prestige = 1
-				seed = -1405834158
-				state = Offered
-				viewed = Unseen
-				agent = Experimental Engineering Group
-				deadlineType = Floating
-				expiryType = Floating
-				values = 63529.4118404388,360847059.253693,0,0,0,0,22.72727,12,904256334.020059,0,0,0
-				preposition = 到Jool附近
-				homeDestinations = False
-				isGeeAdventure = False
-				tourists = Heidi Kerman|Haika Kerman
-				PARAM
-				{
-					name = KerbalTourParameter
-					state = Incomplete
-					allowPartialFailure = True
-					values = 146250,0,0,0,0
-					kerbalName = Heidi Kerman
-					PARAM
-					{
-						name = KerbalDestinationParameter
-						state = Incomplete
-						values = 24375,0,0,0,0
-						targetBody = 8
-						targetType = Orbit
-						kerbalName = Heidi Kerman
-					}
-					PARAM
-					{
-						name = KerbalDestinationParameter
-						state = Incomplete
-						values = 24375,0,0,0,0
-						targetBody = 8
-						targetType = Flyby
-						kerbalName = Heidi Kerman
-					}
-				}
-				PARAM
-				{
-					name = KerbalTourParameter
-					state = Incomplete
-					allowPartialFailure = True
-					values = 195000,0,0,0,0
-					kerbalName = Haika Kerman
-					PARAM
-					{
-						name = KerbalDestinationParameter
-						state = Incomplete
-						values = 32500,0,0,0,0
-						targetBody = 14
-						targetType = Flyby
-						kerbalName = Haika Kerman
-					}
-					PARAM
-					{
-						name = KerbalDestinationParameter
-						state = Incomplete
-						values = 32500,0,0,0,0
-						targetBody = 8
-						targetType = Flight
-						kerbalName = Haika Kerman
-					}
-				}
-			}
-			CONTRACT
-			{
-				guid = 1c9c4ffd-6804-4486-9810-e1a0475c80f1
-				type = CollectScience
-				prestige = 1
-				seed = -2055985495
-				state = Offered
-				viewed = Unseen
-				agent = Periapsis Rocket Supplies Co
-				deadlineType = Floating
-				expiryType = Floating
-				values = 108000,368064000,103500,253000,103500,4,9,4,904311476.063731,0,0,0
-				body = 12
-				location = Surface
-				PARAM
-				{
-					name = CollectScience
-					state = Incomplete
-					values = 0,0,0,0,0
-					body = 12
-					location = Surface
-				}
-			}
-			CONTRACT
-			{
-				guid = 277ed90f-7b70-45a9-835e-422faa082c2e
-				type = StationContract
-				prestige = 2
-				seed = -2055985490
-				state = Offered
-				viewed = Unseen
-				agent = Integrated Integrals
-				deadlineType = Floating
-				expiryType = Floating
-				values = 83883.4991455078,625351486.129761,767019.636996051,2287867.33264872,907763.981180191,36,35.94783,20,904287359.562877,0,0,0
-				targetBody = 16
-				capacity = 15
-				contextual = False
-				PARAM
-				{
-					name = VesselSystemsParameter
-					state = Incomplete
-					values = 0,0,0,0,0
-					typeString = 站点
-					mannedStatus = 2
-					requireNew = True
-					checkModuleTypes = Antenna|Generator|Dock
-					checkModuleDescriptions = 拥有一根天线|拥有一个对接口|能够发电
-					launchID = 0
-				}
-				PARAM
-				{
-					name = CrewCapacityParameter
-					state = Incomplete
-					values = 0,0,0,0,0
-					targetCapacity = 15
-				}
-				PARAM
-				{
-					name = ResourcePossessionParameter
-					state = Incomplete
-					values = 0,0,0,0,0
-					goalResource = 7500
-					resourceName = ElectricCharge
-					resourceTitle = 电能
-					vesselName = 站点
-				}
-				PARAM
-				{
-					name = ResourcePossessionParameter
-					state = Incomplete
-					values = 0,0,0,0,0
-					goalResource = 5000
-					resourceName = Ore
-					resourceTitle = 矿石
-					vesselName = 站点
-				}
-				PARAM
-				{
-					name = PartRequestParameter
-					state = Incomplete
-					values = 0,0,0,0,0
-					article = a
-					partDescription = 研究实验室
-					vesselDescription = 空间站
-					partNames = Large_Crewed_Lab
-					moduleNames = ModuleScienceLab
-				}
-				PARAM
-				{
-					name = StabilityParameter
-					state = Incomplete
-					values = 0,0,0,0,0
-					holdSeconds = 10
-				}
-				PARAM
-				{
-					name = LocationAndSituationParameter
-					state = Incomplete
-					values = 0,0,0,0,0
-					targetBody = 16
-					targetSituation = ORBITING
-					noun = 站点
-					finalObjective = False
-				}
-			}
-			CONTRACT
-			{
-				guid = 6505bcaa-1a2a-4fd1-8a07-d4862674bacc
-				type = StationContract
-				prestige = 0
-				seed = -1124956347
-				state = Offered
-				viewed = Unseen
-				agent = Zaltonic Electronics
-				deadlineType = Floating
-				expiryType = Floating
-				values = 64800,386467200,223007.997894287,607348.316683674,234158.387155151,17,16.16488,8.571429,904278543.480893,0,0,0
-				targetBody = 8
-				capacity = 5
-				contextual = False
-				PARAM
-				{
-					name = VesselSystemsParameter
-					state = Incomplete
-					values = 0,0,0,0,0
-					typeString = 站点
-					mannedStatus = 2
-					requireNew = True
-					checkModuleTypes = Antenna|Generator|Dock
-					checkModuleDescriptions = 拥有一根天线|拥有一个对接口|能够发电
-					launchID = 0
-				}
-				PARAM
-				{
-					name = CrewCapacityParameter
-					state = Incomplete
-					values = 0,0,0,0,0
-					targetCapacity = 5
-				}
-				PARAM
-				{
-					name = PartRequestParameter
-					state = Incomplete
-					values = 0,0,0,0,0
-					article = a
-					partDescription = 研究实验室
-					vesselDescription = 空间站
-					partNames = Large_Crewed_Lab
-					moduleNames = ModuleScienceLab
-				}
-				PARAM
-				{
-					name = StabilityParameter
-					state = Incomplete
-					values = 0,0,0,0,0
-					holdSeconds = 10
-				}
-				PARAM
-				{
-					name = LocationAndSituationParameter
-					state = Incomplete
-					values = 0,0,0,0,0
-					targetBody = 8
-					targetSituation = ORBITING
-					noun = 站点
-					finalObjective = False
-				}
-			}
-			CONTRACT
-			{
-				guid = ac199b45-f40b-4f77-aea1-aaa59dd89a19
-				type = StationContract
-				prestige = 2
-				seed = -1124956346
-				state = Offered
-				viewed = Unseen
-				agent = STEADLER Engineering Corps
-				deadlineType = Floating
-				expiryType = Floating
-				values = 86400,515289600,533126.239013672,1590215.57683954,631487.986907959,0,45.40956,26,904300143.480893,0,0,0
-				targetBody = 11
-				capacity = 6
-				contextual = False
-				PARAM
-				{
-					name = VesselSystemsParameter
-					state = Incomplete
-					values = 0,0,0,0,0
-					typeString = 站点
-					mannedStatus = 2
-					requireNew = True
-					checkModuleTypes = Antenna|Generator|Dock
-					checkModuleDescriptions = 拥有一根天线|拥有一个对接口|能够发电
-					launchID = 0
-				}
-				PARAM
-				{
-					name = CrewCapacityParameter
-					state = Incomplete
-					values = 0,0,0,0,0
-					targetCapacity = 6
-				}
-				PARAM
-				{
-					name = ResourcePossessionParameter
-					state = Incomplete
-					values = 0,0,0,0,0
-					goalResource = 5000
-					resourceName = Ore
-					resourceTitle = 矿石
-					vesselName = 站点
-				}
-				PARAM
-				{
-					name = ResourcePossessionParameter
-					state = Incomplete
-					values = 0,0,0,0,0
-					goalResource = 1500
-					resourceName = MonoPropellant
-					resourceTitle = 单组元推进剂
-					vesselName = 站点
-				}
-				PARAM
-				{
-					name = StabilityParameter
-					state = Incomplete
-					values = 0,0,0,0,0
-					holdSeconds = 10
-				}
-				PARAM
-				{
-					name = LocationAndSituationParameter
-					state = Incomplete
-					values = 0,0,0,0,0
-					targetBody = 11
-					targetSituation = ORBITING
-					noun = 站点
-					finalObjective = False
-				}
-			}
-			CONTRACT
-			{
-				guid = e8433562-4822-4dd3-95f4-30f1fef2a7cd
-				type = SurveyContract
-				prestige = 1
-				seed = -1880123811
-				state = Offered
-				viewed = Unseen
-				agent = Vac-Co Advanced Suction Systems
-				deadlineType = Floating
-				expiryType = Floating
-				values = 127058.823680878,360847059.253693,324360.012903213,630339.638737488,349800.028038025,0,9.433962,11,904350633.260448,0,0,0
-				targetBody = 14
-				centerLatitude = -28.620147232829488
-				centerLongitude = -89.998646951279895
-				dataName = 重力
-				anomalyName = 异常点
-				reportName = 读数
-				locationName = 位置 625-5C附近的Pol
-				focusedSurvey = False
-				targetBand = GROUND
-				contextual = False
-				PARAM
-				{
-					name = SurveyWaypointParameter
-					state = Incomplete
-					values = 72000,0,4,4,0
-					targetBody = 14
-					actionDescription = 记录重力
-					experiment = gravityScan
-					flightThreshold = 4800
-					band = 1
-					clusterState = FULL
-					verified = True
-					contextual = False
-					wpSeed = 1857866561
-					wpIndex = 0
-					wpTexture = gravity
-					wpLatitude = -27.846081946106469
-					wpLongitude = -90.142151427796264
-					wpLandlocked = False
-					wpNavigationId = 263aa677-71fb-4641-9a17-1608af44ca4f
-				}
-				PARAM
-				{
-					name = SurveyWaypointParameter
-					state = Incomplete
-					values = 72000,0,4,4,0
-					targetBody = 14
-					actionDescription = 记录重力
-					experiment = gravityScan
-					flightThreshold = 4700
-					band = 1
-					clusterState = FULL
-					verified = True
-					contextual = False
-					wpSeed = 1857866561
-					wpIndex = 1
-					wpTexture = gravity
-					wpLatitude = -29.717545573893723
-					wpLongitude = -90.458366316739784
-					wpLandlocked = False
-					wpNavigationId = b4aa717f-6110-4ffc-b5c8-0eafa2e2977d
-				}
-			}
-			CONTRACT
-			{
-				guid = 0bbf47d2-1f45-4725-be81-2b69b33f8c3c
-				type = ExplorationContract
-				prestige = 0
-				seed = -1880123809
-				state = Offered
-				viewed = Unseen
-				agent = Kerbin World-Firsts Record-Keeping Society
-				deadlineType = None
-				expiryType = Floating
-				ignoresWeight = True
-				values = 86400,0,44800,83200,44800,3,6,0,904309974.436768,0,0,0
-				targetBody = 6
-				bodyRatio = 0.842105269
-				PARAM
-				{
-					name = ProgressTrackingParameter
-					state = Incomplete
-					values = 128000,0,3,6,0
-					targetBody = 6
-					targetType = CREWTRANSFER
-				}
-			}
-			CONTRACT
-			{
-				guid = bd6485dd-1112-40a7-979d-87cd1a9a905a
-				type = PartTest
-				prestige = 1
-				seed = -2004833543
-				state = Offered
-				viewed = Unseen
-				agent = Ionic Symphonic Protonic Electronics
-				deadlineType = Floating
-				expiryType = Floating
-				values = 43200,9201600,22500,56250,22500,8,15,11,904266784.438167,0,0,0
-				part = liquidEngine2-2
-				haul = False
-				dest = 1
-				sit = ORBITING
-				exp = False
-				PARAM
-				{
-					name = PartTest
-					state = Incomplete
-					values = 0,0,0,0,0
-					part = liquidEngine2-2
-					body = Kerbin
-					situation = ORBITING
-					uniqueID = 0.30002327556722952
-					haul = False
-					repeatability = BODYANDSITUATION
-					PARAM
-					{
-						name = ReachDestination
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						dest = 1
-						title = 
-					}
-					PARAM
-					{
-						name = ReachSituation
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						sit = ORBITING
-						title = 
-					}
-					PARAM
-					{
-						name = ReachAltitudeEnvelope
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						minAlt = 550000
-						maxAlt = 560000
-					}
 				}
 			}
 			CONTRACT_FINISHED
@@ -13019,12 +12991,12 @@ GAME
 	{
 		name = SentinelScenario
 		scene = 7, 8, 5
-		NextSpawnTime = 904235749.31560862
+		NextSpawnTime = 904181812.41775417
 	}
 	FLIGHTSTATE
 	{
 		version = 1.3.0
-		UT = 904223610.07814217
+		UT = 904157220.98708892
 		activeVessel = 57
 		mapViewFiltering = 4313
 		commNetUIModeTracking = None
@@ -108304,38 +108276,38 @@ GAME
 			pid = 8130fb2736ff4f7fbb4f7302fb0208e7
 			name = 登Eeloo舱-2
 			type = Ship
-			sit = ORBITING
+			sit = SUB_ORBITAL
 			landed = False
 			landedAt = 
 			displaylandedAt = 
 			splashed = False
-			met = 679197791.88032663
+			met = 679131402.78927338
 			lct = 225025818.19781557
-			lastUT = 904223610.07814217
+			lastUT = 904157220.98708892
 			root = 0
-			lat = -7.7264482197241504
-			lon = 117.81690866047634
-			alt = 15364180.728834964
+			lat = -7.803375775999462
+			lon = 60.724595323969282
+			alt = 21165140.933566179
 			hgt = -1
-			nrm = 0.796432972,0.00916707516,-0.60465759
-			rot = -0.527915716,-0.650243044,-0.511754811,0.191301256
-			CoM = 0.00924795866,3.50085187,-0.0289158821
+			nrm = 0.988533437,-0.0549050868,0.140667021
+			rot = -0.36205107,0.628449082,0.564484179,0.394117177
+			CoM = 0.00961720943,3.50269651,-0.0289554596
 			stg = 2
 			prst = False
 			ref = 1596296079
 			ctrl = True
-			cPch = 0.4334781
-			cHdg = 0.400948
+			cPch = 0.8014784
+			cHdg = -0.7890515
 			cMod = 1
 			ORBIT
 			{
-				SMA = 13784934.156646885
-				ECC = 0.54990595242803719
-				INC = 8.9684270122855612
-				LPE = 119.86734043516279
-				LAN = 293.19908489901553
-				MNA = -3.1143532567820591
-				EPH = 904223610.07814217
+				SMA = 16676087.880306687
+				ECC = 0.6290728891165096
+				INC = 8.9779880551106075
+				LPE = 119.9870044707296
+				LAN = 293.09374382052732
+				MNA = 0.022093419371651879
+				EPH = 904144691.16356158
 				REF = 8
 			}
 			PART
@@ -108362,8 +108334,8 @@ GAME
 				attN = top, 15
 				mass = 4
 				shielded = False
-				temp = 111.20088253476305
-				tempExt = 111.19152118573933
+				temp = 109.83229317931057
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -108413,7 +108385,7 @@ GAME
 					isEnabled = True
 					actuatorModeCycle = 0
 					authorityLimiter = 100
-					stateString = 运转中
+					stateString = 空闲
 					stagingEnabled = True
 					WheelState = Active
 					EVENTS
@@ -108619,7 +108591,6 @@ GAME
 						0 = Escape,Jool
 						0 = Flight,Jool
 						0 = Suborbit,Jool
-						0 = Orbit,Jool
 					}
 					UPGRADESAPPLIED
 					{
@@ -108628,7 +108599,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 149.99999790502798
+					amount = 149.99978943485453
 					maxAmount = 150
 					flowState = True
 					isTweakable = True
@@ -108673,8 +108644,8 @@ GAME
 				attN = top, 0
 				mass = 0.5
 				shielded = False
-				temp = 111.19828787048827
-				tempExt = 111.03775877869354
+				temp = 109.83229317932033
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -108837,8 +108808,8 @@ GAME
 				srfN = srfAttach, 0
 				mass = 0.100000001
 				shielded = False
-				temp = 111.1933196019334
-				tempExt = 111.17985890058384
+				temp = 109.83229317933504
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -108955,8 +108926,8 @@ GAME
 				srfN = srfAttach, 0
 				mass = 0.100000001
 				shielded = False
-				temp = 111.1933196019334
-				tempExt = 111.17985890058384
+				temp = 109.83229317933504
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -109072,8 +109043,8 @@ GAME
 				srfN = srfAttach, 0
 				mass = 9.99999975E-05
 				shielded = False
-				temp = 111.18949201930657
-				tempExt = 111.18561137829008
+				temp = 109.83229317927021
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -109575,7 +109546,7 @@ GAME
 							markUT = 225025818.19781557
 							deltaVExpended = NaN
 							dragLosses = NaN
-							gravityLosses = 706234.34552969644
+							gravityLosses = 704949.9871198514
 							steeringLosses = NaN
 							markLAN = 167.50675015301115
 							markLatitude = -0.097491529706933783
@@ -109640,7 +109611,6 @@ GAME
 						0 = Escape,Jool
 						0 = Flight,Jool
 						0 = Suborbit,Jool
-						0 = Orbit,Jool
 					}
 					UPGRADESAPPLIED
 					{
@@ -109649,7 +109619,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 4.9999999301675997
+					amount = 4.9999929811618182
 					maxAmount = 5
 					flowState = True
 					isTweakable = True
@@ -109681,8 +109651,8 @@ GAME
 				srfN = srfAttach, 0
 				mass = 0.075000003
 				shielded = False
-				temp = 111.20052768379936
-				tempExt = 111.185962520749
+				temp = 109.83229317914216
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -109799,8 +109769,8 @@ GAME
 				srfN = srfAttach, 0
 				mass = 0.075000003
 				shielded = False
-				temp = 111.20052768379936
-				tempExt = 111.185962520749
+				temp = 109.83229317914216
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -109917,8 +109887,8 @@ GAME
 				srfN = srfAttach, 0
 				mass = 0.0500000007
 				shielded = False
-				temp = 111.19481568321406
-				tempExt = 111.18725680374745
+				temp = 109.83229317936862
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -110012,8 +109982,8 @@ GAME
 				srfN = srfAttach, 0
 				mass = 0.0500000007
 				shielded = False
-				temp = 111.19513531979827
-				tempExt = 111.18746664142982
+				temp = 109.83229317936765
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -110116,8 +110086,8 @@ GAME
 				srfN = srfAttach, 0
 				mass = 0.00499999989
 				shielded = False
-				temp = 111.19656185552689
-				tempExt = 111.18831838684724
+				temp = 109.83229317929469
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -110215,8 +110185,8 @@ GAME
 				srfN = srfAttach, 0
 				mass = 0.00499999989
 				shielded = False
-				temp = 111.19700916412037
-				tempExt = 111.18846280688325
+				temp = 109.8322931792965
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -110304,8 +110274,8 @@ GAME
 				srfN = srfAttach, 0
 				mass = 0.00499999989
 				shielded = False
-				temp = 111.19939984292742
-				tempExt = 111.19001966741004
+				temp = 109.83229317930514
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -110393,8 +110363,8 @@ GAME
 				srfN = srfAttach, 0
 				mass = 0.00499999989
 				shielded = False
-				temp = 111.19691174943939
-				tempExt = 111.18843141748809
+				temp = 109.83229317929603
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -110482,8 +110452,8 @@ GAME
 				srfN = srfAttach, 0
 				mass = 0.00499999989
 				shielded = False
-				temp = 111.18261486508693
-				tempExt = 111.17803140271785
+				temp = 109.83229317923112
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -110561,8 +110531,8 @@ GAME
 				srfN = srfAttach, 0
 				mass = 0.00499999989
 				shielded = False
-				temp = 111.18966419059501
-				tempExt = 111.18486416475628
+				temp = 109.83229317925719
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -110684,8 +110654,8 @@ GAME
 				attN = bottom, 0
 				mass = 0.0500000007
 				shielded = False
-				temp = 111.18827998915664
-				tempExt = 111.17980532668452
+				temp = 109.83229317896081
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -110707,7 +110677,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 999.99998603351992
+					amount = 999.99859623236364
 					maxAmount = 1000
 					flowState = True
 					isTweakable = True
@@ -110740,8 +110710,8 @@ GAME
 				attN = bottom, 15
 				mass = 0.0500000007
 				shielded = False
-				temp = 111.1720334151957
-				tempExt = 111.12358422366101
+				temp = 109.83229317854567
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -110763,7 +110733,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 999.99998603351992
+					amount = 999.99859623236364
 					maxAmount = 1000
 					flowState = True
 					isTweakable = True
@@ -110796,8 +110766,8 @@ GAME
 				attN = bottom, 16
 				mass = 0.0500000007
 				shielded = False
-				temp = 111.17484890006827
-				tempExt = 111.15843668301413
+				temp = 109.83229317854013
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -110819,7 +110789,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 999.99998603351992
+					amount = 999.99859623236364
 					maxAmount = 1000
 					flowState = True
 					isTweakable = True
@@ -110852,8 +110822,8 @@ GAME
 				attN = bottom, 17
 				mass = 0.0500000007
 				shielded = False
-				temp = 111.17089244114501
-				tempExt = 111.1636505363425
+				temp = 109.83229317853409
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -110943,8 +110913,8 @@ GAME
 				srfN = srfAttach, 16
 				mass = 0.0250000004
 				shielded = False
-				temp = 111.17842486357496
-				tempExt = 111.11432513889446
+				temp = 109.83229317856723
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -111022,8 +110992,8 @@ GAME
 				srfN = srfAttach, 16
 				mass = 0.0250000004
 				shielded = False
-				temp = 111.17842486358036
-				tempExt = 111.11432513986421
+				temp = 109.83229317856723
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -111101,8 +111071,8 @@ GAME
 				srfN = srfAttach, 16
 				mass = 0.0250000004
 				shielded = False
-				temp = 111.17842486357283
-				tempExt = 111.11432513851008
+				temp = 109.83229317856723
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -111180,8 +111150,8 @@ GAME
 				srfN = srfAttach, 16
 				mass = 0.0250000004
 				shielded = False
-				temp = 111.17842486357283
-				tempExt = 111.11432513851008
+				temp = 109.83229317856723
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -111258,8 +111228,8 @@ GAME
 				attN = bottom, -1
 				mass = 0.0500000007
 				shielded = False
-				temp = 111.20730300455486
-				tempExt = 111.18937859919525
+				temp = 109.83229317826152
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -111348,8 +111318,8 @@ GAME
 				attN = top, -1
 				mass = 0.100000001
 				shielded = False
-				temp = 111.21130282933635
-				tempExt = 111.19891853659689
+				temp = 109.83229317825609
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0
 				state = 0
@@ -111410,7 +111380,7 @@ GAME
 					isEnabled = True
 					actuatorModeCycle = 0
 					authorityLimiter = 100
-					stateString = 运转中
+					stateString = 空闲
 					stagingEnabled = True
 					WheelState = Active
 					EVENTS
@@ -111542,7 +111512,6 @@ GAME
 						0 = Escape,Jool
 						0 = Flight,Jool
 						0 = Suborbit,Jool
-						0 = Orbit,Jool
 					}
 					UPGRADESAPPLIED
 					{
@@ -111584,8 +111553,8 @@ GAME
 				attN = bottom, 26
 				mass = 0.200000003
 				shielded = False
-				temp = 111.21815945801019
-				tempExt = 111.21049583860149
+				temp = 109.83229317825392
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -111607,7 +111576,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 3999.9999441340797
+					amount = 3999.9943849294546
 					maxAmount = 4000
 					flowState = True
 					isTweakable = True
@@ -111640,8 +111609,8 @@ GAME
 				attN = bottom, 27
 				mass = 0.400000006
 				shielded = False
-				temp = 111.22377440558598
-				tempExt = 111.22881381681857
+				temp = 109.83229317825266
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -111696,8 +111665,8 @@ GAME
 				attN = bottom, 28
 				mass = 2
 				shielded = False
-				temp = 111.23327554588926
-				tempExt = 111.24946973895742
+				temp = 109.83229317825162
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -111719,7 +111688,7 @@ GAME
 				RESOURCE
 				{
 					name = LiquidFuel
-					amount = 186.73701415403232
+					amount = 187.72948924033386
 					maxAmount = 1440
 					flowState = True
 					isTweakable = True
@@ -111730,7 +111699,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxidizer
-					amount = 228.23405463294796
+					amount = 229.44707979686299
 					maxAmount = 1760
 					flowState = True
 					isTweakable = True
@@ -111763,8 +111732,8 @@ GAME
 				attN = bottom, -1
 				mass = 1.75
 				shielded = False
-				temp = 111.36836585098645
-				tempExt = 111.3376971030347
+				temp = 109.83229317825092
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -111888,7 +111857,7 @@ GAME
 				{
 					name = FXModuleAnimateThrottle
 					isEnabled = True
-					animState = 0.00252415286
+					animState = 0
 					stagingEnabled = True
 					EVENTS
 					{
@@ -111971,8 +111940,8 @@ GAME
 				srfN = srfAttach, 27
 				mass = 0.0500000007
 				shielded = False
-				temp = 111.21308550321923
-				tempExt = 111.23309139789701
+				temp = 109.83229317825133
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -112047,8 +112016,8 @@ GAME
 				srfN = srfAttach, 27
 				mass = 0.0500000007
 				shielded = False
-				temp = 111.21308550321923
-				tempExt = 111.23309139789701
+				temp = 109.83229317825133
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -112123,8 +112092,8 @@ GAME
 				srfN = srfAttach, 27
 				mass = 0.0500000007
 				shielded = False
-				temp = 111.21308550321923
-				tempExt = 111.23309139789701
+				temp = 109.83229317825133
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -112199,8 +112168,8 @@ GAME
 				srfN = srfAttach, 27
 				mass = 0.0500000007
 				shielded = False
-				temp = 111.21308550321923
-				tempExt = 111.23309139789701
+				temp = 109.83229317825133
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -112272,8 +112241,8 @@ GAME
 				srfN = srfAttach, 27
 				mass = 0.300000012
 				shielded = False
-				temp = 111.17626515442929
-				tempExt = 111.13717381719599
+				temp = 109.83229317823894
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -112298,7 +112267,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 553020987.08770216
-					currentRotation = (0.576768637, 0.576769352, -0.409069359, 0.409068942)
+					currentRotation = (-0.286173612, -0.286174297, -0.646610856, 0.646609187)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 1
 					deployState = EXTENDED
@@ -112351,8 +112320,8 @@ GAME
 				srfN = srfAttach, 25
 				mass = 0.0500000007
 				shielded = False
-				temp = 111.20295735308274
-				tempExt = 111.20229436258677
+				temp = 109.83229317825386
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -112427,8 +112396,8 @@ GAME
 				srfN = srfAttach, 25
 				mass = 0.0500000007
 				shielded = False
-				temp = 111.20296214999493
-				tempExt = 111.20229529619921
+				temp = 109.83229317825386
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -112503,8 +112472,8 @@ GAME
 				srfN = srfAttach, 25
 				mass = 0.0500000007
 				shielded = False
-				temp = 111.20295685028378
-				tempExt = 111.20229436851761
+				temp = 109.83229317825386
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -112579,8 +112548,8 @@ GAME
 				srfN = srfAttach, 25
 				mass = 0.0500000007
 				shielded = False
-				temp = 111.2029603902766
-				tempExt = 111.20229536636175
+				temp = 109.83229317825386
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -112652,8 +112621,8 @@ GAME
 				srfN = srfAttach, 25
 				mass = 9.99999975E-05
 				shielded = False
-				temp = 111.21602074508978
-				tempExt = 111.20811290914241
+				temp = 109.83229317825381
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -112816,7 +112785,6 @@ GAME
 						0 = Escape,Jool
 						0 = Flight,Jool
 						0 = Suborbit,Jool
-						0 = Orbit,Jool
 					}
 					UPGRADESAPPLIED
 					{
@@ -112825,7 +112793,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 4.9999999301675997
+					amount = 4.9999929811618182
 					maxAmount = 5
 					flowState = True
 					isTweakable = True
@@ -112857,8 +112825,8 @@ GAME
 				attN = bottom, -1
 				mass = 0.100000001
 				shielded = False
-				temp = 111.20060919024777
-				tempExt = 111.20165569104201
+				temp = 109.83229317825379
+				tempExt = 109.79350005993847
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -112963,9 +112931,9 @@ GAME
 			}
 			CTRLSTATE
 			{
-				pitch = -0.0164574105
-				yaw = -0.0153272403
-				roll = -0.000716656621
+				pitch = 0
+				yaw = 0
+				roll = 0
 				trimPitch = 0
 				trimYaw = 0
 				trimRoll = 0
@@ -149084,6 +149052,100 @@ GAME
 		}
 		VESSEL
 		{
+			pid = 6b565e4ed1a240cbab64c596ba72d923
+			name = Ast.RUC-844
+			type = SpaceObject
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			displaylandedAt = 
+			splashed = False
+			met = 902640169.27385545
+			lct = 902640169.27385545
+			lastUT = -1
+			root = 0
+			lat = 0.43841432922316037
+			lon = 48.028560905273686
+			alt = 13544577248.215235
+			hgt = -1
+			nrm = 0,1,0
+			rot = -0.00888701342,0.341945112,0.61663568,0.709052205
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			ref = 0
+			ctrl = False
+			ORBIT
+			{
+				SMA = 13726091864.197454
+				ECC = 0.008340761603393719
+				INC = 0.56841125814645765
+				LPE = 185.20012210243394
+				LAN = 157.69997535072184
+				MNA = -0.07762867163789626
+				EPH = 905999670.64104295
+				REF = 0
+			}
+			PART
+			{
+				name = PotatoRoid
+				cid = 0
+				uid = 1304527136
+				mid = 1304527136
+				launchID = 0
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				resPri = 0
+				dstg = 0
+				sqor = 0
+				sepI = 0
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				mass = 150
+				shielded = False
+				temp = -1
+				tempExt = 0
+				tempExtUnexp = 0
+				expt = 0.100000001
+				state = 0
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = 
+				rTrf = 
+				modCost = 0
+			}
+			ACTIONGROUPS
+			{
+			}
+			DISCOVERY
+			{
+				state = 1
+				lastObservedTime = 902640169.27385545
+				lifetime = 1558755.1208496094
+				refTime = 1728000
+				size = 2
+			}
+			FLIGHTPLAN
+			{
+			}
+			CTRLSTATE
+			{
+			}
+			VESSELMODULES
+			{
+				FlightIntegrator
+				{
+				}
+			}
+		}
+		VESSEL
+		{
 			pid = b54711000990423b895c7ebd279e1422
 			name = Ast.ALM-131
 			type = SpaceObject
@@ -149632,100 +149694,6 @@ GAME
 				lifetime = 420786.60939856741
 				refTime = 432000
 				size = 0
-			}
-			FLIGHTPLAN
-			{
-			}
-			CTRLSTATE
-			{
-			}
-			VESSELMODULES
-			{
-				FlightIntegrator
-				{
-				}
-			}
-		}
-		VESSEL
-		{
-			pid = 0788ca4aec8440ad85f4f251300463b2
-			name = Ast.PJK-473
-			type = SpaceObject
-			sit = ORBITING
-			landed = False
-			landedAt = 
-			displaylandedAt = 
-			splashed = False
-			met = 904188794.5289377
-			lct = 904188794.5289377
-			lastUT = -1
-			root = 0
-			lat = -0.017232408260552435
-			lon = -115.98088172120092
-			alt = 12858685054.743532
-			hgt = -1
-			nrm = 0,1,0
-			rot = 0.512773871,0.559099138,0.0838552043,0.646095455
-			CoM = 0,0,0
-			stg = 0
-			prst = False
-			ref = 0
-			ctrl = False
-			ORBIT
-			{
-				SMA = 20628855522.560608
-				ECC = 0.36870857618684538
-				INC = -24.739926646433304
-				LPE = 254.7808086052988
-				LAN = 346.41363371964809
-				MNA = 0.018792108632022547
-				EPH = 904188794.5289377
-				REF = 0
-			}
-			PART
-			{
-				name = PotatoRoid
-				cid = 0
-				uid = 0
-				mid = 0
-				launchID = 0
-				parent = 0
-				position = 0,0,0
-				rotation = 0,0,0,1
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 0
-				resPri = 0
-				dstg = 0
-				sqor = 0
-				sepI = 0
-				sidx = 0
-				attm = 0
-				srfN = None, -1
-				mass = 150
-				shielded = False
-				temp = -1
-				tempExt = 0
-				tempExtUnexp = 0
-				expt = 0.100000001
-				state = 0
-				attached = True
-				autostrutMode = Off
-				rigidAttachment = False
-				flag = 
-				rTrf = 
-				modCost = 0
-			}
-			ACTIONGROUPS
-			{
-			}
-			DISCOVERY
-			{
-				state = 1
-				lastObservedTime = 904188794.5289377
-				lifetime = 51291.682285858173
-				refTime = 432000
-				size = 4
 			}
 			FLIGHTPLAN
 			{
@@ -150897,7 +150865,6 @@ GAME
 				55 = Escape,Jool
 				55 = Flight,Jool
 				55 = Suborbit,Jool
-				55 = Orbit,Jool
 			}
 		}
 		KERBAL
@@ -151065,7 +151032,6 @@ GAME
 				4 = Escape,Jool
 				4 = Flight,Jool
 				4 = Suborbit,Jool
-				4 = Orbit,Jool
 			}
 		}
 		KERBAL
@@ -151965,7 +151931,6 @@ GAME
 				0 = Escape,Jool
 				0 = Flight,Jool
 				0 = Suborbit,Jool
-				0 = Orbit,Jool
 			}
 		}
 		KERBAL
@@ -152337,6 +152302,230 @@ GAME
 		}
 		KERBAL
 		{
+			name = Bogang Kerman
+			gender = Male
+			type = Unowned
+			trait = Scientist
+			brave = 0.959401965
+			dumb = 0.169192314
+			badS = False
+			veteran = False
+			tour = False
+			state = Assigned
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 0
+			idx = -1
+			extraXP = 0
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Kailai Kerman
+			gender = Female
+			type = Unowned
+			trait = Engineer
+			brave = 0.957694173
+			dumb = 0.939593256
+			badS = False
+			veteran = False
+			tour = False
+			state = Assigned
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 0
+			idx = -1
+			extraXP = 0
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Jingxiu Kerman
+			gender = Female
+			type = Unowned
+			trait = Pilot
+			brave = 0.720702112
+			dumb = 0.735354424
+			badS = False
+			veteran = False
+			tour = False
+			state = Assigned
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 0
+			idx = -1
+			extraXP = 0
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Luobei Kerman
+			gender = Female
+			type = Unowned
+			trait = Pilot
+			brave = 0.951725125
+			dumb = 0.992675006
+			badS = False
+			veteran = False
+			tour = False
+			state = Assigned
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 0
+			idx = -1
+			extraXP = 0
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Weina Kerman
+			gender = Male
+			type = Unowned
+			trait = Pilot
+			brave = 0.733655572
+			dumb = 0.801400185
+			badS = False
+			veteran = False
+			tour = False
+			state = Assigned
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 0
+			idx = -1
+			extraXP = 0
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Marui Kerman
+			gender = Female
+			type = Unowned
+			trait = Scientist
+			brave = 0.0202234592
+			dumb = 0.0550816245
+			badS = False
+			veteran = False
+			tour = False
+			state = Assigned
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 0
+			idx = -1
+			extraXP = 0
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Milan Kerman
+			gender = Male
+			type = Unowned
+			trait = Engineer
+			brave = 0.195759863
+			dumb = 0.428188056
+			badS = False
+			veteran = False
+			tour = False
+			state = Assigned
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 0
+			idx = -1
+			extraXP = 0
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Gebei Kerman
+			gender = Female
+			type = Unowned
+			trait = Pilot
+			brave = 0.994960248
+			dumb = 0.8707816
+			badS = False
+			veteran = False
+			tour = False
+			state = Assigned
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 0
+			idx = -1
+			extraXP = 0
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
 			name = Raoyou Kerman
 			gender = Male
 			type = Unowned
@@ -152427,62 +152616,6 @@ GAME
 			trait = Engineer
 			brave = 0.058387164
 			dumb = 0.315881491
-			badS = False
-			veteran = False
-			tour = False
-			state = Assigned
-			inactive = False
-			inactiveTimeEnd = 0
-			gExperienced = 0
-			outDueToG = False
-			ToD = 0
-			idx = -1
-			extraXP = 0
-			CAREER_LOG
-			{
-				flight = 0
-			}
-			FLIGHT_LOG
-			{
-				flight = 0
-			}
-		}
-		KERBAL
-		{
-			name = Heidi Kerman
-			gender = Female
-			type = Unowned
-			trait = Scientist
-			brave = 0.878957689
-			dumb = 0.178337738
-			badS = False
-			veteran = False
-			tour = False
-			state = Assigned
-			inactive = False
-			inactiveTimeEnd = 0
-			gExperienced = 0
-			outDueToG = False
-			ToD = 0
-			idx = -1
-			extraXP = 0
-			CAREER_LOG
-			{
-				flight = 0
-			}
-			FLIGHT_LOG
-			{
-				flight = 0
-			}
-		}
-		KERBAL
-		{
-			name = Haika Kerman
-			gender = Female
-			type = Unowned
-			trait = Scientist
-			brave = 0.400661439
-			dumb = 0.92939049
 			badS = False
 			veteran = False
 			tour = False
