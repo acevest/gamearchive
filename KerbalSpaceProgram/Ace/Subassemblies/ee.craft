@@ -1,0 +1,1960 @@
+ship = ee
+version = 1.3.0
+description = 没有说明。
+type = None
+size = 20.7557507,12.4485435,12.4765024
+PART
+{
+	part = largeAdapter2_4292579252
+	partName = Part
+	pos = 0.660460889,35.3799019,-5.08523083
+	attPos = 0,0,0
+	attPos0 = 0.660460889,35.3799019,-5.08523083
+	rot = 1,0,0,0
+	attRot = 0.99999994,0,0,0
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = Mk1FuselageStructural_4292579226
+	attN = bottom,Mk1FuselageStructural_4292579226
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = Mk1FuselageStructural_4292579226
+	partName = Part
+	pos = 0.660460889,36.5066185,-5.08523083
+	attPos = 0,0,0
+	attPos0 = 0,-1.12671661,0
+	rot = 0,0.258818954,0,-0.965925872
+	attRot = 0,0.258818954,0,-0.965925872
+	attRot0 = 0.965925872,0,-0.258818954,0
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = trussAdapter_4292579130
+	attN = top,trussAdapter_4292579130
+	attN = bottom,largeAdapter2_4292579252
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = trussAdapter_4292579130
+	partName = Part
+	pos = 0.660460889,37.8549461,-5.08523083
+	attPos = 0,0,0
+	attPos0 = 0,1.34833145,0
+	rot = 0,0.258818954,0,-0.965925872
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = trussPiece3x_4292579094
+	attN = bottom,Mk1FuselageStructural_4292579226
+	attN = top,trussPiece3x_4292579094
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = trussPiece3x_4292579094
+	partName = Part
+	pos = 0.660460889,39.979557,-5.08523083
+	attPos = 0,0,0
+	attPos0 = 0,2.12460709,0
+	rot = 0,0.258818954,0,-0.965925872
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = trussPiece3x_4292579072
+	attN = bottom,trussAdapter_4292579130
+	attN = top,trussPiece3x_4292579072
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = trussPiece3x_4292579072
+	partName = Part
+	pos = 0.660460889,42.9300346,-5.08523083
+	attPos = 0,0,0
+	attPos0 = 0,2.9504776,0
+	rot = 0,0.258818954,0,-0.965925872
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = trussPiece3x_4292579050
+	attN = bottom,trussPiece3x_4292579094
+	attN = top,trussPiece3x_4292579050
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = trussPiece3x_4292579050
+	partName = Part
+	pos = 0.660460889,45.8805122,-5.08523083
+	attPos = 0,0,0
+	attPos0 = 0,2.9504776,0
+	rot = 0,0.258818954,0,-0.965925872
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = trussPiece3x_4292579028
+	link = trussPiece3x_4292578280
+	attN = bottom,trussPiece3x_4292579072
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = trussPiece3x_4292579028
+	partName = Part
+	pos = -0.898672402,47.0191994,-5.98539734
+	attPos = 0,0,0
+	attPos0 = -1.80033195,1.13868713,2.98023224E-08
+	rot = -0.353553474,0.612372398,-0.612372398,-0.353553474
+	attRot = 0,0,0,1
+	attRot0 = 0.5,-0.5,0.5,0.5
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = largeSolarPanel_4292579006
+	link = largeSolarPanel_4292578940
+	link = trussPiece3x_4292578874
+	sym = trussPiece3x_4292578280
+	srfN = srfAttach,trussPiece3x_4292579050
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = largeSolarPanel_4292579006
+	partName = Part
+	pos = -0.629915893,47.3439293,-5.83023024
+	attPos = 0,0,0
+	attPos0 = 2.83890369E-08,-0.310332298,-0.324732631
+	rot = -0.683012903,0.683012664,-0.183012679,0.18301262
+	attRot = 0,0,0,1
+	attRot0 = 5.96046377E-08,-0.707106829,-5.96046377E-08,0.707106829
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = largeSolarPanel_4292578192
+	sym = largeSolarPanel_4292578258
+	sym = largeSolarPanel_4292578940
+	srfN = srfAttach,trussPiece3x_4292579028
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		efficiencyMult = 1
+		launchUT = -1
+		currentRotation = (0, 0, -0.707106829, 0.707106829)
+		storedAnimationTime = 0
+		storedAnimationSpeed = 1
+		deployState = RETRACTED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = Custom01
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = largeSolarPanel_4292578940
+	partName = Part
+	pos = -0.629915893,46.6944618,-5.83023024
+	attPos = 0,0,0
+	attPos0 = -2.30926254E-14,-0.310332328,0.324732691
+	rot = 0.183012679,0.18301262,-0.683012903,-0.683012664
+	attRot = 0,0,0,1
+	attRot0 = 8.94069601E-08,0.707106829,5.96046377E-08,0.707106769
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = largeSolarPanel_4292578192
+	sym = largeSolarPanel_4292578258
+	sym = largeSolarPanel_4292579006
+	srfN = srfAttach,trussPiece3x_4292579028
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		efficiencyMult = 1
+		launchUT = -1
+		currentRotation = (0, 0, -0.707106829, 0.707106829)
+		storedAnimationTime = 0
+		storedAnimationSpeed = 1
+		deployState = RETRACTED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = Custom01
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = trussPiece3x_4292578874
+	partName = Part
+	pos = -3.36313772,47.0146675,-7.41730976
+	attPos = 0,0,0
+	attPos0 = -0.00783979334,2.85023904,0.0045268517
+	rot = 0.612372339,-0.353553563,-0.353553355,-0.612372518
+	attRot = 0,0,0,1
+	attRot0 = 0,1,-1.19209275E-07,0
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = largeSolarPanel_4292578852
+	link = largeSolarPanel_4292578786
+	link = trussPiece3x_4292578720
+	link = largeSolarPanel_4292578412
+	link = largeSolarPanel_4292578346
+	sym = trussPiece3x_4292578126
+	srfN = srfAttach,trussPiece3x_4292579028
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = largeSolarPanel_4292578852
+	partName = Part
+	pos = -2.60541534,47.3398857,-6.97983837
+	attPos = 0,0,0
+	attPos0 = 3.72529474E-09,-0.874937773,0.325218499
+	rot = -0.683012962,0.683012605,-0.183012694,0.183012605
+	attRot = 0,0,0,1
+	attRot0 = 2.33305315E-07,-0.707106829,2.33305315E-07,-0.707106829
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = largeSolarPanel_4292578038
+	sym = largeSolarPanel_4292578104
+	sym = largeSolarPanel_4292578786
+	srfN = srfAttach,trussPiece3x_4292578874
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		efficiencyMult = 1
+		launchUT = -1
+		currentRotation = (0, 0, -0.707106829, 0.707106829)
+		storedAnimationTime = 0
+		storedAnimationSpeed = 1
+		deployState = RETRACTED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = Custom01
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = largeSolarPanel_4292578786
+	partName = Part
+	pos = -2.60541511,46.6894493,-6.97983789
+	attPos = 0,0,0
+	attPos0 = -2.51457397E-08,-0.874937534,-0.325220376
+	rot = 0.18301256,0.183012679,-0.683012545,-0.683013022
+	attRot = 0,0,0,1
+	attRot0 = 9.45202174E-08,-0.707106769,-1.2432254E-07,0.707106829
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = largeSolarPanel_4292578038
+	sym = largeSolarPanel_4292578104
+	sym = largeSolarPanel_4292578852
+	srfN = srfAttach,trussPiece3x_4292578874
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		efficiencyMult = 1
+		launchUT = -1
+		currentRotation = (0, 0, -0.707106829, 0.707106829)
+		storedAnimationTime = 0
+		storedAnimationSpeed = 1
+		deployState = RETRACTED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = Custom01
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = trussPiece3x_4292578720
+	partName = Part
+	pos = -5.82233047,46.9962807,-8.85835457
+	attPos = 0,0,0
+	attPos0 = 0.0183849093,2.85023713,-0.0183862858
+	rot = 0.612372339,-0.353553563,-0.353553355,-0.612372518
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = trussPiece3x_4292578698
+	link = largeSolarPanel_4292578544
+	link = largeSolarPanel_4292578478
+	sym = trussPiece3x_4292577972
+	srfN = srfAttach,trussPiece3x_4292578874
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = trussPiece3x_4292578698
+	partName = Part
+	pos = -8.27819824,47.0029945,-10.3051567
+	attPos = 0,0,0
+	attPos0 = 0.0250326265,2.85023999,0.00670603337
+	rot = 0.612372339,-0.353553563,-0.353553355,-0.612372518
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = largeSolarPanel_4292578676
+	link = largeSolarPanel_4292578610
+	sym = trussPiece3x_4292577950
+	srfN = srfAttach,trussPiece3x_4292578720
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = largeSolarPanel_4292578676
+	partName = Part
+	pos = -8.4969883,47.3276253,-10.4314766
+	attPos = 0,0,0
+	attPos0 = 2.98023224E-08,0.252638817,0.32463637
+	rot = -0.683012962,0.683012605,-0.183012694,0.183012605
+	attRot = 0,0,0,1
+	attRot0 = 2.33305315E-07,-0.707106829,2.33305315E-07,-0.707106829
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = largeSolarPanel_4292577862
+	sym = largeSolarPanel_4292577928
+	sym = largeSolarPanel_4292578610
+	srfN = srfAttach,trussPiece3x_4292578698
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		efficiencyMult = 1
+		launchUT = -1
+		currentRotation = (0, 0, -0.707106829, 0.707106829)
+		storedAnimationTime = 0
+		storedAnimationSpeed = 1
+		deployState = RETRACTED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = Custom01
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = largeSolarPanel_4292578610
+	partName = Part
+	pos = -8.4969883,46.6783485,-10.4314766
+	attPos = 0,0,0
+	attPos0 = 0,0.252638817,-0.324640304
+	rot = 0.18301256,0.183012679,-0.683012545,-0.683013022
+	attRot = 0,0,0,1
+	attRot0 = 9.45202174E-08,-0.707106769,-1.2432254E-07,0.707106829
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = largeSolarPanel_4292577862
+	sym = largeSolarPanel_4292577928
+	sym = largeSolarPanel_4292578676
+	srfN = srfAttach,trussPiece3x_4292578698
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		efficiencyMult = 1
+		launchUT = -1
+		currentRotation = (0, 0, -0.707106829, 0.707106829)
+		storedAnimationTime = 0
+		storedAnimationSpeed = 1
+		deployState = RETRACTED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = Custom01
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = largeSolarPanel_4292578544
+	partName = Part
+	pos = -6.53384256,47.3214226,-9.26914692
+	attPos = 0,0,0
+	attPos0 = 1.49011612E-08,0.821584105,0.325135916
+	rot = -0.683012962,0.683012605,-0.183012694,0.183012605
+	attRot = 0,0,0,1
+	attRot0 = 2.33305315E-07,-0.707106829,2.33305315E-07,-0.707106829
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = largeSolarPanel_4292577730
+	sym = largeSolarPanel_4292577796
+	sym = largeSolarPanel_4292578478
+	srfN = srfAttach,trussPiece3x_4292578720
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		efficiencyMult = 1
+		launchUT = -1
+		currentRotation = (0, 0, -0.707106829, 0.707106829)
+		storedAnimationTime = 0
+		storedAnimationSpeed = 1
+		deployState = RETRACTED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = Custom01
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = largeSolarPanel_4292578478
+	partName = Part
+	pos = -6.53384256,46.6711464,-9.26914692
+	attPos = 0,0,0
+	attPos0 = -1.3038516E-08,0.821584105,-0.325138271
+	rot = 0.18301256,0.183012679,-0.683012545,-0.683013022
+	attRot = 0,0,0,1
+	attRot0 = 9.45202174E-08,-0.707106769,-1.2432254E-07,0.707106829
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = largeSolarPanel_4292577730
+	sym = largeSolarPanel_4292577796
+	sym = largeSolarPanel_4292578544
+	srfN = srfAttach,trussPiece3x_4292578720
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		efficiencyMult = 1
+		launchUT = -1
+		currentRotation = (0, 0, -0.707106829, 0.707106829)
+		storedAnimationTime = 0
+		storedAnimationSpeed = 1
+		deployState = RETRACTED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = Custom01
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = largeSolarPanel_4292578412
+	partName = Part
+	pos = -4.54898739,47.3409615,-8.10195923
+	attPos = 0,0,0
+	attPos0 = 3.72529474E-09,1.3692987,0.326293141
+	rot = -0.683012962,0.683012605,-0.183012694,0.183012605
+	attRot = 0,0,0,1
+	attRot0 = 2.33305315E-07,-0.707106829,2.33305315E-07,-0.707106829
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = largeSolarPanel_4292577598
+	sym = largeSolarPanel_4292577664
+	sym = largeSolarPanel_4292578346
+	srfN = srfAttach,trussPiece3x_4292578874
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		efficiencyMult = 1
+		launchUT = -1
+		currentRotation = (0, 0, -0.707106829, 0.707106829)
+		storedAnimationTime = 0
+		storedAnimationSpeed = 1
+		deployState = RETRACTED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = Custom01
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = largeSolarPanel_4292578346
+	partName = Part
+	pos = -4.54898739,46.6883736,-8.10195923
+	attPos = 0,0,0
+	attPos0 = -2.51457397E-08,1.36929846,-0.326295167
+	rot = 0.18301256,0.183012679,-0.683012545,-0.683013022
+	attRot = 0,0,0,1
+	attRot0 = 9.45202174E-08,-0.707106769,-1.2432254E-07,0.707106829
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = largeSolarPanel_4292577598
+	sym = largeSolarPanel_4292577664
+	sym = largeSolarPanel_4292578412
+	srfN = srfAttach,trussPiece3x_4292578874
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		efficiencyMult = 1
+		launchUT = -1
+		currentRotation = (0, 0, -0.707106829, 0.707106829)
+		storedAnimationTime = 0
+		storedAnimationSpeed = 1
+		deployState = RETRACTED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = Custom01
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = trussPiece3x_4292578280
+	partName = Part
+	pos = 2.21959424,47.0191994,-4.18506432
+	attPos = 0,0,0
+	attPos0 = 1.80033195,1.13868713,-1.78813934E-07
+	rot = -0.612372398,-0.353553474,0.353553474,-0.612372398
+	attRot = 0,0,0,1
+	attRot0 = 0.5,0.50000006,-0.50000006,0.5
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = largeSolarPanel_4292578258
+	link = largeSolarPanel_4292578192
+	link = trussPiece3x_4292578126
+	sym = trussPiece3x_4292579028
+	srfN = srfAttach,trussPiece3x_4292579050
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = largeSolarPanel_4292578258
+	partName = Part
+	pos = 1.95083737,47.3439293,-4.34023142
+	attPos = 0,0,0
+	attPos0 = 2.83890369E-08,-0.310332298,-0.324732631
+	rot = -0.183012649,0.183012545,0.683013022,-0.683012605
+	attRot = 0,0,0,1
+	attRot0 = 5.96046377E-08,-0.707106829,-5.96046377E-08,0.707106829
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = largeSolarPanel_4292578192
+	sym = largeSolarPanel_4292578940
+	sym = largeSolarPanel_4292579006
+	srfN = srfAttach,trussPiece3x_4292578280
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		efficiencyMult = 1
+		launchUT = -1
+		currentRotation = (0, 0, -0.707106829, 0.707106829)
+		storedAnimationTime = 0
+		storedAnimationSpeed = 1
+		deployState = RETRACTED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = Custom01
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = largeSolarPanel_4292578192
+	partName = Part
+	pos = 1.95083737,46.6944618,-4.3402319
+	attPos = 0,0,0
+	attPos0 = -2.30926254E-14,-0.310332328,0.324732691
+	rot = -0.683012903,-0.683012664,-0.183012649,-0.18301259
+	attRot = 0,0,0,1
+	attRot0 = 8.94069601E-08,0.707106829,5.96046377E-08,0.707106769
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = largeSolarPanel_4292578258
+	sym = largeSolarPanel_4292578940
+	sym = largeSolarPanel_4292579006
+	srfN = srfAttach,trussPiece3x_4292578280
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		efficiencyMult = 1
+		launchUT = -1
+		currentRotation = (0, 0, -0.707106829, 0.707106829)
+		storedAnimationTime = 0
+		storedAnimationSpeed = 1
+		deployState = RETRACTED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = Custom01
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = trussPiece3x_4292578126
+	partName = Part
+	pos = 4.68406057,47.0146675,-2.7531507
+	attPos = 0,0,0
+	attPos0 = -0.00783979334,2.85023904,0.0045268517
+	rot = -0.353553504,-0.612372458,-0.61237222,0.353553593
+	attRot = 0,0,0,1
+	attRot0 = 0,1,-1.19209275E-07,0
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = largeSolarPanel_4292578104
+	link = largeSolarPanel_4292578038
+	link = trussPiece3x_4292577972
+	link = largeSolarPanel_4292577664
+	link = largeSolarPanel_4292577598
+	sym = trussPiece3x_4292578874
+	srfN = srfAttach,trussPiece3x_4292578280
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = largeSolarPanel_4292578104
+	partName = Part
+	pos = 3.9263401,47.3398857,-3.19062161
+	attPos = 0,0,0
+	attPos0 = 3.72529474E-09,-0.874937773,0.325218499
+	rot = -0.183012575,0.18301256,0.683013022,-0.683012545
+	attRot = 0,0,0,1
+	attRot0 = 2.33305315E-07,-0.707106829,2.33305315E-07,-0.707106829
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = largeSolarPanel_4292578038
+	sym = largeSolarPanel_4292578786
+	sym = largeSolarPanel_4292578852
+	srfN = srfAttach,trussPiece3x_4292578126
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		efficiencyMult = 1
+		launchUT = -1
+		currentRotation = (0, 0, -0.707106829, 0.707106829)
+		storedAnimationTime = 0
+		storedAnimationSpeed = 1
+		deployState = RETRACTED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = Custom01
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = largeSolarPanel_4292578038
+	partName = Part
+	pos = 3.92633915,46.6894493,-3.19062233
+	attPos = 0,0,0
+	attPos0 = -2.51457397E-08,-0.874937534,-0.325220376
+	rot = -0.683012545,-0.683013022,-0.18301262,-0.18301262
+	attRot = 0,0,0,1
+	attRot0 = 9.45202174E-08,-0.707106769,-1.2432254E-07,0.707106829
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = largeSolarPanel_4292578104
+	sym = largeSolarPanel_4292578786
+	sym = largeSolarPanel_4292578852
+	srfN = srfAttach,trussPiece3x_4292578126
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		efficiencyMult = 1
+		launchUT = -1
+		currentRotation = (0, 0, -0.707106829, 0.707106829)
+		storedAnimationTime = 0
+		storedAnimationSpeed = 1
+		deployState = RETRACTED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = Custom01
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = trussPiece3x_4292577972
+	partName = Part
+	pos = 7.14325619,46.9962807,-1.31210351
+	attPos = 0,0,0
+	attPos0 = 0.0183849093,2.85023713,-0.0183862858
+	rot = -0.353553504,-0.612372458,-0.61237222,0.353553593
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = trussPiece3x_4292577950
+	link = largeSolarPanel_4292577796
+	link = largeSolarPanel_4292577730
+	sym = trussPiece3x_4292578720
+	srfN = srfAttach,trussPiece3x_4292578126
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = trussPiece3x_4292577950
+	partName = Part
+	pos = 9.59912968,47.0029869,0.134703159
+	attPos = 0,0,0
+	attPos0 = 0.0250326265,2.85023999,0.00670603337
+	rot = -0.353553504,-0.612372458,-0.61237222,0.353553593
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = largeSolarPanel_4292577928
+	link = largeSolarPanel_4292577862
+	sym = trussPiece3x_4292578698
+	srfN = srfAttach,trussPiece3x_4292577972
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = largeSolarPanel_4292577928
+	partName = Part
+	pos = 9.81792259,47.3276253,0.261021137
+	attPos = 0,0,0
+	attPos0 = 2.98023224E-08,0.252638817,0.32463637
+	rot = -0.183012575,0.18301256,0.683013022,-0.683012545
+	attRot = 0,0,0,1
+	attRot0 = 2.33305315E-07,-0.707106829,2.33305315E-07,-0.707106829
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = largeSolarPanel_4292577862
+	sym = largeSolarPanel_4292578610
+	sym = largeSolarPanel_4292578676
+	srfN = srfAttach,trussPiece3x_4292577950
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		efficiencyMult = 1
+		launchUT = -1
+		currentRotation = (0, 0, -0.707106829, 0.707106829)
+		storedAnimationTime = 0
+		storedAnimationSpeed = 1
+		deployState = RETRACTED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = Custom01
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = largeSolarPanel_4292577862
+	partName = Part
+	pos = 9.81792259,46.6783485,0.261021137
+	attPos = 0,0,0
+	attPos0 = 0,0.252638817,-0.324640304
+	rot = -0.683012545,-0.683013022,-0.18301262,-0.18301262
+	attRot = 0,0,0,1
+	attRot0 = 9.45202174E-08,-0.707106769,-1.2432254E-07,0.707106829
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = largeSolarPanel_4292577928
+	sym = largeSolarPanel_4292578610
+	sym = largeSolarPanel_4292578676
+	srfN = srfAttach,trussPiece3x_4292577950
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		efficiencyMult = 1
+		launchUT = -1
+		currentRotation = (0, 0, -0.707106829, 0.707106829)
+		storedAnimationTime = 0
+		storedAnimationSpeed = 1
+		deployState = RETRACTED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = Custom01
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = largeSolarPanel_4292577796
+	partName = Part
+	pos = 7.85477304,47.3214188,-0.901309013
+	attPos = 0,0,0
+	attPos0 = 1.49011612E-08,0.821584105,0.325135916
+	rot = -0.183012575,0.18301256,0.683013022,-0.683012545
+	attRot = 0,0,0,1
+	attRot0 = 2.33305315E-07,-0.707106829,2.33305315E-07,-0.707106829
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = largeSolarPanel_4292577730
+	sym = largeSolarPanel_4292578478
+	sym = largeSolarPanel_4292578544
+	srfN = srfAttach,trussPiece3x_4292577972
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		efficiencyMult = 1
+		launchUT = -1
+		currentRotation = (0, 0, -0.707106829, 0.707106829)
+		storedAnimationTime = 0
+		storedAnimationSpeed = 1
+		deployState = RETRACTED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = Custom01
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = largeSolarPanel_4292577730
+	partName = Part
+	pos = 7.85477304,46.6711464,-0.901309013
+	attPos = 0,0,0
+	attPos0 = -1.3038516E-08,0.821584105,-0.325138271
+	rot = -0.683012545,-0.683013022,-0.18301262,-0.18301262
+	attRot = 0,0,0,1
+	attRot0 = 9.45202174E-08,-0.707106769,-1.2432254E-07,0.707106829
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = largeSolarPanel_4292577796
+	sym = largeSolarPanel_4292578478
+	sym = largeSolarPanel_4292578544
+	srfN = srfAttach,trussPiece3x_4292577972
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		efficiencyMult = 1
+		launchUT = -1
+		currentRotation = (0, 0, -0.707106829, 0.707106829)
+		storedAnimationTime = 0
+		storedAnimationSpeed = 1
+		deployState = RETRACTED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = Custom01
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = largeSolarPanel_4292577664
+	partName = Part
+	pos = 5.86991405,47.3409615,-2.06849861
+	attPos = 0,0,0
+	attPos0 = 3.72529474E-09,1.3692987,0.326293141
+	rot = -0.183012575,0.18301256,0.683013022,-0.683012545
+	attRot = 0,0,0,1
+	attRot0 = 2.33305315E-07,-0.707106829,2.33305315E-07,-0.707106829
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = largeSolarPanel_4292577598
+	sym = largeSolarPanel_4292578346
+	sym = largeSolarPanel_4292578412
+	srfN = srfAttach,trussPiece3x_4292578126
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		efficiencyMult = 1
+		launchUT = -1
+		currentRotation = (0, 0, -0.707106829, 0.707106829)
+		storedAnimationTime = 0
+		storedAnimationSpeed = 1
+		deployState = RETRACTED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = Custom01
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = largeSolarPanel_4292577598
+	partName = Part
+	pos = 5.86991405,46.6883736,-2.06849861
+	attPos = 0,0,0
+	attPos0 = -2.51457397E-08,1.36929846,-0.326295167
+	rot = -0.683012545,-0.683013022,-0.18301262,-0.18301262
+	attRot = 0,0,0,1
+	attRot0 = 9.45202174E-08,-0.707106769,-1.2432254E-07,0.707106829
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = largeSolarPanel_4292577664
+	sym = largeSolarPanel_4292578346
+	sym = largeSolarPanel_4292578412
+	srfN = srfAttach,trussPiece3x_4292578126
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		efficiencyMult = 1
+		launchUT = -1
+		currentRotation = (0, 0, -0.707106829, 0.707106829)
+		storedAnimationTime = 0
+		storedAnimationSpeed = 1
+		deployState = RETRACTED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = Custom01
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
