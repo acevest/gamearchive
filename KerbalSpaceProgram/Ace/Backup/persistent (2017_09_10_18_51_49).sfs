@@ -233,7 +233,7 @@ GAME
 	{
 		name = ContractSystem
 		scene = 7, 8, 5, 6
-		update = 1123685082.8936775
+		update = 1123666563.1658509
 		version = 1.3.0
 		WEIGHTS
 		{
@@ -726,6 +726,172 @@ GAME
 			}
 			CONTRACT
 			{
+				guid = f1a6b36b-40a8-44ef-812c-1a0d2e1ced15
+				type = TourismContract
+				prestige = 2
+				seed = 655365860
+				state = Offered
+				viewed = Unseen
+				agent = Maxo Construction Toys
+				deadlineType = Floating
+				expiryType = Floating
+				values = 43200,460080000,0,0,0,0,30,15,1123683119.96873,0,0,0
+				preposition = 太阳系
+				homeDestinations = False
+				isGeeAdventure = False
+				tourists = Nimei Kerman|Shanen Kerman|Hangwen Kerman|Rang Kerman
+				PARAM
+				{
+					name = KerbalTourParameter
+					state = Incomplete
+					allowPartialFailure = True
+					values = 438750,0,0,0,0
+					kerbalName = Nimei Kerman
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 48750,0,0,0,0
+						targetBody = 13
+						targetType = Orbit
+						kerbalName = Nimei Kerman
+					}
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 48750,0,0,0,0
+						targetBody = 16
+						targetType = Land
+						kerbalName = Nimei Kerman
+					}
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 48750,0,0,0,0
+						targetBody = 15
+						targetType = Orbit
+						kerbalName = Nimei Kerman
+					}
+				}
+				PARAM
+				{
+					name = KerbalTourParameter
+					state = Incomplete
+					allowPartialFailure = True
+					values = 438750,0,0,0,0
+					kerbalName = Shanen Kerman
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 48750,0,0,0,0
+						targetBody = 1
+						targetType = Suborbit
+						kerbalName = Shanen Kerman
+					}
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 48750,0,0,0,0
+						targetBody = 13
+						targetType = Flyby
+						kerbalName = Shanen Kerman
+					}
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 48750,0,0,0,0
+						targetBody = 16
+						targetType = Orbit
+						kerbalName = Shanen Kerman
+					}
+				}
+				PARAM
+				{
+					name = KerbalTourParameter
+					state = Incomplete
+					allowPartialFailure = True
+					values = 438750,0,0,0,0
+					kerbalName = Hangwen Kerman
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 48750,0,0,0,0
+						targetBody = 16
+						targetType = Land
+						kerbalName = Hangwen Kerman
+					}
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 48750,0,0,0,0
+						targetBody = 15
+						targetType = Land
+						kerbalName = Hangwen Kerman
+					}
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 48750,0,0,0,0
+						targetBody = 9
+						targetType = Flyby
+						kerbalName = Hangwen Kerman
+					}
+				}
+				PARAM
+				{
+					name = KerbalTourParameter
+					state = Incomplete
+					allowPartialFailure = True
+					values = 146250,0,0,0,0
+					kerbalName = Rang Kerman
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 12188,0,0,0,0
+						targetBody = 3
+						targetType = Flyby
+						kerbalName = Rang Kerman
+					}
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 12188,0,0,0,0
+						targetBody = 2
+						targetType = Orbit
+						kerbalName = Rang Kerman
+					}
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 12188,0,0,0,0
+						targetBody = 3
+						targetType = Orbit
+						kerbalName = Rang Kerman
+					}
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 12188,0,0,0,0
+						targetBody = 3
+						targetType = Land
+						kerbalName = Rang Kerman
+					}
+				}
+			}
+			CONTRACT
+			{
 				guid = dd23bcb8-4124-48e7-9275-866be89765f7
 				type = CollectScience
 				prestige = 0
@@ -1100,47 +1266,6 @@ GAME
 					targetSituation = ORBITING
 					noun = 站点
 					finalObjective = False
-				}
-			}
-			CONTRACT
-			{
-				guid = ba16f6a2-db9a-405e-bd30-c2704fcdc1b7
-				type = ARMContract
-				prestige = 2
-				seed = 952166154
-				state = Offered
-				viewed = Unseen
-				agent = Kerbal Motion LLC
-				deadlineType = Floating
-				expiryType = Floating
-				values = 129600,322056000,603750,1575000,603750,42,69,34,1123812829.61642,0,0,0
-				targetBody = 6
-				asteroidClass = D
-				isLanding = False
-				PARAM
-				{
-					name = AsteroidParameter
-					state = Incomplete
-					values = 0,0,0,0,0
-					forStation = False
-					asteroidClass = D
-				}
-				PARAM
-				{
-					name = LocationAndSituationParameter
-					state = Incomplete
-					values = 0,0,0,0,0
-					targetBody = 6
-					targetSituation = ORBITING
-					noun = 航天器
-					finalObjective = False
-				}
-				PARAM
-				{
-					name = StabilityParameter
-					state = Incomplete
-					values = 0,0,0,0,0
-					holdSeconds = 10
 				}
 			}
 			CONTRACT_FINISHED
@@ -13384,13 +13509,13 @@ GAME
 	{
 		name = SentinelScenario
 		scene = 7, 8, 5
-		NextSpawnTime = 1123688850.7481341
+		NextSpawnTime = 1123676517.1797786
 	}
 	FLIGHTSTATE
 	{
 		version = 1.3.0
-		UT = 1123685087.0936735
-		activeVessel = 0
+		UT = 1123666564.3058498
+		activeVessel = 83
 		mapViewFiltering = 7163
 		commNetUIModeTracking = None
 		commNetUIModeFlight = None
@@ -13424,13 +13549,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 30000.166547779983
-				ECC = 0.99999999999999989
+				SMA = NaN
+				ECC = 1
 				INC = 2.2557750022152723
 				LPE = 90
-				LAN = 116.90430470066468
-				MNA = 3.1415926207170166
-				EPH = 1123685082.8536775
+				LAN = 281.51595147023227
+				MNA = 0
+				EPH = 1123663155.9384816
 				REF = 3
 			}
 			PART
@@ -13588,13 +13713,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
+				SMA = 101657.56504577174
+				ECC = 0.99999999999999989
 				INC = 5.2239250286177148
 				LPE = 90
-				LAN = 26.535574726432458
-				MNA = 0
-				EPH = 1123685082.8536775
+				LAN = 329.74005809998869
+				MNA = 3.1415926207170166
+				EPH = 1123663155.9384816
 				REF = 2
 			}
 			PART
@@ -13757,13 +13882,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 0
+				SMA = NaN
 				ECC = 1
-				INC = 5.2242687739705094
+				INC = 5.2242687739706488
 				LPE = 90
-				LAN = 26.535759799877724
+				LAN = 329.74024317343407
 				MNA = 0
-				EPH = 1123685082.8536775
+				EPH = 1123663155.9384816
 				REF = 2
 			}
 			PART
@@ -13925,9 +14050,9 @@ GAME
 				ECC = 1
 				INC = 5.2234593145977408
 				LPE = 90
-				LAN = 26.535384813381029
+				LAN = 329.73986818693726
 				MNA = 0
-				EPH = 1123685082.8536775
+				EPH = 1123663155.9384816
 				REF = 2
 			}
 			PART
@@ -14085,13 +14210,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 31662.552277309191
-				ECC = 0.99999999999999989
-				INC = 16.884558530026911
+				SMA = NaN
+				ECC = 1
+				INC = 16.884558530026585
 				LPE = 270
-				LAN = 246.54905756417759
-				MNA = 3.1415926207170166
-				EPH = 1123685082.8536775
+				LAN = 51.160704333744377
+				MNA = 0
+				EPH = 1123663155.9384816
 				REF = 3
 			}
 			PART
@@ -14249,13 +14374,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 31656.178484663506
-				ECC = 0.99999999999999989
-				INC = 16.441696394624856
+				SMA = NaN
+				ECC = 1
+				INC = 16.441696394624341
 				LPE = 270
-				LAN = 246.85237778547202
-				MNA = 3.1415926207170166
-				EPH = 1123685082.8536775
+				LAN = 51.464024555042158
+				MNA = 0
+				EPH = 1123663155.9384816
 				REF = 3
 			}
 			PART
@@ -14413,13 +14538,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 0
 				ECC = 1
-				INC = 16.443993926340635
+				INC = 16.443993926339559
 				LPE = 270
-				LAN = 246.85520790767919
+				LAN = 51.466854677248534
 				MNA = 0
-				EPH = 1123685082.8536775
+				EPH = 1123663155.9384816
 				REF = 3
 			}
 			PART
@@ -14577,13 +14702,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 0
 				ECC = 1
-				INC = 16.442208599004829
+				INC = 16.442208599004243
 				LPE = 270
-				LAN = 246.85438389202938
+				LAN = 51.466030661599461
 				MNA = 0
-				EPH = 1123685082.8536775
+				EPH = 1123663155.9384816
 				REF = 3
 			}
 			PART
@@ -14741,13 +14866,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 30000.175630298116
-				ECC = 0.99999999999999989
-				INC = 16.369549237249206
+				SMA = 0
+				ECC = 1
+				INC = 16.36954923724986
 				LPE = 270
-				LAN = 261.47118641988345
-				MNA = 3.1415926207170166
-				EPH = 1123685082.8536775
+				LAN = 66.08283318945405
+				MNA = 0
+				EPH = 1123663155.9384816
 				REF = 3
 			}
 			PART
@@ -14907,11 +15032,11 @@ GAME
 			{
 				SMA = NaN
 				ECC = 1
-				INC = 16.38071233506453
+				INC = 16.380712335065638
 				LPE = 270
-				LAN = 261.50233120627286
+				LAN = 66.113977975841578
 				MNA = 0
-				EPH = 1123685082.8536775
+				EPH = 1123663155.9384816
 				REF = 3
 			}
 			PART
@@ -15069,13 +15194,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
-				INC = 16.37227355923287
+				SMA = 30000.17695061729
+				ECC = 0.99999999999999989
+				INC = 16.372273559232394
 				LPE = 270
-				LAN = 261.47370445000706
-				MNA = 0
-				EPH = 1123685082.8536775
+				LAN = 66.085351219574932
+				MNA = 3.1415926207170166
+				EPH = 1123663155.9384816
 				REF = 3
 			}
 			PART
@@ -15233,13 +15358,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 32003.249356037024
+				SMA = 32003.249356037559
 				ECC = 0.99999999999999989
-				INC = 76.96296654661721
+				INC = 76.962966546613089
 				LPE = 270
-				LAN = 45.3191402191012
+				LAN = 209.93078698868391
 				MNA = 3.1415926207170166
-				EPH = 1123685082.8536775
+				EPH = 1123663155.9384816
 				REF = 3
 			}
 			PART
@@ -15397,13 +15522,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 102354.68312555128
-				ECC = 0.99999999999999989
-				INC = 66.515966866580143
+				SMA = 0
+				ECC = 1
+				INC = 66.5159668665802
 				LPE = 270
-				LAN = 332.93549693546112
-				MNA = 3.1415926207170166
-				EPH = 1123685082.8536775
+				LAN = 276.13998030901752
+				MNA = 0
+				EPH = 1123663155.9384816
 				REF = 2
 			}
 			PART
@@ -15563,11 +15688,11 @@ GAME
 			{
 				SMA = NaN
 				ECC = 1
-				INC = 66.482052276784074
+				INC = 66.482052276784145
 				LPE = 270
-				LAN = 332.737269315969
+				LAN = 275.94175268952552
 				MNA = 0
-				EPH = 1123685082.8536775
+				EPH = 1123663155.9384816
 				REF = 2
 			}
 			PART
@@ -15727,11 +15852,11 @@ GAME
 			{
 				SMA = NaN
 				ECC = 1
-				INC = 66.51550305386057
+				INC = 66.51550305386084
 				LPE = 270
-				LAN = 332.94054744984231
+				LAN = 276.14503082339911
 				MNA = 0
-				EPH = 1123685082.8536775
+				EPH = 1123663155.9384816
 				REF = 2
 			}
 			PART
@@ -15889,13 +16014,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 0
 				ECC = 1
 				INC = 4.851181600611512
 				LPE = 90
-				LAN = 315.00100875469548
+				LAN = 308.69474288272363
 				MNA = 0
-				EPH = 1123685082.8536775
+				EPH = 1123663155.9384816
 				REF = 1
 			}
 			PART
@@ -16055,11 +16180,11 @@ GAME
 			{
 				SMA = NaN
 				ECC = 1
-				INC = 4.8512332517905685
+				INC = 4.8512332517906431
 				LPE = 90
-				LAN = 315.00067981882154
+				LAN = 308.69441394684969
 				MNA = 0
-				EPH = 1123685082.8536775
+				EPH = 1123663155.9384816
 				REF = 1
 			}
 			PART
@@ -16217,13 +16342,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
-				INC = 0.12571609221469812
+				SMA = 101556.08643632266
+				ECC = 0.99999999999999989
+				INC = 0.12571609221759725
 				LPE = 270
-				LAN = 84.713550637792821
-				MNA = 0
-				EPH = 1123685082.8536775
+				LAN = 27.918034011348823
+				MNA = -3.1415926207170166
+				EPH = 1123663155.9384816
 				REF = 2
 			}
 			PART
@@ -19236,13 +19361,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 0
 				ECC = 1
-				INC = 2.4578219942985098
+				INC = 2.4578219942982131
 				LPE = 270
-				LAN = 212.18823673898768
+				LAN = 155.39272011254377
 				MNA = 0
-				EPH = 1123685082.8536775
+				EPH = 1123663155.9384816
 				REF = 2
 			}
 			PART
@@ -38255,12 +38380,12 @@ GAME
 			ORBIT
 			{
 				SMA = 0
-				ECC = 1.0000000000000002
+				ECC = 1
 				INC = 1.4060307701462338
 				LPE = 90
-				LAN = 19.3343130748666
-				MNA = Infinity
-				EPH = 1123685082.8536775
+				LAN = 322.538796448423
+				MNA = 0
+				EPH = 1123663155.9384816
 				REF = 2
 			}
 			PART
@@ -38418,13 +38543,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
+				SMA = 101397.34915455729
+				ECC = 0.99999999999999989
 				INC = 1.4076105625769129
 				LPE = 90
-				LAN = 19.334755579541365
-				MNA = 0
-				EPH = 1123685082.8536775
+				LAN = 322.53923895309765
+				MNA = 3.1415926207170166
+				EPH = 1123663155.9384816
 				REF = 2
 			}
 			PART
@@ -47840,13 +47965,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
-				INC = 0.5895773502387931
+				SMA = 101353.03027898504
+				ECC = 0.99999999999999978
+				INC = 0.58957735025424796
 				LPE = 90
-				LAN = 185.44528058798761
-				MNA = 0
-				EPH = 1123685082.8536775
+				LAN = 128.64976396153759
+				MNA = 3.1415926303452304
+				EPH = 1123663155.9384816
 				REF = 2
 			}
 			PART
@@ -52906,13 +53031,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
+				SMA = 101186.68006462704
+				ECC = 0.99999999999999989
 				INC = 0.1807499426444068
 				LPE = 90
-				LAN = 114.09313308483195
-				MNA = 0
-				EPH = 1123685082.8536775
+				LAN = 57.29761645838505
+				MNA = 3.1415926207170166
+				EPH = 1123663155.9384816
 				REF = 2
 			}
 			PART
@@ -58216,13 +58341,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 30000.508888665809
+				SMA = 30000.508888667224
 				ECC = 0.99999999999999989
-				INC = 4.8333317696467439
+				INC = 4.8333317696465183
 				LPE = 90
-				LAN = 119.20995052402276
+				LAN = 283.82159729358557
 				MNA = 3.1415926207170166
-				EPH = 1123685082.8536775
+				EPH = 1123663155.9384816
 				REF = 3
 			}
 			PART
@@ -63793,13 +63918,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 0
+				SMA = NaN
 				ECC = 1
-				INC = 46.115817768253102
+				INC = 46.115817768253031
 				LPE = 90
-				LAN = 208.13935833864554
+				LAN = 151.34384171220125
 				MNA = 0
-				EPH = 1123685082.8536775
+				EPH = 1123663155.9384816
 				REF = 2
 			}
 			PART
@@ -69371,13 +69496,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 102252.32885475038
-				ECC = 0.99999999999999989
-				INC = 46.114575999450814
+				SMA = NaN
+				ECC = 1
+				INC = 46.114575999451056
 				LPE = 90
-				LAN = 208.06567800867833
-				MNA = 3.1415926207170166
-				EPH = 1123685082.8536775
+				LAN = 151.27016138223468
+				MNA = 0
+				EPH = 1123663155.9384816
 				REF = 2
 			}
 			PART
@@ -69535,13 +69660,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 0
+				SMA = NaN
 				ECC = 1
-				INC = 4.835632544782551
+				INC = 4.8356325447824755
 				LPE = 90
-				LAN = 119.21209224092235
+				LAN = 283.82373901048788
 				MNA = 0
-				EPH = 1123685082.8536775
+				EPH = 1123663155.9384816
 				REF = 3
 			}
 			PART
@@ -69703,9 +69828,9 @@ GAME
 				ECC = 1
 				INC = 4.8335907602725392
 				LPE = 90
-				LAN = 119.21894454286218
+				LAN = 283.83059131243215
 				MNA = 0
-				EPH = 1123685082.8536775
+				EPH = 1123663155.9384816
 				REF = 3
 			}
 			PART
@@ -69863,13 +69988,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
-				INC = 4.8304546979724918
-				LPE = 89.999999999999986
-				LAN = 119.22165037001207
-				MNA = 0
-				EPH = 1123685082.8536775
+				SMA = 30000.168492596753
+				ECC = 0.99999999999999989
+				INC = 4.8304546979721135
+				LPE = 90
+				LAN = 283.83329713957914
+				MNA = 3.1415926207170166
+				EPH = 1123663155.9384816
 				REF = 3
 			}
 			PART
@@ -70031,9 +70156,9 @@ GAME
 				ECC = 1
 				INC = 0.40723409264366622
 				LPE = 270
-				LAN = 209.54099630055305
+				LAN = 152.74547967410922
 				MNA = 0
-				EPH = 1123685082.8536775
+				EPH = 1123663155.9384816
 				REF = 2
 			}
 			PART
@@ -70191,13 +70316,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 0
+				SMA = NaN
 				ECC = 1
-				INC = 4.5430731888305562
+				INC = 4.543073188816261
 				LPE = 270
-				LAN = 133.62742583274053
+				LAN = 13.145933520813912
 				MNA = 0
-				EPH = 1123685082.8536775
+				EPH = 1123663155.9384816
 				REF = 6
 			}
 			PART
@@ -70355,13 +70480,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 0
 				ECC = 1
-				INC = 4.5433460479751879
+				INC = 4.5433460479800862
 				LPE = 270
-				LAN = 133.62732984611443
+				LAN = 13.145837534591863
 				MNA = 0
-				EPH = 1123685082.8536775
+				EPH = 1123663155.9384816
 				REF = 6
 			}
 			PART
@@ -70519,13 +70644,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
-				INC = 4.5427867459119211
+				SMA = 161924.8367674168
+				ECC = 0.99999999999999989
+				INC = 4.5427867459042917
 				LPE = 270
-				LAN = 133.62742720709184
-				MNA = 0
-				EPH = 1123685082.8536775
+				LAN = 13.145934895150731
+				MNA = 3.1415926207170166
+				EPH = 1123663155.9384816
 				REF = 6
 			}
 			PART
@@ -70683,13 +70808,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 68138.081081342491
+				SMA = 68138.081080527656
 				ECC = 0.99999999999999989
-				INC = 8.289621764702364
+				INC = 8.2896217648022077
 				LPE = 270
-				LAN = 245.12856989678735
+				LAN = 124.64708266073427
 				MNA = 3.1415926207170166
-				EPH = 1123685082.8536775
+				EPH = 1123663155.9384816
 				REF = 7
 			}
 			PART
@@ -70847,13 +70972,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 0
 				ECC = 1
-				INC = 8.2887360948509556
+				INC = 8.2887360949109219
 				LPE = 270
-				LAN = 245.12854605595271
+				LAN = 124.64705881972759
 				MNA = 0
-				EPH = 1123685082.8536775
+				EPH = 1123663155.9384816
 				REF = 7
 			}
 			PART
@@ -71011,13 +71136,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 0
 				ECC = 1
-				INC = 8.2878733014487107
+				INC = 8.2878733015594737
 				LPE = 270
-				LAN = 245.12821257849714
+				LAN = 124.64672534281061
 				MNA = 0
-				EPH = 1123685082.8536775
+				EPH = 1123663155.9384816
 				REF = 7
 			}
 			PART
@@ -80200,11 +80325,11 @@ GAME
 			{
 				SMA = NaN
 				ECC = 1
-				INC = 6.9131936074798066
+				INC = 6.9131936074801761
 				LPE = 270
-				LAN = 33.733775460964125
+				LAN = 198.34542223052918
 				MNA = 0
-				EPH = 1123685082.8536775
+				EPH = 1123663155.9384816
 				REF = 3
 			}
 			PART
@@ -80364,11 +80489,11 @@ GAME
 			{
 				SMA = NaN
 				ECC = 1
-				INC = 6.9112494964350395
+				INC = 6.9112494964351985
 				LPE = 270
-				LAN = 33.741170568523614
+				LAN = 198.35281733809074
 				MNA = 0
-				EPH = 1123685082.8536775
+				EPH = 1123663155.9384816
 				REF = 3
 			}
 			PART
@@ -80528,11 +80653,11 @@ GAME
 			{
 				SMA = NaN
 				ECC = 1
-				INC = 6.9233645518443945
+				INC = 6.923364551844764
 				LPE = 270
-				LAN = 33.73728737825644
+				LAN = 198.3489341478224
 				MNA = 0
-				EPH = 1123685082.8536775
+				EPH = 1123663155.9384816
 				REF = 3
 			}
 			PART
@@ -80690,13 +80815,13 @@ GAME
 			cMod = 1
 			ORBIT
 			{
-				SMA = 30000.161246803786
-				ECC = 0.99999999999999989
-				INC = 6.9247066642227333
+				SMA = 0
+				ECC = 1
+				INC = 6.9247066642231028
 				LPE = 270
-				LAN = 33.739452377902921
-				MNA = 3.1415926207170166
-				EPH = 1123685082.8536775
+				LAN = 198.35109914747036
+				MNA = 0
+				EPH = 1123663155.9384816
 				REF = 3
 			}
 			PART
@@ -80854,13 +80979,13 @@ GAME
 			cMod = 1
 			ORBIT
 			{
-				SMA = 0
+				SMA = NaN
 				ECC = 1
-				INC = 6.9219349294241876
+				INC = 6.9219349294241352
 				LPE = 270
-				LAN = 33.73830811904179
+				LAN = 198.34995488860937
 				MNA = 0
-				EPH = 1123685082.8536775
+				EPH = 1123663155.9384816
 				REF = 3
 			}
 			PART
@@ -81018,13 +81143,13 @@ GAME
 			cMod = 1
 			ORBIT
 			{
-				SMA = 0
-				ECC = 1
-				INC = 6.9213517066019952
+				SMA = 30000.161046583129
+				ECC = 0.99999999999999989
+				INC = 6.9213517066018895
 				LPE = 270
-				LAN = 33.736799261695808
-				MNA = 0
-				EPH = 1123685082.8536775
+				LAN = 198.34844603126754
+				MNA = 3.1415926207170166
+				EPH = 1123663155.9384816
 				REF = 3
 			}
 			PART
@@ -81182,13 +81307,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 0
-				ECC = 1
-				INC = 9.0625568286031566
+				SMA = 9036.2712556546649
+				ECC = 0.99999999999999989
+				INC = 9.062556828137037
 				LPE = 270
-				LAN = 167.50942706810713
-				MNA = 0
-				EPH = 1123685082.8536775
+				LAN = 248.13623752638233
+				MNA = 3.1415926207170166
+				EPH = 1123663155.9384816
 				REF = 13
 			}
 			PART
@@ -81346,13 +81471,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 9034.7144917928945
-				ECC = 0.99999999999999989
-				INC = 9.0758304021952991
+				SMA = 0
+				ECC = 1
+				INC = 9.0758304031429642
 				LPE = 270
-				LAN = 167.46371253293307
-				MNA = 3.1415926207170166
-				EPH = 1123685082.8536775
+				LAN = 248.09052299451702
+				MNA = 0
+				EPH = 1123663155.9384816
 				REF = 13
 			}
 			PART
@@ -81510,13 +81635,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 9034.8250917235837
+				SMA = 9034.8250925705997
 				ECC = 0.99999999999999989
-				INC = 9.0786759935560966
+				INC = 9.0786759926977396
 				LPE = 270
-				LAN = 167.4647645945721
-				MNA = 3.1415926207170166
-				EPH = 1123685082.8536775
+				LAN = 248.09157504886298
+				MNA = -3.1415926207170166
+				EPH = 1123663155.9384816
 				REF = 13
 			}
 			PART
@@ -81674,13 +81799,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 69765.086171740521
-				ECC = 0.99999999999999989
-				INC = 1.1252008149551385
+				SMA = 0
+				ECC = 1
+				INC = 1.1252008149373218
 				LPE = 90
-				LAN = 8.5186355818912034
-				MNA = 3.1415926207170166
-				EPH = 1123685082.8536775
+				LAN = 141.68847838122053
+				MNA = 0
+				EPH = 1123663155.9384816
 				REF = 15
 			}
 			PART
@@ -81840,11 +81965,11 @@ GAME
 			{
 				SMA = NaN
 				ECC = 1
-				INC = 1.1266389649747897
+				INC = 1.1266389649828774
 				LPE = 90
-				LAN = 8.520246375755562
+				LAN = 141.69008917427624
 				MNA = 0
-				EPH = 1123685082.8536775
+				EPH = 1123663155.9384816
 				REF = 15
 			}
 			PART
@@ -82002,13 +82127,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 0
+				SMA = NaN
 				ECC = 1
-				INC = 1.12356980242281
+				INC = 1.1235698024254053
 				LPE = 90
-				LAN = 8.5194208589130653
+				LAN = 141.68926365780646
 				MNA = 0
-				EPH = 1123685082.8536775
+				EPH = 1123663155.9384816
 				REF = 15
 			}
 			PART
@@ -82166,13 +82291,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 22539.831281620314
-				ECC = 0.99999999999999989
-				INC = 18.738393453527735
+				SMA = 0
+				ECC = 1
+				INC = 18.738393455160704
 				LPE = 90
-				LAN = 45.691197979346668
-				MNA = 3.1415926207170166
-				EPH = 1123685082.8536775
+				LAN = 36.938934408083867
+				MNA = 0
+				EPH = 1123663155.9384816
 				REF = 14
 			}
 			PART
@@ -82330,13 +82455,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
-				INC = 18.734963340086253
+				SMA = 22539.750321680775
+				ECC = 0.99999999999999989
+				INC = 18.73496334225004
 				LPE = 90
-				LAN = 45.689666233105982
-				MNA = 0
-				EPH = 1123685082.8536775
+				LAN = 36.937402662959926
+				MNA = 3.1415926207170166
+				EPH = 1123663155.9384816
 				REF = 14
 			}
 			PART
@@ -82494,13 +82619,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 22539.855361284001
-				ECC = 0.99999999999999989
-				INC = 18.737393006559383
+				SMA = 0
+				ECC = 1
+				INC = 18.737393009088116
 				LPE = 90
-				LAN = 45.690159535259568
-				MNA = 3.1415926207170166
-				EPH = 1123685082.8536775
+				LAN = 36.937895965606344
+				MNA = 0
+				EPH = 1123663155.9384816
 				REF = 14
 			}
 			PART
@@ -89056,11 +89181,11 @@ GAME
 			{
 				SMA = NaN
 				ECC = 1
-				INC = 14.105837734459538
+				INC = 14.105837733847032
 				LPE = 270
-				LAN = 109.86058317389319
+				LAN = 64.223919733045136
 				MNA = 0
-				EPH = 1123685082.8536775
+				EPH = 1123663155.9384816
 				REF = 16
 			}
 			PART
@@ -89218,13 +89343,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 105696.59502452958
+				SMA = 105696.59502806832
 				ECC = 0.99999999999999989
-				INC = 14.106006459910917
+				INC = 14.106006459428922
 				LPE = 270
-				LAN = 109.86071539330726
+				LAN = 64.224051952980744
 				MNA = 3.1415926207170166
-				EPH = 1123685082.8536775
+				EPH = 1123663155.9384816
 				REF = 16
 			}
 			PART
@@ -89384,11 +89509,11 @@ GAME
 			{
 				SMA = NaN
 				ECC = 1
-				INC = 14.106244606758711
+				INC = 14.106244607038109
 				LPE = 270
-				LAN = 109.86069377993221
+				LAN = 64.224030340230854
 				MNA = 0
-				EPH = 1123685082.8536775
+				EPH = 1123663155.9384816
 				REF = 16
 			}
 			PART
@@ -127334,33 +127459,33 @@ GAME
 			landedAt = 
 			displaylandedAt = 
 			splashed = False
-			met = 316142.91810464859
+			met = 297626.41027498245
 			lct = 1123368937.8955748
-			lastUT = 1123685080.8136795
+			lastUT = 1123666564.3058498
 			root = 0
-			lat = -0.50116677810189914
-			lon = 117.50848611713121
-			alt = 603152.6717931102
+			lat = 0.49364276965570841
+			lon = 115.26504268531772
+			alt = 310458.86854313558
 			hgt = -1
-			nrm = -0.357636869,0.893630683,-0.271146387
-			rot = 0.729915977,-0.553236604,-0.365399301,0.166238979
-			CoM = 0.0172332525,-7.49965477,0.817344189
+			nrm = -0.699080348,0.686141074,-0.201239228
+			rot = -0.857405245,0.207925722,0.338599116,-0.327068776
+			CoM = 0.0824525356,-7.58448362,1.43464994
 			stg = 1
 			prst = False
 			ref = 1343097427
 			ctrl = True
-			cPch = 
-			cHdg = 
+			cPch = 0.2940001
+			cHdg = -2.369999
 			cMod = 0
 			ORBIT
 			{
-				SMA = 1203419.4797782125
-				ECC = 0.00075246809776609942
-				INC = 1.2289730772180703
-				LPE = 263.49262100067875
-				LAN = 69.596672659505373
-				MNA = 1.2629807802071298
-				EPH = 1123685080.8136795
+				SMA = 976426.79924353142
+				ECC = 0.07823669854375892
+				INC = 1.1502377133374884
+				LPE = 352.81481291073266
+				LAN = 68.535938455812698
+				MNA = 0.48896007770024552
+				EPH = 1123666564.3058498
 				REF = 1
 			}
 			PART
@@ -127387,8 +127512,8 @@ GAME
 				attN = bottom, 5
 				mass = 6.5
 				shielded = False
-				temp = 158.0806926908744
-				tempExt = 158.25022606543354
+				temp = 221.20481690753886
+				tempExt = 221.47373874512277
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -127524,8 +127649,8 @@ GAME
 				attN = bottom, 0
 				mass = 1.78999996
 				shielded = False
-				temp = 157.16616570466795
-				tempExt = 157.5704756441514
+				temp = 221.23304262110486
+				tempExt = 221.71547210992128
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -127591,8 +127716,8 @@ GAME
 				attN = bottom, 1
 				mass = 0.200000003
 				shielded = False
-				temp = 150.81063554920368
-				tempExt = 151.04851918718683
+				temp = 204.10004848277271
+				tempExt = 204.32335293711955
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -127680,8 +127805,8 @@ GAME
 				srfN = srfAttach, 1
 				mass = 0.0799999982
 				shielded = False
-				temp = 156.98963275814887
-				tempExt = 157.26346735733452
+				temp = 240.76006501428179
+				tempExt = 230.74923172306538
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -127754,8 +127879,8 @@ GAME
 				srfN = srfAttach, 1
 				mass = 0.0799999982
 				shielded = False
-				temp = 157.15565162923664
-				tempExt = 157.34313296433064
+				temp = 239.78414612925943
+				tempExt = 230.14610413256241
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -127829,8 +127954,8 @@ GAME
 				attN = bottom, 6
 				mass = 6.5
 				shielded = False
-				temp = 154.76678135425772
-				tempExt = 154.99884611928303
+				temp = 211.62376608811635
+				tempExt = 212.19212764276779
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -127966,8 +128091,8 @@ GAME
 				attN = bottom, 7
 				mass = 6.5
 				shielded = False
-				temp = 155.17043048038266
-				tempExt = 155.06043988026039
+				temp = 216.34241474720281
+				tempExt = 216.18632169265493
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -128103,8 +128228,8 @@ GAME
 				attN = bottom, 8
 				mass = 6.5
 				shielded = False
-				temp = 155.20174712128627
-				tempExt = 155.10306525427558
+				temp = 216.29814608002991
+				tempExt = 216.26911635041498
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -128240,8 +128365,8 @@ GAME
 				attN = bottom, 9
 				mass = 6.5
 				shielded = False
-				temp = 155.24172999130715
-				tempExt = 155.1042016988994
+				temp = 216.32049481987383
+				tempExt = 216.65750916325518
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -128377,8 +128502,8 @@ GAME
 				attN = bottom, 8
 				mass = 1.78999996
 				shielded = False
-				temp = 155.28386460694614
-				tempExt = 155.09511709394928
+				temp = 216.33373953033592
+				tempExt = 216.53167345391998
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -128444,8 +128569,8 @@ GAME
 				attN = bottom, 9
 				mass = 0.200000003
 				shielded = False
-				temp = 155.25302858331395
-				tempExt = 154.77597557007294
+				temp = 216.24589096073819
+				tempExt = 215.16784899642167
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -128533,8 +128658,8 @@ GAME
 				srfN = srfAttach, 9
 				mass = 0.0799999982
 				shielded = False
-				temp = 155.24832809641325
-				tempExt = 155.1426298252141
+				temp = 238.1351878966112
+				tempExt = 228.27099508786523
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -128607,8 +128732,8 @@ GAME
 				srfN = srfAttach, 9
 				mass = 0.0799999982
 				shielded = False
-				temp = 155.28699118502291
-				tempExt = 155.16110486392813
+				temp = 239.04146855056948
+				tempExt = 228.58032320301737
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -128683,8 +128808,8 @@ GAME
 				attN = bottom, 14
 				mass = 0.300000012
 				shielded = False
-				temp = 155.13536948991737
-				tempExt = 155.06275432411354
+				temp = 217.03951719098626
+				tempExt = 217.7252370817659
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -128793,8 +128918,8 @@ GAME
 				attN = bottom, 13
 				mass = 0.200000003
 				shielded = False
-				temp = 155.12987279814033
-				tempExt = 155.05242732932138
+				temp = 217.66960915242595
+				tempExt = 219.48400661792255
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -128884,8 +129009,8 @@ GAME
 				attN = bottom, 16
 				mass = 0.300000012
 				shielded = False
-				temp = 155.08132970357499
-				tempExt = 154.98858552915075
+				temp = 216.52860530661633
+				tempExt = 216.64461564755925
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -128994,8 +129119,8 @@ GAME
 				attN = bottom, 15
 				mass = 0.200000003
 				shielded = False
-				temp = 155.06335622172114
-				tempExt = 154.86386408375287
+				temp = 216.72221844630073
+				tempExt = 217.2625079535423
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -129084,8 +129209,8 @@ GAME
 				attN = bottom, 18
 				mass = 0.200000003
 				shielded = False
-				temp = 145.7334886870027
-				tempExt = 146.26908799745061
+				temp = 187.86346096225398
+				tempExt = 189.30757141833999
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -129174,8 +129299,8 @@ GAME
 				attN = bottom, 19
 				mass = 0.0799999982
 				shielded = False
-				temp = 145.68322262344901
-				tempExt = 146.02921720646924
+				temp = 187.73053204140396
+				tempExt = 188.30065081746756
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -129219,8 +129344,8 @@ GAME
 				attN = bottom, 18
 				mass = 0.100000001
 				shielded = False
-				temp = 145.54968196404732
-				tempExt = 145.77355697961283
+				temp = 187.42693502360936
+				tempExt = 187.88411084125801
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -129264,8 +129389,8 @@ GAME
 				attN = top, 21
 				mass = 0.25
 				shielded = False
-				temp = 145.38620969326234
-				tempExt = 145.47219085818972
+				temp = 187.08327862635892
+				tempExt = 187.46782628890534
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -129309,8 +129434,8 @@ GAME
 				attN = top, 22
 				mass = 0.375
 				shielded = False
-				temp = 144.24900191745098
-				tempExt = 144.51478012820971
+				temp = 185.06961101319371
+				tempExt = 186.48484190703067
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -129354,8 +129479,8 @@ GAME
 				attN = top, 23
 				mass = 0.375
 				shielded = False
-				temp = 143.11795192651115
-				tempExt = 143.57993827222973
+				temp = 184.19342068272414
+				tempExt = 185.69976056561592
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -129399,8 +129524,8 @@ GAME
 				attN = top, -1
 				mass = 0.375
 				shielded = False
-				temp = 142.03430364862984
-				tempExt = 142.67004201865277
+				temp = 184.86156995882092
+				tempExt = 186.83354403615826
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -129445,8 +129570,8 @@ GAME
 				attN = top, -1
 				mass = 0.375
 				shielded = False
-				temp = 141.87664685874947
-				tempExt = 143.10373017753264
+				temp = 186.14654464628671
+				tempExt = 188.41131661236079
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -129491,8 +129616,8 @@ GAME
 				srfN = srfAttach, 24
 				mass = 0.300000012
 				shielded = False
-				temp = 142.33787694195843
-				tempExt = 144.85373021364197
+				temp = 187.79503489262638
+				tempExt = 192.16444865815791
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -129517,7 +129642,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123604343.017571
-					currentRotation = (-0.671878994, -0.671621859, 0.220698446, -0.220895857)
+					currentRotation = (0.70652318, 0.706264257, 0.0318367481, -0.0316603482)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -129570,8 +129695,8 @@ GAME
 				srfN = srfAttach, 24
 				mass = 0.300000012
 				shielded = False
-				temp = 141.88863959247016
-				tempExt = 143.2481455118984
+				temp = 187.68973252672512
+				tempExt = 191.97692513020306
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -129596,7 +129721,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123604343.017571
-					currentRotation = (0.220889941, 0.220655411, -0.671657264, 0.671859622)
+					currentRotation = (0.0316695459, 0.0318547711, 0.706289887, -0.706496239)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -129649,8 +129774,8 @@ GAME
 				attN = top, -1
 				mass = 0.375
 				shielded = False
-				temp = 142.39702133404643
-				tempExt = 143.42649575375864
+				temp = 187.31915752221261
+				tempExt = 190.21437123251411
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -129695,8 +129820,8 @@ GAME
 				srfN = srfAttach, 27
 				mass = 0.300000012
 				shielded = False
-				temp = 142.3434297604397
-				tempExt = 144.47447606859672
+				temp = 188.15322345816926
+				tempExt = 192.72283809447916
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -129721,7 +129846,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123604343.017571
-					currentRotation = (-0.671879411, -0.671616733, 0.220699161, -0.220909327)
+					currentRotation = (0.706523418, 0.706257463, 0.0319139063, -0.0317268521)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -129774,8 +129899,8 @@ GAME
 				srfN = srfAttach, 27
 				mass = 0.300000012
 				shielded = False
-				temp = 141.99167769825979
-				tempExt = 143.09827012051502
+				temp = 187.96420574152671
+				tempExt = 192.26619032998201
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -129800,7 +129925,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123604343.017571
-					currentRotation = (0.220862046, 0.220654845, -0.671669781, 0.671856523)
+					currentRotation = (0.0317499414, 0.0319056846, 0.706276298, -0.706503987)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -129853,8 +129978,8 @@ GAME
 				attN = top, -1
 				mass = 0.375
 				shielded = False
-				temp = 144.75091294914563
-				tempExt = 145.86100522351634
+				temp = 186.61798244735769
+				tempExt = 188.84414009624578
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -129899,8 +130024,8 @@ GAME
 				attN = top, -1
 				mass = 0.375
 				shielded = False
-				temp = 147.95226054999279
-				tempExt = 148.93814755550082
+				temp = 187.31782361288489
+				tempExt = 190.90378761620715
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -129945,8 +130070,8 @@ GAME
 				srfN = srfAttach, 31
 				mass = 0.300000012
 				shielded = False
-				temp = 149.83067660693266
-				tempExt = 151.52535950711865
+				temp = 188.64612191935362
+				tempExt = 193.47702687658662
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -129971,7 +130096,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123604343.017571
-					currentRotation = (-0.671890914, -0.671598494, 0.220725745, -0.220903173)
+					currentRotation = (0.706534743, 0.706242681, 0.0319448113, -0.0317715257)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -130024,8 +130149,8 @@ GAME
 				srfN = srfAttach, 31
 				mass = 0.300000012
 				shielded = False
-				temp = 149.79750669338398
-				tempExt = 151.38375293619532
+				temp = 188.60053146800351
+				tempExt = 193.40380731214859
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -130050,7 +130175,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123604343.017571
-					currentRotation = (0.220894173, 0.220669597, -0.671645343, 0.671865463)
+					currentRotation = (0.0317816399, 0.0319600552, 0.706264555, -0.706511855)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -130103,8 +130228,8 @@ GAME
 				srfN = srfAttach, 30
 				mass = 0.300000012
 				shielded = False
-				temp = 145.40145843742769
-				tempExt = 147.30001334759754
+				temp = 187.61144952594321
+				tempExt = 192.14543883686164
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -130129,7 +130254,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123604343.017571
-					currentRotation = (-0.671891093, -0.67159611, 0.220726669, -0.220909014)
+					currentRotation = (0.706526458, 0.706251621, 0.0319375992, -0.0317661762)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -130182,8 +130307,8 @@ GAME
 				srfN = srfAttach, 30
 				mass = 0.300000012
 				shielded = False
-				temp = 145.2513401096428
-				tempExt = 146.66061714128031
+				temp = 187.4889116268682
+				tempExt = 191.93302720905382
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -130208,7 +130333,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123604343.017571
-					currentRotation = (0.22091192, 0.220706895, -0.671608686, 0.67188406)
+					currentRotation = (0.0317684226, 0.0319486447, 0.706261814, -0.70651567)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -130261,8 +130386,8 @@ GAME
 				srfN = srfAttach, 27
 				mass = 0.300000012
 				shielded = False
-				temp = 142.38645892070267
-				tempExt = 144.43143442076155
+				temp = 188.14883626366066
+				tempExt = 192.7564421085554
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -130287,7 +130412,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123604343.017571
-					currentRotation = (-0.671859026, -0.671661377, 0.220655501, -0.220879078)
+					currentRotation = (0.706498682, 0.706281185, 0.031927973, -0.0317354798)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -130340,8 +130465,8 @@ GAME
 				srfN = srfAttach, 27
 				mass = 0.300000012
 				shielded = False
-				temp = 142.15876155521215
-				tempExt = 143.52003881079378
+				temp = 187.97617535504693
+				tempExt = 192.33927905253179
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -130366,7 +130491,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123604343.017571
-					currentRotation = (0.220824718, 0.220672786, -0.671671867, 0.671860814)
+					currentRotation = (0.0317665413, 0.0318905115, 0.706276119, -0.706504107)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -130419,8 +130544,8 @@ GAME
 				attN = top, -1
 				mass = 0.375
 				shielded = False
-				temp = 141.49086536320644
-				tempExt = 142.75970404412388
+				temp = 185.94108379884935
+				tempExt = 188.48445043127322
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -130465,8 +130590,8 @@ GAME
 				srfN = srfAttach, 38
 				mass = 0.300000012
 				shielded = False
-				temp = 142.6285379796245
-				tempExt = 144.44376208074107
+				temp = 187.47489037011783
+				tempExt = 191.87726555215838
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -130491,7 +130616,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123604343.017571
-					currentRotation = (-0.220883369, -0.220691204, -0.671631098, 0.671876192)
+					currentRotation = (-0.0314046517, -0.0315665603, 0.706276, -0.706534863)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -130544,8 +130669,8 @@ GAME
 				srfN = srfAttach, 38
 				mass = 0.300000012
 				shielded = False
-				temp = 141.80057616462389
-				tempExt = 143.08609354777866
+				temp = 187.37718187017575
+				tempExt = 191.70269758181848
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -130570,7 +130695,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123604343.017571
-					currentRotation = (0.671892464, 0.671596587, 0.220724747, -0.220905572)
+					currentRotation = (-0.706548214, -0.706263363, 0.0315603018, -0.0313970894)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -130623,8 +130748,8 @@ GAME
 				attN = top, -1
 				mass = 0.375
 				shielded = False
-				temp = 140.51633586921565
-				tempExt = 141.73610644703083
+				temp = 186.68769799277175
+				tempExt = 189.65114584269142
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -130669,8 +130794,8 @@ GAME
 				srfN = srfAttach, 41
 				mass = 0.300000012
 				shielded = False
-				temp = 141.06461596999068
-				tempExt = 143.02728152832634
+				temp = 187.64065477741838
+				tempExt = 192.23262365120962
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -130695,7 +130820,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123604343.017571
-					currentRotation = (-0.220926493, -0.220719427, -0.67159164, 0.671892226)
+					currentRotation = (-0.0313774757, -0.0315645598, 0.706262946, -0.706549227)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -130748,8 +130873,8 @@ GAME
 				srfN = srfAttach, 41
 				mass = 0.300000012
 				shielded = False
-				temp = 140.73292822258398
-				tempExt = 141.95413016189789
+				temp = 187.42938657928534
+				tempExt = 191.71505775870114
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -130774,7 +130899,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123604343.017571
-					currentRotation = (0.671904147, 0.671564817, 0.220743015, -0.220948339)
+					currentRotation = (-0.706568122, -0.706244826, 0.0315650925, -0.0313599408)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -130827,8 +130952,8 @@ GAME
 				attN = top, -1
 				mass = 0.375
 				shielded = False
-				temp = 140.03767846449574
-				tempExt = 140.95683076449805
+				temp = 185.80790836061377
+				tempExt = 187.88611120884823
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -130873,8 +130998,8 @@ GAME
 				attN = top, -1
 				mass = 0.375
 				shielded = False
-				temp = 140.38886326131168
-				tempExt = 142.50335239673612
+				temp = 186.29561165176605
+				tempExt = 189.43115292740526
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -130919,8 +131044,8 @@ GAME
 				srfN = srfAttach, 45
 				mass = 0.300000012
 				shielded = False
-				temp = 141.32636884943361
-				tempExt = 144.63693863997355
+				temp = 187.39071273935923
+				tempExt = 191.76673417276334
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -130945,7 +131070,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123604343.017571
-					currentRotation = (-0.220911011, -0.220769539, -0.671561062, 0.671911418)
+					currentRotation = (-0.0313677974, -0.031537354, 0.706229389, -0.706584513)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -130998,8 +131123,8 @@ GAME
 				srfN = srfAttach, 45
 				mass = 0.300000012
 				shielded = False
-				temp = 140.97031389399947
-				tempExt = 143.16469097452634
+				temp = 187.34626447109329
+				tempExt = 191.69474745680392
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -131024,7 +131149,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123604343.017571
-					currentRotation = (0.671901345, 0.671576381, 0.220742583, -0.220922023)
+					currentRotation = (-0.706558704, -0.706253946, 0.0315573141, -0.0313743204)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -131077,8 +131202,8 @@ GAME
 				srfN = srfAttach, 44
 				mass = 0.300000012
 				shielded = False
-				temp = 140.43447690551469
-				tempExt = 142.48314756093706
+				temp = 186.79255281622267
+				tempExt = 191.33852932839525
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -131103,7 +131228,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123604343.017571
-					currentRotation = (-0.220889464, -0.220683485, -0.671634018, 0.671873808)
+					currentRotation = (-0.0313889571, -0.0315770507, 0.706286132, -0.706525087)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -131156,8 +131281,8 @@ GAME
 				srfN = srfAttach, 44
 				mass = 0.300000012
 				shielded = False
-				temp = 140.06829970937792
-				tempExt = 140.88407500757145
+				temp = 186.59492320313538
+				tempExt = 190.89993477537027
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -131182,7 +131307,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123604343.017571
-					currentRotation = (0.671915174, 0.671540976, 0.220766693, -0.220963687)
+					currentRotation = (-0.706587434, -0.706226707, 0.0315614864, -0.0313369334)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -131235,8 +131360,8 @@ GAME
 				srfN = srfAttach, 41
 				mass = 0.300000012
 				shielded = False
-				temp = 140.65466305472481
-				tempExt = 142.63836132473028
+				temp = 187.67291311517809
+				tempExt = 192.2345752829313
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -131261,7 +131386,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123604343.017571
-					currentRotation = (-0.220920116, -0.220754027, -0.671568334, 0.671906233)
+					currentRotation = (-0.031382937, -0.0315464102, 0.706247151, -0.706565619)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -131314,8 +131439,8 @@ GAME
 				srfN = srfAttach, 41
 				mass = 0.300000012
 				shielded = False
-				temp = 140.40543526483063
-				tempExt = 141.64248752168044
+				temp = 187.46402795062596
+				tempExt = 191.77301115724245
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -131340,7 +131465,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123604343.017571
-					currentRotation = (0.671879172, 0.671635985, 0.220708534, -0.220842361)
+					currentRotation = (-0.706548095, -0.70626384, 0.0315361135, -0.0314109512)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -131392,8 +131517,8 @@ GAME
 				attN = bottom, 53
 				mass = 0.200000003
 				shielded = False
-				temp = 147.75690608532301
-				tempExt = 148.34747762053314
+				temp = 192.9792837421632
+				tempExt = 194.9052722206703
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -131482,8 +131607,8 @@ GAME
 				attN = bottom, 54
 				mass = 0.0799999982
 				shielded = False
-				temp = 147.68248355131857
-				tempExt = 147.86685159835434
+				temp = 192.77912219020607
+				tempExt = 193.47872513569126
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -131527,8 +131652,8 @@ GAME
 				attN = bottom, 53
 				mass = 0.100000001
 				shielded = False
-				temp = 147.50950352860769
-				tempExt = 147.57038771876933
+				temp = 192.32153257511061
+				tempExt = 192.75032297660198
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -131572,8 +131697,8 @@ GAME
 				attN = top, 56
 				mass = 0.25
 				shielded = False
-				temp = 147.32362954558405
-				tempExt = 147.14266798166477
+				temp = 191.82460554089454
+				tempExt = 191.84829483477037
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -131617,8 +131742,8 @@ GAME
 				attN = top, 57
 				mass = 0.375
 				shielded = False
-				temp = 145.9157183626711
-				tempExt = 146.08662304341217
+				temp = 188.67627327294011
+				tempExt = 189.95813144169023
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -131662,8 +131787,8 @@ GAME
 				attN = top, 58
 				mass = 0.375
 				shielded = False
-				temp = 144.47154755931996
-				tempExt = 144.82612804984916
+				temp = 186.67007764982759
+				tempExt = 188.562548089335
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -131707,8 +131832,8 @@ GAME
 				attN = top, -1
 				mass = 0.375
 				shielded = False
-				temp = 143.09109374975051
-				tempExt = 143.96158948838524
+				temp = 186.15243955248837
+				tempExt = 188.39008819778735
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -131753,8 +131878,8 @@ GAME
 				attN = top, -1
 				mass = 0.375
 				shielded = False
-				temp = 142.43888578711312
-				tempExt = 143.29880866851556
+				temp = 186.76607498445782
+				tempExt = 190.00289535999309
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -131799,8 +131924,8 @@ GAME
 				srfN = srfAttach, 59
 				mass = 0.300000012
 				shielded = False
-				temp = 143.39002401198786
-				tempExt = 144.623865265625
+				temp = 188.00752526308415
+				tempExt = 192.39211919295181
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -131825,7 +131950,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123374484.2177143
-					currentRotation = (0.668066859, 0.667705178, 0.232148618, -0.232300445)
+					currentRotation = (-0.706986964, -0.706639588, 0.0204639267, -0.0202783924)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -131878,8 +132003,8 @@ GAME
 				srfN = srfAttach, 59
 				mass = 0.300000012
 				shielded = False
-				temp = 142.70028626138918
-				tempExt = 144.41318175703469
+				temp = 188.04298552592445
+				tempExt = 192.43846631198412
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -131904,7 +132029,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123374484.2177143
-					currentRotation = (-0.232236624, -0.23215425, -0.667727947, 0.668064475)
+					currentRotation = (-0.0203179736, -0.0204366166, 0.706652284, -0.70697397)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -131957,8 +132082,8 @@ GAME
 				attN = top, -1
 				mass = 0.375
 				shielded = False
-				temp = 141.4754537571576
-				tempExt = 142.3778220875603
+				temp = 186.70901923064224
+				tempExt = 189.57947811032614
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -132003,8 +132128,8 @@ GAME
 				srfN = srfAttach, 62
 				mass = 0.300000012
 				shielded = False
-				temp = 141.79158757945785
-				tempExt = 143.09327460613193
+				temp = 187.54388997457485
+				tempExt = 192.0885027494206
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -132029,7 +132154,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123374484.2177143
-					currentRotation = (0.668077648, 0.66769129, 0.23217687, -0.232281178)
+					currentRotation = (-0.707011759, -0.706615448, 0.0204334836, -0.0202862006)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -132082,8 +132207,8 @@ GAME
 				srfN = srfAttach, 62
 				mass = 0.300000012
 				shielded = False
-				temp = 141.82267037313579
-				tempExt = 143.65859918732238
+				temp = 187.62057608942962
+				tempExt = 192.24708892094665
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -132108,7 +132233,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123374484.2177143
-					currentRotation = (-0.232234567, -0.232136279, -0.667742848, 0.668056488)
+					currentRotation = (-0.0203058738, -0.0204408169, 0.706638157, -0.706988335)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -132161,8 +132286,8 @@ GAME
 				attN = top, -1
 				mass = 0.375
 				shielded = False
-				temp = 140.97799221304263
-				tempExt = 142.13960520223955
+				temp = 185.76527881380875
+				tempExt = 187.90392506066999
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -132207,8 +132332,8 @@ GAME
 				attN = top, -1
 				mass = 0.375
 				shielded = False
-				temp = 141.30604300246125
-				tempExt = 143.11527342301341
+				temp = 186.11646451587109
+				tempExt = 189.32756126459518
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -132253,8 +132378,8 @@ GAME
 				srfN = srfAttach, 66
 				mass = 0.300000012
 				shielded = False
-				temp = 141.93025033811705
-				tempExt = 144.31156804713163
+				temp = 187.17056518228162
+				tempExt = 191.56701596710084
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -132279,7 +132404,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123374484.2177143
-					currentRotation = (0.6680547, 0.667738497, 0.232129142, -0.232259095)
+					currentRotation = (-0.706993103, -0.706633329, 0.0204493105, -0.0202981979)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -132332,8 +132457,8 @@ GAME
 				srfN = srfAttach, 66
 				mass = 0.300000012
 				shielded = False
-				temp = 142.18459761766397
-				tempExt = 145.37790945449296
+				temp = 187.21441270095639
+				tempExt = 191.6326224769609
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -132358,7 +132483,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123374484.2177143
-					currentRotation = (-0.23226741, -0.232165664, -0.66770643, 0.66807127)
+					currentRotation = (-0.0202955082, -0.0204448085, 0.706626475, -0.707000077)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -132411,8 +132536,8 @@ GAME
 				srfN = srfAttach, 65
 				mass = 0.300000012
 				shielded = False
-				temp = 141.12114477917689
-				tempExt = 142.17035748887847
+				temp = 186.54150124823732
+				tempExt = 191.00965790301882
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -132437,7 +132562,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123374484.2177143
-					currentRotation = (0.668079615, 0.667678654, 0.232175797, -0.232313067)
+					currentRotation = (-0.707002223, -0.706624508, 0.0204554796, -0.0202795863)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -132490,8 +132615,8 @@ GAME
 				srfN = srfAttach, 65
 				mass = 0.300000012
 				shielded = False
-				temp = 141.38983531475048
-				tempExt = 143.49408066207633
+				temp = 186.7069676748701
+				tempExt = 191.2464831251695
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -132516,7 +132641,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123374484.2177143
-					currentRotation = (-0.23228772, -0.232115075, -0.667736351, 0.668051839)
+					currentRotation = (-0.0202857107, -0.0204832833, 0.706654131, -0.706971705)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -132569,8 +132694,8 @@ GAME
 				srfN = srfAttach, 62
 				mass = 0.300000012
 				shielded = False
-				temp = 141.47541373998391
-				tempExt = 142.8752480069025
+				temp = 187.52939841851276
+				tempExt = 192.01768290344717
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -132595,7 +132720,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123374484.2177143
-					currentRotation = (0.668066263, 0.667716086, 0.232154831, -0.232264757)
+					currentRotation = (-0.706997752, -0.706628978, 0.0204458963, -0.0202908497)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -132648,8 +132773,8 @@ GAME
 				srfN = srfAttach, 62
 				mass = 0.300000012
 				shielded = False
-				temp = 141.64679012920936
-				tempExt = 143.52043009775318
+				temp = 187.68421338774419
+				tempExt = 192.29037883201434
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -132674,7 +132799,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123374484.2177143
-					currentRotation = (-0.232252449, -0.232089311, -0.667771757, 0.668037653)
+					currentRotation = (-0.0203184318, -0.0204820037, 0.706685126, -0.706939757)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -132727,8 +132852,8 @@ GAME
 				attN = top, -1
 				mass = 0.375
 				shielded = False
-				temp = 142.7958144425798
-				tempExt = 143.62812553541983
+				temp = 186.9508394594194
+				tempExt = 190.13001463729685
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -132773,8 +132898,8 @@ GAME
 				srfN = srfAttach, 73
 				mass = 0.300000012
 				shielded = False
-				temp = 143.03336220625044
-				tempExt = 144.33462984058676
+				temp = 188.27926521970107
+				tempExt = 192.54002663966304
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -132799,7 +132924,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123374484.2177143
-					currentRotation = (0.232243791, 0.232142061, -0.667731464, 0.668062627)
+					currentRotation = (0.020443717, 0.0205639564, 0.706625164, -0.706993699)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -132852,8 +132977,8 @@ GAME
 				srfN = srfAttach, 73
 				mass = 0.300000012
 				shielded = False
-				temp = 143.10220172634678
-				tempExt = 144.99534355119283
+				temp = 188.32511599280434
+				tempExt = 192.68057341777987
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -132878,7 +133003,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123374484.2177143
-					currentRotation = (-0.668065786, -0.667711675, 0.232140452, -0.232293174)
+					currentRotation = (0.706977665, 0.70664078, 0.0206032395, -0.0204218924)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -132931,8 +133056,8 @@ GAME
 				attN = top, -1
 				mass = 0.375
 				shielded = False
-				temp = 143.14354213844643
-				tempExt = 144.09274554430849
+				temp = 187.20588168623237
+				tempExt = 190.17067380218731
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -132977,8 +133102,8 @@ GAME
 				srfN = srfAttach, 76
 				mass = 0.300000012
 				shielded = False
-				temp = 142.74951205780602
-				tempExt = 143.78632715417336
+				temp = 187.91217524508565
+				tempExt = 192.35413685603089
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -133003,7 +133128,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123374484.2177143
-					currentRotation = (0.232238039, 0.232132927, -0.667740822, 0.668058515)
+					currentRotation = (0.0204664003, 0.0206076168, 0.70664233, -0.706974626)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -133056,8 +133181,8 @@ GAME
 				srfN = srfAttach, 76
 				mass = 0.300000012
 				shielded = False
-				temp = 143.0927007025349
-				tempExt = 145.13736763438769
+				temp = 188.13055138009284
+				tempExt = 192.74235155649154
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -133082,7 +133207,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123374484.2177143
-					currentRotation = (-0.668057978, -0.667738259, 0.232130378, -0.232249081)
+					currentRotation = (0.706986606, 0.706630766, 0.0205924194, -0.0204660278)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -133135,8 +133260,8 @@ GAME
 				attN = top, -1
 				mass = 0.375
 				shielded = False
-				temp = 145.35754537190081
-				tempExt = 146.32883140518845
+				temp = 186.52511841220755
+				tempExt = 188.87922218976408
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -133181,8 +133306,8 @@ GAME
 				attN = top, -1
 				mass = 0.375
 				shielded = False
-				temp = 148.51729223708679
-				tempExt = 149.53347241221982
+				temp = 187.1984111423146
+				tempExt = 190.85505902121
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -133227,8 +133352,8 @@ GAME
 				srfN = srfAttach, 80
 				mass = 0.300000012
 				shielded = False
-				temp = 150.34729184791959
-				tempExt = 151.89904357920167
+				temp = 188.46464391136999
+				tempExt = 193.27531717740578
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -133253,7 +133378,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123374484.2177143
-					currentRotation = (0.232255742, 0.232116163, -0.667745531, 0.668053389)
+					currentRotation = (0.0204839278, 0.0206334777, 0.706654608, -0.706961155)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -133306,8 +133431,8 @@ GAME
 				srfN = srfAttach, 80
 				mass = 0.300000012
 				shielded = False
-				temp = 150.3851071436531
-				tempExt = 152.02887949034414
+				temp = 188.51331649269909
+				tempExt = 193.34134554752495
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -133332,7 +133457,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123374484.2177143
-					currentRotation = (-0.668062031, -0.667723238, 0.23213315, -0.23227796)
+					currentRotation = (0.706977129, 0.706639111, 0.0206349473, -0.0204644781)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -133385,8 +133510,8 @@ GAME
 				srfN = srfAttach, 79
 				mass = 0.300000012
 				shielded = False
-				temp = 145.64984802666612
-				tempExt = 146.98876117101503
+				temp = 187.35724044498571
+				tempExt = 191.85718666283563
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -133411,7 +133536,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123374484.2177143
-					currentRotation = (0.232255667, 0.232094854, -0.667762697, 0.668043673)
+					currentRotation = (0.0204856321, 0.0206268243, 0.706657588, -0.706958354)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -133464,8 +133589,8 @@ GAME
 				srfN = srfAttach, 79
 				mass = 0.300000012
 				shielded = False
-				temp = 145.79488349203288
-				tempExt = 147.62701594991142
+				temp = 187.48487611777671
+				tempExt = 192.05840935575367
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -133490,7 +133615,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123374484.2177143
-					currentRotation = (-0.668038189, -0.667782128, 0.232087761, -0.232222378)
+					currentRotation = (0.706946373, 0.706669092, 0.0206261277, -0.0204990506)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -133543,8 +133668,8 @@ GAME
 				srfN = srfAttach, 76
 				mass = 0.300000012
 				shielded = False
-				temp = 142.87498276500386
-				tempExt = 144.12119164170002
+				temp = 187.92039660906892
+				tempExt = 192.40915084828481
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -133569,7 +133694,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123374484.2177143
-					currentRotation = (0.232226014, 0.232070729, -0.667793691, 0.668031394)
+					currentRotation = (0.0204710346, 0.0206458885, 0.706680715, -0.706934988)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -133622,8 +133747,8 @@ GAME
 				srfN = srfAttach, 76
 				mass = 0.300000012
 				shielded = False
-				temp = 143.07583230578152
-				tempExt = 144.99474633671016
+				temp = 188.1157883349978
+				tempExt = 192.74526435080077
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -133648,7 +133773,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123374484.2177143
-					currentRotation = (-0.668070495, -0.66769594, 0.232148141, -0.232317105)
+					currentRotation = (0.706995785, 0.706621826, 0.0206344407, -0.0204173606)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -133700,8 +133825,8 @@ GAME
 				attN = bottom, 88
 				mass = 0.200000003
 				shielded = False
-				temp = 151.70042656496332
-				tempExt = 151.97682147358873
+				temp = 229.01261400679431
+				tempExt = 227.98121044560526
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -133790,8 +133915,8 @@ GAME
 				attN = bottom, 87
 				mass = 0.100000001
 				shielded = False
-				temp = 152.94382025715427
-				tempExt = 153.04726876950346
+				temp = 229.18818446954765
+				tempExt = 228.76502730358487
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -133839,8 +133964,8 @@ GAME
 				attN = bottom, 88
 				mass = 1.5
 				shielded = False
-				temp = 152.93456386874016
-				tempExt = 152.97896711624838
+				temp = 229.36960657279494
+				tempExt = 229.33863137498312
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -133884,8 +134009,8 @@ GAME
 				attN = bottom, 89
 				mass = 0.0500000007
 				shielded = False
-				temp = 152.85025994601682
-				tempExt = 152.35243793563774
+				temp = 229.42176072799307
+				tempExt = 230.0185451004385
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -133974,8 +134099,8 @@ GAME
 				attN = bottom, 89
 				mass = 0.0500000007
 				shielded = False
-				temp = 152.90566463415794
-				tempExt = 152.77491755912089
+				temp = 229.44661978378696
+				tempExt = 230.43013798252028
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -134064,8 +134189,8 @@ GAME
 				attN = bottom, 89
 				mass = 0.0500000007
 				shielded = False
-				temp = 152.92880805850461
-				tempExt = 152.96985896830242
+				temp = 229.32049462101699
+				tempExt = 229.21466993683873
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -134148,8 +134273,8 @@ GAME
 				attN = bottom, 89
 				mass = 0.0500000007
 				shielded = False
-				temp = 152.92654907838167
-				tempExt = 152.93872470562786
+				temp = 229.3212214749253
+				tempExt = 229.23203582803387
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -134232,8 +134357,8 @@ GAME
 				attN = bottom, 89
 				mass = 0.0500000007
 				shielded = False
-				temp = 153.12114022883992
-				tempExt = 153.14239086878993
+				temp = 230.38822954018372
+				tempExt = 230.44281384581984
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -134316,8 +134441,8 @@ GAME
 				attN = bottom, 96
 				mass = 0.0500000007
 				shielded = False
-				temp = 153.50980683085575
-				tempExt = 153.4443698386643
+				temp = 232.42369657655877
+				tempExt = 232.12432658750521
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -134400,8 +134525,8 @@ GAME
 				attN = top, 97
 				mass = 0.100000001
 				shielded = False
-				temp = 153.90579673438816
-				tempExt = 153.7797335335097
+				temp = 234.50914140130433
+				tempExt = 234.04285673890391
 				tempExtUnexp = 4
 				expt = 0
 				state = 0
@@ -134625,8 +134750,8 @@ GAME
 				attN = bottom, 96
 				mass = 0.0500000007
 				shielded = False
-				temp = 154.22362167991301
-				tempExt = 154.3581821257942
+				temp = 236.81505575830582
+				tempExt = 237.82067627883399
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -134681,8 +134806,8 @@ GAME
 				attN = bottom, 97
 				mass = 0.150000006
 				shielded = False
-				temp = 154.5687570501824
-				tempExt = 154.80239690423838
+				temp = 238.68737759045399
+				tempExt = 240.77946367813291
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -134737,8 +134862,8 @@ GAME
 				attN = bottom, 98
 				mass = 0.125
 				shielded = False
-				temp = 154.75809096030846
-				tempExt = 155.10379346346272
+				temp = 243.87074665764385
+				tempExt = 243.69954414982729
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -134804,8 +134929,8 @@ GAME
 				attN = bottom, -1
 				mass = 0.100000001
 				shielded = False
-				temp = 154.77772915020569
-				tempExt = 154.92769558594932
+				temp = 259.31499157187773
+				tempExt = 251.86400070232685
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -134832,7 +134957,7 @@ GAME
 					flameout = False
 					EngineIgnited = True
 					engineShutdown = False
-					currentThrottle = 0
+					currentThrottle = 1
 					thrustPercentage = 100
 					manuallyOverridden = False
 					stagingEnabled = True
@@ -134966,8 +135091,8 @@ GAME
 				srfN = srfAttach, 99
 				mass = 0.0500000007
 				shielded = False
-				temp = 154.81232566050014
-				tempExt = 154.99156834803406
+				temp = 242.64958450200743
+				tempExt = 243.41720796482662
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -135042,8 +135167,8 @@ GAME
 				srfN = srfAttach, 99
 				mass = 0.0500000007
 				shielded = False
-				temp = 154.81333426685103
-				tempExt = 154.99190568969726
+				temp = 242.51157585333254
+				tempExt = 243.21635205053136
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -135118,8 +135243,8 @@ GAME
 				srfN = srfAttach, 99
 				mass = 0.0500000007
 				shielded = False
-				temp = 154.81184033604777
-				tempExt = 154.99140602488566
+				temp = 242.62711211779688
+				tempExt = 243.22057665898447
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -135194,8 +135319,8 @@ GAME
 				srfN = srfAttach, 99
 				mass = 0.0500000007
 				shielded = False
-				temp = 154.81191316927243
-				tempExt = 154.99143038491599
+				temp = 242.48425292425861
+				tempExt = 243.242000755454
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -135270,8 +135395,8 @@ GAME
 				srfN = srfAttach, 99
 				mass = 0.00499999989
 				shielded = False
-				temp = 154.77170435991499
-				tempExt = 154.97919460419445
+				temp = 243.83280798079241
+				tempExt = 243.61377836366478
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -135352,8 +135477,8 @@ GAME
 				srfN = srfAttach, 99
 				mass = 0.00499999989
 				shielded = False
-				temp = 154.77170435991499
-				tempExt = 154.97919460419445
+				temp = 243.83280798079241
+				tempExt = 243.61377836366478
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -135434,8 +135559,8 @@ GAME
 				srfN = srfAttach, 99
 				mass = 0.00499999989
 				shielded = False
-				temp = 154.77170435991499
-				tempExt = 154.97919460419445
+				temp = 243.83280798079241
+				tempExt = 243.61377836366478
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -135516,8 +135641,8 @@ GAME
 				srfN = srfAttach, 99
 				mass = 0.00499999989
 				shielded = False
-				temp = 154.77170435991499
-				tempExt = 154.97919460419445
+				temp = 243.83280798079241
+				tempExt = 243.61377836366478
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -135595,8 +135720,8 @@ GAME
 				srfN = srfAttach, 98
 				mass = 9.99999975E-05
 				shielded = False
-				temp = 154.65141480700757
-				tempExt = 154.78806104284922
+				temp = 240.21805017635489
+				tempExt = 240.64952517192904
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -136098,7 +136223,7 @@ GAME
 							markUT = 1123614657.2711051
 							deltaVExpended = NaN
 							dragLosses = NaN
-							gravityLosses = 2504.8698297239694
+							gravityLosses = 1906.7456088496831
 							steeringLosses = NaN
 							markLAN = 62.022973632812501
 							markLatitude = -0.097224845950384303
@@ -136193,8 +136318,8 @@ GAME
 				srfN = srfAttach, 96
 				mass = 0.0500000007
 				shielded = False
-				temp = 153.88883369915962
-				tempExt = 153.97512368249713
+				temp = 234.80507137290633
+				tempExt = 234.8137665094402
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -136269,8 +136394,8 @@ GAME
 				srfN = srfAttach, 96
 				mass = 0.0500000007
 				shielded = False
-				temp = 153.96401171039136
-				tempExt = 153.90837506830434
+				temp = 234.8696597108212
+				tempExt = 234.78110927135333
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -136345,8 +136470,8 @@ GAME
 				srfN = srfAttach, 96
 				mass = 0.0500000007
 				shielded = False
-				temp = 153.88046998832255
-				tempExt = 153.8227957070894
+				temp = 234.74293245004156
+				tempExt = 234.41963940590011
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -136421,8 +136546,8 @@ GAME
 				srfN = srfAttach, 96
 				mass = 0.0500000007
 				shielded = False
-				temp = 153.8826392968283
-				tempExt = 153.82673782764638
+				temp = 234.87931417866994
+				tempExt = 234.56841350015338
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -136496,8 +136621,8 @@ GAME
 				attN = bottom, -1
 				mass = 0.0500000007
 				shielded = False
-				temp = 148.35596425601588
-				tempExt = 149.06501043759783
+				temp = 233.85150925727945
+				tempExt = 232.96834508023898
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -136586,8 +136711,8 @@ GAME
 				attN = bottom, 116
 				mass = 0.0500000007
 				shielded = False
-				temp = 148.25982245487435
-				tempExt = 148.60944711734362
+				temp = 233.97408506628994
+				tempExt = 233.51169772025551
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -136642,8 +136767,8 @@ GAME
 				attN = top, 115
 				mass = 0.100000001
 				shielded = False
-				temp = 148.18292646837713
-				tempExt = 148.30762130446738
+				temp = 234.10002073853798
+				tempExt = 233.9685694908857
 				tempExtUnexp = 4
 				expt = 0
 				state = 0
@@ -136868,8 +136993,8 @@ GAME
 				attN = bottom, 116
 				mass = 0.0799999982
 				shielded = False
-				temp = 148.13501140785522
-				tempExt = 148.17483833951951
+				temp = 234.21675928221009
+				tempExt = 234.28084974195269
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -136913,8 +137038,8 @@ GAME
 				srfN = srfAttach, 117
 				mass = 0.0149999997
 				shielded = False
-				temp = 148.11749749501888
-				tempExt = 148.13659197787203
+				temp = 234.20437978730533
+				tempExt = 234.1495406148872
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -136990,8 +137115,8 @@ GAME
 				srfN = srfAttach, 117
 				mass = 0.0149999997
 				shielded = False
-				temp = 148.11758242765322
-				tempExt = 148.13662546568685
+				temp = 234.21349609809835
+				tempExt = 234.23703900632944
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -137067,8 +137192,8 @@ GAME
 				srfN = srfAttach, 117
 				mass = 0.0149999997
 				shielded = False
-				temp = 148.11749749690077
-				tempExt = 148.13659197861398
+				temp = 234.20522605572197
+				tempExt = 234.15708503958095
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -137144,8 +137269,8 @@ GAME
 				attN = bottom, 126
 				mass = 0.400000006
 				shielded = False
-				temp = 148.10466580544951
-				tempExt = 148.16708607418732
+				temp = 234.26563769247412
+				tempExt = 234.4154608802699
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -137167,7 +137292,7 @@ GAME
 				RESOURCE
 				{
 					name = MonoPropellant
-					amount = 0
+					amount = 197.89337084328912
 					maxAmount = 750
 					flowState = True
 					isTweakable = True
@@ -137201,8 +137326,8 @@ GAME
 				srfN = srfAttach, 121
 				mass = 0.0500000007
 				shielded = False
-				temp = 148.01803060041527
-				tempExt = 148.10152284732203
+				temp = 234.71610454301089
+				tempExt = 234.41387019510111
 				tempExtUnexp = 303.44805574819844
 				expt = 0.5
 				state = 0
@@ -137277,8 +137402,8 @@ GAME
 				srfN = srfAttach, 121
 				mass = 0.0500000007
 				shielded = False
-				temp = 148.01784618896156
-				tempExt = 148.10146215371387
+				temp = 234.62056369584133
+				tempExt = 234.38300433360521
 				tempExtUnexp = 303.44805574819844
 				expt = 0.5
 				state = 0
@@ -137353,8 +137478,8 @@ GAME
 				srfN = srfAttach, 121
 				mass = 0.0500000007
 				shielded = False
-				temp = 148.01828770583163
-				tempExt = 148.10160746601085
+				temp = 234.73244148283888
+				tempExt = 234.42565577344789
 				tempExtUnexp = 303.44805574819844
 				expt = 0.5
 				state = 0
@@ -137429,8 +137554,8 @@ GAME
 				srfN = srfAttach, 121
 				mass = 0.0500000007
 				shielded = False
-				temp = 148.01784618896124
-				tempExt = 148.1014621537137
+				temp = 234.6802814682469
+				tempExt = 234.40230350164487
 				tempExtUnexp = 303.44805574819844
 				expt = 0.5
 				state = 0
@@ -137504,8 +137629,8 @@ GAME
 				attN = bottom, 127
 				mass = 0.400000006
 				shielded = False
-				temp = 148.11028825894221
-				tempExt = 148.33976125809784
+				temp = 234.29704612493185
+				tempExt = 234.4105085352557
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -137527,7 +137652,7 @@ GAME
 				RESOURCE
 				{
 					name = MonoPropellant
-					amount = 0
+					amount = 299.85645779177594
 					maxAmount = 750
 					flowState = True
 					isTweakable = True
@@ -137560,8 +137685,8 @@ GAME
 				attN = bottom, 128
 				mass = 2
 				shielded = False
-				temp = 148.11705783661213
-				tempExt = 148.60675428844738
+				temp = 234.36925621364946
+				tempExt = 234.5932562266232
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -137627,8 +137752,8 @@ GAME
 				attN = bottom, -1
 				mass = 1.75
 				shielded = False
-				temp = 148.12938151754511
-				tempExt = 148.79507315692319
+				temp = 234.40943210253582
+				tempExt = 234.51431263484722
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -137712,7 +137837,7 @@ GAME
 					enableYaw = True
 					enablePitch = True
 					enableRoll = True
-					gimbalActive = True
+					gimbalActive = False
 					stagingEnabled = True
 					EVENTS
 					{
@@ -137835,8 +137960,8 @@ GAME
 				srfN = srfAttach, 127
 				mass = 0.0500000007
 				shielded = False
-				temp = 148.05573872611083
-				tempExt = 148.41658331200202
+				temp = 234.73812951951325
+				tempExt = 234.54404141013137
 				tempExtUnexp = 303.44805574819844
 				expt = 0.5
 				state = 0
@@ -137911,8 +138036,8 @@ GAME
 				srfN = srfAttach, 127
 				mass = 0.0500000007
 				shielded = False
-				temp = 148.05573872611083
-				tempExt = 148.41658331200202
+				temp = 234.70011117858056
+				tempExt = 234.5323896365004
 				tempExtUnexp = 303.44805574819844
 				expt = 0.5
 				state = 0
@@ -137987,8 +138112,8 @@ GAME
 				srfN = srfAttach, 127
 				mass = 0.0500000007
 				shielded = False
-				temp = 148.05574369935101
-				tempExt = 148.41658491226156
+				temp = 234.76535680928848
+				tempExt = 234.55254926114776
 				tempExtUnexp = 303.44805574819844
 				expt = 0.5
 				state = 0
@@ -138063,8 +138188,8 @@ GAME
 				srfN = srfAttach, 127
 				mass = 0.0500000007
 				shielded = False
-				temp = 148.05574146025
-				tempExt = 148.41658419177688
+				temp = 234.72162676248783
+				tempExt = 234.53917214460398
 				tempExtUnexp = 303.44805574819844
 				expt = 0.5
 				state = 0
@@ -138139,8 +138264,8 @@ GAME
 				srfN = srfAttach, 127
 				mass = 0.0500000007
 				shielded = False
-				temp = 148.05573872611083
-				tempExt = 148.41658331200202
+				temp = 234.75756219018362
+				tempExt = 234.55022787072232
 				tempExtUnexp = 303.44805574819844
 				expt = 0.5
 				state = 0
@@ -138215,8 +138340,8 @@ GAME
 				srfN = srfAttach, 127
 				mass = 0.0500000007
 				shielded = False
-				temp = 148.05573872611083
-				tempExt = 148.41658331200202
+				temp = 234.70003340110588
+				tempExt = 234.53243048419765
 				tempExtUnexp = 303.44805574819844
 				expt = 0.5
 				state = 0
@@ -138291,8 +138416,8 @@ GAME
 				srfN = srfAttach, 127
 				mass = 0.0500000007
 				shielded = False
-				temp = 148.05573872611083
-				tempExt = 148.41658331200202
+				temp = 234.78268757113622
+				tempExt = 234.58163951701218
 				tempExtUnexp = 303.44805574819844
 				expt = 0.5
 				state = 0
@@ -138367,8 +138492,8 @@ GAME
 				srfN = srfAttach, 127
 				mass = 0.0500000007
 				shielded = False
-				temp = 148.05573872611083
-				tempExt = 148.41658331200202
+				temp = 234.73472468780446
+				tempExt = 234.54371640337561
 				tempExtUnexp = 303.44805574819844
 				expt = 0.5
 				state = 0
@@ -138441,8 +138566,8 @@ GAME
 				srfN = srfAttach, 126
 				mass = 0.0250000004
 				shielded = False
-				temp = 148.07545640370154
-				tempExt = 148.17124483515272
+				temp = 234.22614782224187
+				tempExt = 233.81959602836872
 				tempExtUnexp = 303.44805574819844
 				expt = 0.5
 				state = 0
@@ -138467,7 +138592,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123638399.5220318
-					currentRotation = (-0.0512678623, 0.70562923, -0.704774857, 0.0524543822)
+					currentRotation = (0.519353747, -0.479165852, 0.479219794, -0.520596027)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -138518,8 +138643,8 @@ GAME
 				srfN = srfAttach, 126
 				mass = 0.0250000004
 				shielded = False
-				temp = 148.13015548104303
-				tempExt = 148.55425062020873
+				temp = 234.32673997327032
+				tempExt = 234.60630013692386
 				tempExtUnexp = 303.44805574819844
 				expt = 0.5
 				state = 0
@@ -138544,7 +138669,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123638399.5220318
-					currentRotation = (-0.0524864122, -0.704791844, 0.70560503, 0.0513359234)
+					currentRotation = (0.520593941, 0.479213446, -0.479157746, -0.519369066)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -138596,8 +138721,8 @@ GAME
 				attN = bottom, -1
 				mass = 0.0500000007
 				shielded = False
-				temp = 151.68803974006934
-				tempExt = 151.86573944861294
+				temp = 236.73379059139361
+				tempExt = 235.38277312641114
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -138686,8 +138811,8 @@ GAME
 				attN = bottom, 141
 				mass = 0.0500000007
 				shielded = False
-				temp = 151.66744244476808
-				tempExt = 151.74107145930785
+				temp = 236.95409031293451
+				tempExt = 236.24923195787142
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -138742,8 +138867,8 @@ GAME
 				attN = top, 140
 				mass = 0.100000001
 				shielded = False
-				temp = 151.65449388836555
-				tempExt = 151.76000888844274
+				temp = 237.19984991072613
+				tempExt = 237.08430618355632
 				tempExtUnexp = 4
 				expt = 0
 				state = 0
@@ -138967,8 +139092,8 @@ GAME
 				attN = bottom, 141
 				mass = 0.0799999982
 				shielded = False
-				temp = 151.6506035319245
-				tempExt = 151.85070099184799
+				temp = 237.47082222787765
+				tempExt = 237.78160320545072
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -139012,8 +139137,8 @@ GAME
 				srfN = srfAttach, 142
 				mass = 0.0149999997
 				shielded = False
-				temp = 151.64916581445584
-				tempExt = 151.76343004981567
+				temp = 237.39881955857939
+				tempExt = 237.53744838570478
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -139089,8 +139214,8 @@ GAME
 				srfN = srfAttach, 142
 				mass = 0.0149999997
 				shielded = False
-				temp = 151.64868562045328
-				tempExt = 151.7631360331589
+				temp = 237.39987228900497
+				tempExt = 237.54995520956518
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -139166,8 +139291,8 @@ GAME
 				srfN = srfAttach, 142
 				mass = 0.0149999997
 				shielded = False
-				temp = 151.64868565968908
-				tempExt = 151.76313604862847
+				temp = 237.41474325277301
+				tempExt = 237.71464568899148
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -139243,8 +139368,8 @@ GAME
 				attN = bottom, 151
 				mass = 0.400000006
 				shielded = False
-				temp = 151.63965201017828
-				tempExt = 151.74356790622525
+				temp = 237.59661285915089
+				tempExt = 238.47081093055306
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -139266,7 +139391,7 @@ GAME
 				RESOURCE
 				{
 					name = MonoPropellant
-					amount = 0
+					amount = 263.20987037465346
 					maxAmount = 750
 					flowState = True
 					isTweakable = True
@@ -139300,8 +139425,8 @@ GAME
 				srfN = srfAttach, 146
 				mass = 0.0500000007
 				shielded = False
-				temp = 151.57272228089829
-				tempExt = 151.6699732206292
+				temp = 236.48809129717353
+				tempExt = 237.72440956975524
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -139376,8 +139501,8 @@ GAME
 				srfN = srfAttach, 146
 				mass = 0.0500000007
 				shielded = False
-				temp = 151.57272228089829
-				tempExt = 151.6699732206292
+				temp = 236.58479538482771
+				tempExt = 237.75428436421066
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -139452,8 +139577,8 @@ GAME
 				srfN = srfAttach, 146
 				mass = 0.0500000007
 				shielded = False
-				temp = 151.57272228089829
-				tempExt = 151.6699732206292
+				temp = 236.47430994637867
+				tempExt = 237.72531084640127
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -139528,8 +139653,8 @@ GAME
 				srfN = srfAttach, 146
 				mass = 0.0500000007
 				shielded = False
-				temp = 151.57272228089829
-				tempExt = 151.6699732206292
+				temp = 236.67642673677827
+				tempExt = 237.79586338679718
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -139603,8 +139728,8 @@ GAME
 				attN = bottom, 152
 				mass = 0.400000006
 				shielded = False
-				temp = 151.64682528240562
-				tempExt = 151.7471087819944
+				temp = 238.43875125039696
+				tempExt = 239.85319241329199
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -139626,9 +139751,9 @@ GAME
 				RESOURCE
 				{
 					name = MonoPropellant
-					amount = 0
+					amount = 750
 					maxAmount = 750
-					flowState = True
+					flowState = False
 					isTweakable = True
 					hideFlow = False
 					isVisible = True
@@ -139659,8 +139784,8 @@ GAME
 				attN = bottom, 153
 				mass = 2
 				shielded = False
-				temp = 151.6620368200272
-				tempExt = 152.17162075114467
+				temp = 240.98623278129844
+				tempExt = 241.72265789007241
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -139682,7 +139807,7 @@ GAME
 				RESOURCE
 				{
 					name = LiquidFuel
-					amount = 31.839619901070385
+					amount = 78.745356542804529
 					maxAmount = 1440
 					flowState = True
 					isTweakable = True
@@ -139693,7 +139818,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxidizer
-					amount = 38.915016604285768
+					amount = 96.24416005392942
 					maxAmount = 1760
 					flowState = True
 					isTweakable = True
@@ -139726,8 +139851,8 @@ GAME
 				attN = bottom, -1
 				mass = 1.75
 				shielded = False
-				temp = 151.660537683874
-				tempExt = 152.03882596224753
+				temp = 246.91146552589862
+				tempExt = 245.05597753878232
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -139752,9 +139877,9 @@ GAME
 					isEnabled = True
 					staged = False
 					flameout = False
-					EngineIgnited = False
+					EngineIgnited = True
 					engineShutdown = False
-					currentThrottle = 0
+					currentThrottle = 0.109999999
 					thrustPercentage = 11
 					manuallyOverridden = False
 					stagingEnabled = True
@@ -139851,7 +139976,7 @@ GAME
 				{
 					name = FXModuleAnimateThrottle
 					isEnabled = True
-					animState = 0
+					animState = 0.109992556
 					stagingEnabled = True
 					EVENTS
 					{
@@ -139934,8 +140059,8 @@ GAME
 				srfN = srfAttach, 152
 				mass = 0.0500000007
 				shielded = False
-				temp = 151.62745448837848
-				tempExt = 151.98282617308996
+				temp = 238.58580479910606
+				tempExt = 240.62695588024687
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -140010,8 +140135,8 @@ GAME
 				srfN = srfAttach, 152
 				mass = 0.0500000007
 				shielded = False
-				temp = 151.62745448837848
-				tempExt = 151.98282617308996
+				temp = 238.57472520150128
+				tempExt = 240.6210902186383
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -140086,8 +140211,8 @@ GAME
 				srfN = srfAttach, 152
 				mass = 0.0500000007
 				shielded = False
-				temp = 151.62746806868745
-				tempExt = 151.98283054274509
+				temp = 238.44983251699716
+				tempExt = 240.58540216786079
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -140162,8 +140287,8 @@ GAME
 				srfN = srfAttach, 152
 				mass = 0.0500000007
 				shielded = False
-				temp = 151.62757760696658
-				tempExt = 151.98286578822533
+				temp = 238.58141285703505
+				tempExt = 240.62587810156916
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -140238,8 +140363,8 @@ GAME
 				srfN = srfAttach, 152
 				mass = 0.0500000007
 				shielded = False
-				temp = 151.62745448837848
-				tempExt = 151.98282617308996
+				temp = 240.67566476297537
+				tempExt = 241.27925193110468
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -140314,8 +140439,8 @@ GAME
 				srfN = srfAttach, 152
 				mass = 0.0500000007
 				shielded = False
-				temp = 151.62745448837848
-				tempExt = 151.98282617308996
+				temp = 240.67566476297537
+				tempExt = 241.27925193110468
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -140390,8 +140515,8 @@ GAME
 				srfN = srfAttach, 152
 				mass = 0.0500000007
 				shielded = False
-				temp = 151.62745614907979
-				tempExt = 151.9828267074441
+				temp = 240.67566476297537
+				tempExt = 241.27925193110468
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -140466,8 +140591,8 @@ GAME
 				srfN = srfAttach, 152
 				mass = 0.0500000007
 				shielded = False
-				temp = 151.62746138037903
-				tempExt = 151.98282839068801
+				temp = 240.67566476297537
+				tempExt = 241.27925193110468
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -140540,8 +140665,8 @@ GAME
 				srfN = srfAttach, 151
 				mass = 0.0250000004
 				shielded = False
-				temp = 151.7738383127502
-				tempExt = 152.77624001474948
+				temp = 238.41211342380691
+				tempExt = 239.52947172600241
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -140566,7 +140691,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123648984.5076587
-					currentRotation = (-0.693356574, 0.137903035, -0.137395024, 0.693802536)
+					currentRotation = (0.48052159, -0.518944979, 0.518365681, -0.48072046)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -140617,8 +140742,8 @@ GAME
 				srfN = srfAttach, 151
 				mass = 0.0250000004
 				shielded = False
-				temp = 151.61872996451118
-				tempExt = 151.6446839805773
+				temp = 238.34563134403916
+				tempExt = 239.05500014115685
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -140643,7 +140768,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 1123648984.5076587
-					currentRotation = (-0.693947792, -0.137375519, 0.137857482, 0.693224311)
+					currentRotation = (0.480865836, 0.518248498, -0.518924773, -0.48052448)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -140695,8 +140820,8 @@ GAME
 				attN = bottom, 165
 				mass = 0.200000003
 				shielded = False
-				temp = 154.71462393519215
-				tempExt = 154.6966468463595
+				temp = 250.95794451392183
+				tempExt = 248.74624588271547
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -140785,8 +140910,8 @@ GAME
 				attN = bottom, 166
 				mass = 0.200000003
 				shielded = False
-				temp = 154.74717037996334
-				tempExt = 154.81477581318237
+				temp = 251.13153286998616
+				tempExt = 250.53034936196454
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -140830,8 +140955,8 @@ GAME
 				attN = bottom, 167
 				mass = 4.5
 				shielded = False
-				temp = 154.74011304626953
-				tempExt = 154.88196042725488
+				temp = 251.28297252860861
+				tempExt = 250.83705909671329
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -140853,7 +140978,7 @@ GAME
 				RESOURCE
 				{
 					name = LiquidFuel
-					amount = 776.90811826092067
+					amount = 1921.4396077360241
 					maxAmount = 3240
 					flowState = True
 					isTweakable = True
@@ -140864,7 +140989,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxidizer
-					amount = 949.55413479344406
+					amount = 2348.426085959702
 					maxAmount = 3960
 					flowState = True
 					isTweakable = True
@@ -140897,8 +141022,8 @@ GAME
 				attN = bottom, 168
 				mass = 4.5
 				shielded = False
-				temp = 154.74111910067424
-				tempExt = 154.80408612889778
+				temp = 251.29302719287554
+				tempExt = 250.9453268814909
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -140920,7 +141045,7 @@ GAME
 				RESOURCE
 				{
 					name = LiquidFuel
-					amount = 354.16323727202348
+					amount = 875.91216477957585
 					maxAmount = 3240
 					flowState = True
 					isTweakable = True
@@ -140931,7 +141056,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxidizer
-					amount = 432.86607368614051
+					amount = 1070.5592676858369
 					maxAmount = 3960
 					flowState = True
 					isTweakable = True
@@ -140964,8 +141089,8 @@ GAME
 				attN = bottom, 167
 				mass = 0.200000003
 				shielded = False
-				temp = 154.74566634443769
-				tempExt = 154.79153750668519
+				temp = 251.25941865481838
+				tempExt = 250.97491858815897
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -141009,8 +141134,8 @@ GAME
 				attN = bottom, 168
 				mass = 0.200000003
 				shielded = False
-				temp = 154.74589319795152
-				tempExt = 154.75492853167526
+				temp = 251.24750297606946
+				tempExt = 250.93113987471375
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -141094,8 +141219,8 @@ GAME
 				srfN = srfAttach, 167
 				mass = 0.0799999982
 				shielded = False
-				temp = 154.71676704040502
-				tempExt = 154.73543551924971
+				temp = 251.0693851921217
+				tempExt = 251.009231486825
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -141170,8 +141295,8 @@ GAME
 				srfN = srfAttach, 167
 				mass = 0.0799999982
 				shielded = False
-				temp = 154.71264891151353
-				tempExt = 154.73346014849966
+				temp = 251.07122405964819
+				tempExt = 250.81791707763233
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -141246,8 +141371,8 @@ GAME
 				srfN = srfAttach, 167
 				mass = 0.0799999982
 				shielded = False
-				temp = 154.71731614581546
-				tempExt = 154.73569891967239
+				temp = 251.22703127261306
+				tempExt = 250.89143432868886
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -141322,8 +141447,8 @@ GAME
 				srfN = srfAttach, 167
 				mass = 0.0799999982
 				shielded = False
-				temp = 154.7182988724264
-				tempExt = 154.73617032388498
+				temp = 251.07728097717677
+				tempExt = 250.81973945963043
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -141398,8 +141523,8 @@ GAME
 				srfN = srfAttach, 166
 				mass = 0.0799999982
 				shielded = False
-				temp = 154.72633803823993
-				tempExt = 154.78140146755777
+				temp = 251.05638441922801
+				tempExt = 250.75354389014564
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -141474,8 +141599,8 @@ GAME
 				srfN = srfAttach, 166
 				mass = 0.0799999982
 				shielded = False
-				temp = 154.71919169382991
-				tempExt = 154.77797343908691
+				temp = 251.06591889377046
+				tempExt = 250.75895714407849
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -141550,8 +141675,8 @@ GAME
 				srfN = srfAttach, 166
 				mass = 0.0799999982
 				shielded = False
-				temp = 154.72786923504074
-				tempExt = 154.78213596701281
+				temp = 251.18555889152356
+				tempExt = 250.81521699722848
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -141626,8 +141751,8 @@ GAME
 				srfN = srfAttach, 166
 				mass = 0.0799999982
 				shielded = False
-				temp = 154.7277386677483
-				tempExt = 154.78207333521752
+				temp = 251.0711655587649
+				tempExt = 250.76052542904026
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -141682,7 +141807,7 @@ GAME
 				Stage = True, 1123368937.89557
 				Gear = False, 0
 				Light = False, 0
-				RCS = False, 1123685032.47196
+				RCS = True, 1123666211.92619
 				SAS = True, 1123613265.71392
 				Brakes = False, 0
 				Abort = False, 0
@@ -141707,16 +141832,21 @@ GAME
 			}
 			FLIGHTPLAN
 			{
+				MANEUVER
+				{
+					UT = 1123666462.1344247
+					dV = 0,0,139.2223929509446
+				}
 			}
 			CTRLSTATE
 			{
 				pitch = -1
-				yaw = 0
-				roll = -0.428561389
+				yaw = 0.319330812
+				roll = -0.0254501924
 				trimPitch = 0
 				trimYaw = 0
 				trimRoll = 0
-				mainThrottle = 0
+				mainThrottle = 1
 			}
 			VESSELMODULES
 			{
@@ -144944,6 +145074,118 @@ GAME
 			trait = Engineer
 			brave = 0.803272009
 			dumb = 0.696973622
+			badS = False
+			veteran = False
+			tour = False
+			state = Assigned
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 0
+			idx = -1
+			extraXP = 0
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Nimei Kerman
+			gender = Male
+			type = Unowned
+			trait = Pilot
+			brave = 0.916972399
+			dumb = 0.0358450301
+			badS = False
+			veteran = False
+			tour = False
+			state = Assigned
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 0
+			idx = -1
+			extraXP = 0
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Shanen Kerman
+			gender = Male
+			type = Unowned
+			trait = Pilot
+			brave = 0.571763456
+			dumb = 0.9635216
+			badS = False
+			veteran = False
+			tour = False
+			state = Assigned
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 0
+			idx = -1
+			extraXP = 0
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Hangwen Kerman
+			gender = Male
+			type = Unowned
+			trait = Scientist
+			brave = 0.490348995
+			dumb = 0.399150223
+			badS = False
+			veteran = False
+			tour = False
+			state = Assigned
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 0
+			idx = -1
+			extraXP = 0
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Rang Kerman
+			gender = Female
+			type = Unowned
+			trait = Pilot
+			brave = 0.253571928
+			dumb = 0.0227736589
 			badS = False
 			veteran = False
 			tour = False
