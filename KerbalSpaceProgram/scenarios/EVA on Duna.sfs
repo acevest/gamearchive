@@ -1,4 +1,4 @@
-﻿GAME
+GAME
 {
 	version = 1.2.0
 	Title = #autoLOC_1200049
@@ -143,7 +143,7 @@
 				completed = 205.320000000032
 				crew
 				{
-					crews = 耶比迪亚·科曼
+					crews = #autoLOC_20803
 				}
 			}
 			RecordsAltitude
@@ -171,7 +171,7 @@
 				completed = 2462.03999999805
 				vessel
 				{
-					name = Untitled Space Craft
+					name = #autoLOC_900530
 					flag = Squad/Flags/default
 				}
 			}
@@ -188,7 +188,7 @@
 					}
 					crew
 					{
-						crews = 苏萨·科曼
+						crews = Susa Kerman
 					}
 				}
 				Escape
@@ -213,7 +213,7 @@
 					}
 					crew
 					{
-						crews = 耶比迪亚·科曼, 比尔·科曼, 鲍勃·科曼, 瓦伦蒂娜·科曼
+						crews = #autoLOC_20803, #autoLOC_20811, #autoLOC_20819, #autoLOC_20827
 					}
 				}
 				Escape
@@ -242,7 +242,7 @@
 					completed = 755350.10510279902
 					crew
 					{
-						crews = 耶比迪亚·科曼
+						crews = #autoLOC_20803
 					}
 				}
 				BaseConstruction
@@ -264,7 +264,7 @@
 					}
 					crew
 					{
-						crews = 耶比迪亚·科曼, 比尔·科曼, 鲍勃·科曼, 瓦伦蒂娜·科曼
+						crews = #autoLOC_20803, #autoLOC_20811, #autoLOC_20819, #autoLOC_20827
 					}
 				}
 			}
@@ -281,7 +281,7 @@
 					}
 					crew
 					{
-						crews = 苏萨·科曼
+						crews = Susa Kerman
 					}
 				}
 				Landing
@@ -294,7 +294,7 @@
 					}
 					crew
 					{
-						crews = 苏萨·科曼
+						crews = Susa Kerman
 					}
 				}
 				SurfaceEVA
@@ -302,7 +302,7 @@
 					completed = 10866641.714351499
 					crew
 					{
-						crews = 苏萨·科曼
+						crews = Susa Kerman
 					}
 				}
 				Flight
@@ -315,7 +315,7 @@
 					}
 					crew
 					{
-						crews = 苏萨·科曼
+						crews = Susa Kerman
 					}
 				}
 				Suborbit
@@ -328,7 +328,7 @@
 					}
 					crew
 					{
-						crews = 苏萨·科曼
+						crews = Susa Kerman
 					}
 				}
 				Flyby
@@ -621,7 +621,7 @@
 		VESSEL
 		{
 			pid = f3b52aa01bad4343bff8fb674889e0e6
-			name = Starbeam
+			name = #autoLOC_6002432		//Starbeam
 			type = Ship
 			sit = ORBITING
 			landed = False
@@ -708,43 +708,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						MakeReference
-						{
-							active = True
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Control From Here
-							guiName = Control From Here
-							category = Control From Here
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						RenameVessel
-						{
-							active = True
-							guiActive = True
-							guiActiveUncommand = True
-							guiIcon = Rename Vessel
-							guiName = Rename Vessel
-							category = Rename Vessel
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}						
 					ACTIONS
 					{
 					}
@@ -764,46 +728,9 @@
 					}
 					EVENTS
 					{
-						OnToggle
-						{
-							active = True
-							guiActive = True
-							guiActiveEditor = True
-							guiActiveUncommand = False
-							guiIcon = Toggle Torque
-							guiName = Toggle Torque
-							category = Toggle Torque
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}						
 					ACTIONS
-					{
-						Activate
-						{
-							actionGroup = None
-						}
-						Deactivate
-						{
-							actionGroup = None
-						}
-						Toggle
-						{
-							actionGroup = None
-						}
+					{						
 					}
 				}
 				MODULE
@@ -816,113 +743,9 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						DeployExperiment
-						{
-							active = True
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Deploy
-							guiName = Crew Report
-							category = Deploy
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						CollectDataExternalEvent
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = 
-							guiName = Take Data
-							category = 
-							guiActiveUnfocused = True
-							unfocusedRange = 1.5
-							externalToEVAOnly = True
-						}
-						ReviewDataEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Review Data
-							guiName = Review Report
-							category = Review Data
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperiment
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Reset
-							guiName = Discard Crew Report
-							category = Reset
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						DeployExperimentExternal
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Deploy
-							guiName = Crew Report
-							category = Deploy
-							guiActiveUnfocused = True
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Reset
-							guiName = Discard Crew Report
-							category = Reset
-							guiActiveUnfocused = True
-							unfocusedRange = 1.5
-							externalToEVAOnly = True
-						}
-						CleanUpExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Restore
-							guiName = Restore
-							category = Restore
-							guiActiveUnfocused = True
-							unfocusedRange = 1.5
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Experiment: Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}						
 					ACTIONS
-					{
-						DeployAction
-						{
-							actionGroup = None
-						}
-						ResetAction
-						{
-							actionGroup = None
-						}
+					{						
 					}
 				}
 				MODULE
@@ -932,55 +755,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						StoreDataExternalEvent
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = 
-							guiName = Store Experiments (0)
-							category = 
-							guiActiveUnfocused = True
-							unfocusedRange = 1.3
-							externalToEVAOnly = True
-						}
-						CollectDataExternalEvent
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = 
-							guiName = Take Data (0)
-							category = 
-							guiActiveUnfocused = True
-							unfocusedRange = 1.3
-							externalToEVAOnly = True
-						}
-						ReviewDataEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Review Data
-							guiName = Review Stored Data (0)
-							category = Review Data
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}						
 					ACTIONS
 					{
 					}
@@ -993,32 +768,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleFlag
-						{
-							active = True
-							guiActive = False
-							guiActiveEditor = True
-							guiActiveUncommand = False
-							guiIcon = Toggle Flag
-							guiName = Toggle Flag
-							category = Toggle Flag
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}						
 					ACTIONS
 					{
 					}
@@ -1030,19 +780,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -1054,19 +792,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -1094,31 +820,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						SpawnDialog
-						{
-							active = True
-							guiActive = True
-							guiActiveUncommand = True
-							guiIcon = Transfer Crew
-							guiName = Transfer Crew
-							category = Transfer Crew
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}						
 					ACTIONS
 					{
 					}
@@ -1214,77 +916,9 @@
 					}
 					EVENTS
 					{
-						Deploy
-						{
-							active = True
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Deploy Chute
-							guiName = Deploy Chute
-							category = Deploy Chute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						CutParachute
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Cut Parachute
-							guiName = Cut Parachute
-							category = Cut Parachute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Repack
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Repack Chute
-							guiName = Repack Chute
-							category = Repack Chute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Disarm
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Disarm
-							guiName = Disarm
-							category = Disarm
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}						
 					ACTIONS
-					{
-						DeployAction
-						{
-							actionGroup = None
-						}
-						CutAction
-						{
-							actionGroup = None
-						}
+					{						
 					}
 				}
 				MODULE
@@ -1294,31 +928,8 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						RunTestEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Run Test
-							guiName = Run Test
-							category = Run Test
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 					}
@@ -1330,19 +941,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -1354,19 +953,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -1432,38 +1019,11 @@
 					}
 					EVENTS
 					{
-						Decouple
-						{
-							active = True
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Decouple
-							guiName = Decouple
-							category = Decouple
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveEditor = True
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Decoupler: Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						DecoupleAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -1474,46 +1034,11 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleEvent
-						{
-							active = True
-							guiActive = True
-							guiActiveEditor = True
-							guiActiveUncommand = False
-							guiIcon = Disable Crossfeed
-							guiName = Enable Crossfeed
-							category = Disable Crossfeed
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
-						EnableAction
-						{
-							actionGroup = None
-						}
-						DisableAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -1523,31 +1048,8 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						RunTestEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Run Test
-							guiName = Run Test
-							category = Run Test
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 					}
@@ -1680,38 +1182,11 @@
 					}
 					EVENTS
 					{
-						Decouple
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Decouple
-							guiName = Decouple
-							category = Decouple
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveEditor = True
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Decoupler: Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						DecoupleAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -1722,46 +1197,11 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleEvent
-						{
-							active = True
-							guiActive = True
-							guiActiveEditor = True
-							guiActiveUncommand = False
-							guiIcon = Disable Crossfeed
-							guiName = Enable Crossfeed
-							category = Disable Crossfeed
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
-						EnableAction
-						{
-							actionGroup = None
-						}
-						DisableAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -1771,31 +1211,8 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						RunTestEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Run Test
-							guiName = Run Test
-							category = Run Test
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 					}
@@ -1935,57 +1352,11 @@
 					}
 					EVENTS
 					{
-						Activate
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Activate Engine
-							guiName = Activate Engine
-							category = Activate Engine
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Shutdown
-						{
-							active = True
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Shutdown Engine
-							guiName = Shutdown Engine
-							category = Shutdown Engine
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						OnAction
-						{
-							actionGroup = None
-						}
-						ShutdownAction
-						{
-							actionGroup = None
-						}
-						ActivateAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -2012,33 +1383,10 @@
 					}
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
-						LockAction
-						{
-							actionGroup = None
-						}
-						FreeAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -2048,19 +1396,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2078,37 +1414,11 @@
 					}
 					EVENTS
 					{
-						Jettison
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Jettison
-							guiName = Jettison
-							category = Jettison
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Shroud: Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						JettisonAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -2118,31 +1428,8 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						RunTestEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Run Test
-							guiName = Run Test
-							category = Run Test
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 					}
@@ -2154,19 +1441,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2226,19 +1501,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2250,19 +1513,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2337,77 +1588,11 @@
 					}
 					EVENTS
 					{
-						Deploy
-						{
-							active = True
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Deploy Chute
-							guiName = Deploy Chute
-							category = Deploy Chute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						CutParachute
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Cut Parachute
-							guiName = Cut Parachute
-							category = Cut Parachute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Repack
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Repack Chute
-							guiName = Repack Chute
-							category = Repack Chute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Disarm
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Disarm
-							guiName = Disarm
-							category = Disarm
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						DeployAction
-						{
-							actionGroup = None
-						}
-						CutAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -2417,31 +1602,8 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						RunTestEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Run Test
-							guiName = Run Test
-							category = Run Test
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 					}
@@ -2453,19 +1615,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2477,19 +1627,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2629,57 +1767,11 @@
 					}
 					EVENTS
 					{
-						Activate
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Activate Engine
-							guiName = Activate Engine
-							category = Activate Engine
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Shutdown
-						{
-							active = True
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Shutdown Engine
-							guiName = Shutdown Engine
-							category = Shutdown Engine
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						OnAction
-						{
-							actionGroup = None
-						}
-						ShutdownAction
-						{
-							actionGroup = None
-						}
-						ActivateAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -2706,33 +1798,10 @@
 					}
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
-						LockAction
-						{
-							actionGroup = None
-						}
-						FreeAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -2742,19 +1811,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2772,37 +1829,11 @@
 					}
 					EVENTS
 					{
-						Jettison
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Jettison
-							guiName = Jettison
-							category = Jettison
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Shroud: Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						JettisonAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -2812,31 +1843,8 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						RunTestEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Run Test
-							guiName = Run Test
-							category = Run Test
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 					}
@@ -2848,19 +1856,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2920,19 +1916,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2944,19 +1928,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -3031,77 +2003,11 @@
 					}
 					EVENTS
 					{
-						Deploy
-						{
-							active = True
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Deploy Chute
-							guiName = Deploy Chute
-							category = Deploy Chute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						CutParachute
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Cut Parachute
-							guiName = Cut Parachute
-							category = Cut Parachute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Repack
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Repack Chute
-							guiName = Repack Chute
-							category = Repack Chute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Disarm
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Disarm
-							guiName = Disarm
-							category = Disarm
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						DeployAction
-						{
-							actionGroup = None
-						}
-						CutAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -3111,31 +2017,8 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						RunTestEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Run Test
-							guiName = Run Test
-							category = Run Test
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 					}
@@ -3147,19 +2030,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -3171,19 +2042,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -3243,19 +2102,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -3267,19 +2114,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -3339,19 +2174,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -3363,19 +2186,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -3435,19 +2246,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -3459,19 +2258,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -3531,19 +2318,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -3555,19 +2330,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -3638,51 +2401,11 @@
 					}
 					EVENTS
 					{
-						Disable
-						{
-							active = True
-							guiActive = True
-							guiActiveEditor = True
-							guiActiveUncommand = False
-							guiIcon = Disable RCS Port
-							guiName = Disable RCS Port
-							category = Disable RCS Port
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Enable
-						{
-							active = False
-							guiActive = True
-							guiActiveEditor = True
-							guiActiveUncommand = False
-							guiIcon = Enable RCS Port
-							guiName = Enable RCS Port
-							category = Enable RCS Port
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = RCS: Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 			}
@@ -3751,51 +2474,11 @@
 					}
 					EVENTS
 					{
-						Disable
-						{
-							active = True
-							guiActive = True
-							guiActiveEditor = True
-							guiActiveUncommand = False
-							guiIcon = Disable RCS Port
-							guiName = Disable RCS Port
-							category = Disable RCS Port
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Enable
-						{
-							active = False
-							guiActive = True
-							guiActiveEditor = True
-							guiActiveUncommand = False
-							guiIcon = Enable RCS Port
-							guiName = Enable RCS Port
-							category = Enable RCS Port
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = RCS: Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 			}
@@ -3854,62 +2537,11 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						Extend
-						{
-							active = False
-							guiActive = True
-							guiActiveEditor = True
-							guiActiveUncommand = False
-							guiIcon = Extend Panels
-							guiName = Extend Panels
-							category = Extend Panels
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Retract
-						{
-							active = False
-							guiActive = True
-							guiActiveEditor = True
-							guiActiveUncommand = False
-							guiIcon = Retract Panels
-							guiName = Retract Panels
-							category = Retract Panels
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						ExtendPanelsAction
-						{
-							actionGroup = None
-							active = False
-						}
-						ExtendAction
-						{
-							actionGroup = None
-							active = False
-						}
-						RetractAction
-						{
-							actionGroup = None
-							active = False
-						}
+						
 					}
 				}
 			}
@@ -3969,7 +2601,7 @@
 		VESSEL
 		{
 			pid = b6d43d086f9042b9aac14ab891ecaed2
-			name = Starbeam Debris
+			name = #autoLOC_6002433		//Starbeam Debris
 			type = Debris
 			sit = ORBITING
 			landed = False
@@ -4064,38 +2696,11 @@
 					}
 					EVENTS
 					{
-						Decouple
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Decouple
-							guiName = Decouple
-							category = Decouple
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveEditor = True
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Decoupler: Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						DecoupleAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -4106,46 +2711,11 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleEvent
-						{
-							active = True
-							guiActive = True
-							guiActiveEditor = True
-							guiActiveUncommand = False
-							guiIcon = Disable Crossfeed
-							guiName = Enable Crossfeed
-							category = Disable Crossfeed
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
-						EnableAction
-						{
-							actionGroup = None
-						}
-						DisableAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -4155,31 +2725,8 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						RunTestEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Run Test
-							guiName = Run Test
-							category = Run Test
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 					}
@@ -4389,77 +2936,11 @@
 					}
 					EVENTS
 					{
-						Deploy
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Deploy Chute
-							guiName = Deploy Chute
-							category = Deploy Chute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						CutParachute
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Cut Parachute
-							guiName = Cut Parachute
-							category = Cut Parachute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Repack
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Repack Chute
-							guiName = Repack Chute
-							category = Repack Chute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Disarm
-						{
-							active = True
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Disarm
-							guiName = Disarm
-							category = Disarm
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						DeployAction
-						{
-							actionGroup = None
-						}
-						CutAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -4469,31 +2950,8 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						RunTestEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Run Test
-							guiName = Run Test
-							category = Run Test
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 					}
@@ -4505,19 +2963,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -4529,19 +2975,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -4613,57 +3047,11 @@
 					}
 					EVENTS
 					{
-						Activate
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Activate Engine
-							guiName = Activate Engine
-							category = Activate Engine
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Shutdown
-						{
-							active = True
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Shutdown Engine
-							guiName = Shutdown Engine
-							category = Shutdown Engine
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						OnAction
-						{
-							actionGroup = None
-						}
-						ShutdownAction
-						{
-							actionGroup = None
-						}
-						ActivateAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -4687,33 +3075,10 @@
 					}
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
-						LockAction
-						{
-							actionGroup = None
-						}
-						FreeAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -4723,19 +3088,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -4753,37 +3106,11 @@
 					}
 					EVENTS
 					{
-						Jettison
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Jettison
-							guiName = Jettison
-							category = Jettison
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						JettisonAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -4793,31 +3120,8 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						RunTestEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Run Test
-							guiName = Run Test
-							category = Run Test
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 					}
@@ -4829,19 +3133,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -4901,19 +3193,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -4925,19 +3205,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -5080,77 +3348,11 @@
 					}
 					EVENTS
 					{
-						Deploy
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Deploy Chute
-							guiName = Deploy Chute
-							category = Deploy Chute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						CutParachute
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Cut Parachute
-							guiName = Cut Parachute
-							category = Cut Parachute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Repack
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Repack Chute
-							guiName = Repack Chute
-							category = Repack Chute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Disarm
-						{
-							active = True
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Disarm
-							guiName = Disarm
-							category = Disarm
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						DeployAction
-						{
-							actionGroup = None
-						}
-						CutAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -5160,31 +3362,8 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						RunTestEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Run Test
-							guiName = Run Test
-							category = Run Test
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 					}
@@ -5196,19 +3375,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -5220,19 +3387,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -5304,57 +3459,11 @@
 					}
 					EVENTS
 					{
-						Activate
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Activate Engine
-							guiName = Activate Engine
-							category = Activate Engine
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Shutdown
-						{
-							active = True
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Shutdown Engine
-							guiName = Shutdown Engine
-							category = Shutdown Engine
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						OnAction
-						{
-							actionGroup = None
-						}
-						ShutdownAction
-						{
-							actionGroup = None
-						}
-						ActivateAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -5378,33 +3487,10 @@
 					}
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
-						LockAction
-						{
-							actionGroup = None
-						}
-						FreeAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -5414,19 +3500,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -5444,37 +3518,11 @@
 					}
 					EVENTS
 					{
-						Jettison
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Jettison
-							guiName = Jettison
-							category = Jettison
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						JettisonAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -5484,31 +3532,8 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						RunTestEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Run Test
-							guiName = Run Test
-							category = Run Test
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 					}
@@ -5520,19 +3545,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -5592,19 +3605,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -5616,19 +3617,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -5699,57 +3688,11 @@
 					}
 					EVENTS
 					{
-						Activate
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Activate Engine
-							guiName = Activate Engine
-							category = Activate Engine
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Shutdown
-						{
-							active = True
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Shutdown Engine
-							guiName = Shutdown Engine
-							category = Shutdown Engine
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						OnAction
-						{
-							actionGroup = None
-						}
-						ShutdownAction
-						{
-							actionGroup = None
-						}
-						ActivateAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -5773,33 +3716,10 @@
 					}
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
-						LockAction
-						{
-							actionGroup = None
-						}
-						FreeAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -5809,19 +3729,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -5839,37 +3747,11 @@
 					}
 					EVENTS
 					{
-						Jettison
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Jettison
-							guiName = Jettison
-							category = Jettison
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						JettisonAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -5879,31 +3761,8 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						RunTestEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Run Test
-							guiName = Run Test
-							category = Run Test
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 					}
@@ -5915,19 +3774,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -5987,19 +3834,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -6011,19 +3846,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -6083,19 +3906,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -6107,19 +3918,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -6176,7 +3975,7 @@
 		VESSEL
 		{
 			pid = cbe293e451c04b619317d94ad2c01204
-			name = Starbeam Debris
+			name = #autoLOC_6002433		//Starbeam Debris
 			type = Debris
 			sit = ORBITING
 			landed = False
@@ -6269,38 +4068,11 @@
 					}
 					EVENTS
 					{
-						Decouple
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Decouple
-							guiName = Decouple
-							category = Decouple
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveEditor = True
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Decoupler: Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						DecoupleAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -6311,46 +4083,11 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleEvent
-						{
-							active = True
-							guiActive = True
-							guiActiveEditor = True
-							guiActiveUncommand = False
-							guiIcon = Disable Crossfeed
-							guiName = Enable Crossfeed
-							category = Disable Crossfeed
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
-						EnableAction
-						{
-							actionGroup = None
-						}
-						DisableAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -6360,31 +4097,8 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						RunTestEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Run Test
-							guiName = Run Test
-							category = Run Test
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 					}
@@ -6510,19 +4224,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -6534,19 +4236,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -6620,77 +4310,11 @@
 					}
 					EVENTS
 					{
-						Deploy
-						{
-							active = True
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Deploy Chute
-							guiName = Deploy Chute
-							category = Deploy Chute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						CutParachute
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Cut Parachute
-							guiName = Cut Parachute
-							category = Cut Parachute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Repack
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Repack Chute
-							guiName = Repack Chute
-							category = Repack Chute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Disarm
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Disarm
-							guiName = Disarm
-							category = Disarm
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						DeployAction
-						{
-							actionGroup = None
-						}
-						CutAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -6700,31 +4324,8 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						RunTestEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Run Test
-							guiName = Run Test
-							category = Run Test
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 					}
@@ -6736,19 +4337,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -6760,19 +4349,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -6846,77 +4423,11 @@
 					}
 					EVENTS
 					{
-						Deploy
-						{
-							active = True
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Deploy Chute
-							guiName = Deploy Chute
-							category = Deploy Chute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						CutParachute
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Cut Parachute
-							guiName = Cut Parachute
-							category = Cut Parachute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Repack
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Repack Chute
-							guiName = Repack Chute
-							category = Repack Chute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Disarm
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Disarm
-							guiName = Disarm
-							category = Disarm
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						DeployAction
-						{
-							actionGroup = None
-						}
-						CutAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -6926,31 +4437,8 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						RunTestEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Run Test
-							guiName = Run Test
-							category = Run Test
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 					}
@@ -6962,19 +4450,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -6986,19 +4462,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -7055,7 +4519,7 @@
 		VESSEL
 		{
 			pid = 7dcf490d711e42c6b3ddc1f74d826696
-			name = Starbeam Debris
+			name = #autoLOC_6002433		//Starbeam Debris
 			type = Debris
 			sit = ORBITING
 			landed = False
@@ -7148,38 +4612,11 @@
 					}
 					EVENTS
 					{
-						Decouple
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Decouple
-							guiName = Decouple
-							category = Decouple
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveEditor = True
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Decoupler: Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						DecoupleAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -7190,46 +4627,11 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleEvent
-						{
-							active = True
-							guiActive = True
-							guiActiveEditor = True
-							guiActiveUncommand = False
-							guiIcon = Disable Crossfeed
-							guiName = Enable Crossfeed
-							category = Disable Crossfeed
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
-						EnableAction
-						{
-							actionGroup = None
-						}
-						DisableAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -7239,31 +4641,8 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						RunTestEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Run Test
-							guiName = Run Test
-							category = Run Test
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 					}
@@ -7389,19 +4768,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -7413,19 +4780,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -7499,77 +4854,11 @@
 					}
 					EVENTS
 					{
-						Deploy
-						{
-							active = True
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Deploy Chute
-							guiName = Deploy Chute
-							category = Deploy Chute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						CutParachute
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Cut Parachute
-							guiName = Cut Parachute
-							category = Cut Parachute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Repack
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Repack Chute
-							guiName = Repack Chute
-							category = Repack Chute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Disarm
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Disarm
-							guiName = Disarm
-							category = Disarm
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						DeployAction
-						{
-							actionGroup = None
-						}
-						CutAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -7579,31 +4868,8 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						RunTestEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Run Test
-							guiName = Run Test
-							category = Run Test
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 					}
@@ -7615,19 +4881,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -7639,19 +4893,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -7725,77 +4967,11 @@
 					}
 					EVENTS
 					{
-						Deploy
-						{
-							active = True
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Deploy Chute
-							guiName = Deploy Chute
-							category = Deploy Chute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						CutParachute
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Cut Parachute
-							guiName = Cut Parachute
-							category = Cut Parachute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Repack
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Repack Chute
-							guiName = Repack Chute
-							category = Repack Chute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Disarm
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Disarm
-							guiName = Disarm
-							category = Disarm
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						DeployAction
-						{
-							actionGroup = None
-						}
-						CutAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -7805,31 +4981,8 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						RunTestEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Run Test
-							guiName = Run Test
-							category = Run Test
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 					}
@@ -7841,19 +4994,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -7865,19 +5006,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -7934,7 +5063,7 @@
 		VESSEL
 		{
 			pid = c5aa17b0bfa74af898f107e40f1dcb93
-			name = Starbeam Debris
+			name = #autoLOC_6002433		//Starbeam Debris
 			type = Debris
 			sit = ORBITING
 			landed = False
@@ -8027,38 +5156,10 @@
 					}
 					EVENTS
 					{
-						Decouple
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Decouple
-							guiName = Decouple
-							category = Decouple
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveEditor = True
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Decoupler: Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
-						DecoupleAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -8069,46 +5170,11 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleEvent
-						{
-							active = True
-							guiActive = True
-							guiActiveEditor = True
-							guiActiveUncommand = False
-							guiIcon = Disable Crossfeed
-							guiName = Enable Crossfeed
-							category = Disable Crossfeed
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
-						EnableAction
-						{
-							actionGroup = None
-						}
-						DisableAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -8118,31 +5184,8 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						RunTestEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Run Test
-							guiName = Run Test
-							category = Run Test
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 					}
@@ -8268,19 +5311,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -8292,19 +5323,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -8378,77 +5397,11 @@
 					}
 					EVENTS
 					{
-						Deploy
-						{
-							active = True
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Deploy Chute
-							guiName = Deploy Chute
-							category = Deploy Chute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						CutParachute
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Cut Parachute
-							guiName = Cut Parachute
-							category = Cut Parachute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Repack
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Repack Chute
-							guiName = Repack Chute
-							category = Repack Chute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Disarm
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Disarm
-							guiName = Disarm
-							category = Disarm
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						DeployAction
-						{
-							actionGroup = None
-						}
-						CutAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -8458,31 +5411,8 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						RunTestEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Run Test
-							guiName = Run Test
-							category = Run Test
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+
 					ACTIONS
 					{
 					}
@@ -8494,19 +5424,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -8518,19 +5436,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -8604,77 +5510,11 @@
 					}
 					EVENTS
 					{
-						Deploy
-						{
-							active = True
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Deploy Chute
-							guiName = Deploy Chute
-							category = Deploy Chute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						CutParachute
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Cut Parachute
-							guiName = Cut Parachute
-							category = Cut Parachute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Repack
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Repack Chute
-							guiName = Repack Chute
-							category = Repack Chute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Disarm
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Disarm
-							guiName = Disarm
-							category = Disarm
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						DeployAction
-						{
-							actionGroup = None
-						}
-						CutAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -8684,31 +5524,8 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						RunTestEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Run Test
-							guiName = Run Test
-							category = Run Test
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 					}
@@ -8720,19 +5537,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -8744,19 +5549,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -8813,7 +5606,7 @@
 		VESSEL
 		{
 			pid = 7b38aa0c0ca844b0b8b2f933f87eed0d
-			name = Starbeam Debris
+			name = #autoLOC_6002433		//Starbeam Debris
 			type = Debris
 			sit = ORBITING
 			landed = False
@@ -8906,38 +5699,11 @@
 					}
 					EVENTS
 					{
-						Decouple
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Decouple
-							guiName = Decouple
-							category = Decouple
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveEditor = True
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Decoupler: Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						DecoupleAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -8948,46 +5714,11 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleEvent
-						{
-							active = True
-							guiActive = True
-							guiActiveEditor = True
-							guiActiveUncommand = False
-							guiIcon = Disable Crossfeed
-							guiName = Enable Crossfeed
-							category = Disable Crossfeed
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
-						EnableAction
-						{
-							actionGroup = None
-						}
-						DisableAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -8997,31 +5728,8 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						RunTestEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Run Test
-							guiName = Run Test
-							category = Run Test
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 					}
@@ -9147,19 +5855,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -9171,19 +5867,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -9257,77 +5941,11 @@
 					}
 					EVENTS
 					{
-						Deploy
-						{
-							active = True
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Deploy Chute
-							guiName = Deploy Chute
-							category = Deploy Chute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						CutParachute
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Cut Parachute
-							guiName = Cut Parachute
-							category = Cut Parachute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Repack
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Repack Chute
-							guiName = Repack Chute
-							category = Repack Chute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Disarm
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Disarm
-							guiName = Disarm
-							category = Disarm
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						DeployAction
-						{
-							actionGroup = None
-						}
-						CutAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -9337,31 +5955,8 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						RunTestEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Run Test
-							guiName = Run Test
-							category = Run Test
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 					}
@@ -9373,19 +5968,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -9397,19 +5980,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -9483,77 +6054,11 @@
 					}
 					EVENTS
 					{
-						Deploy
-						{
-							active = True
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Deploy Chute
-							guiName = Deploy Chute
-							category = Deploy Chute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						CutParachute
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Cut Parachute
-							guiName = Cut Parachute
-							category = Cut Parachute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Repack
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Repack Chute
-							guiName = Repack Chute
-							category = Repack Chute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Disarm
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Disarm
-							guiName = Disarm
-							category = Disarm
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						DeployAction
-						{
-							actionGroup = None
-						}
-						CutAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -9563,31 +6068,8 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						RunTestEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Run Test
-							guiName = Run Test
-							category = Run Test
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 					}
@@ -9599,19 +6081,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -9623,19 +6093,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -10250,7 +6708,7 @@
 		VESSEL
 		{
 			pid = 535a7e74a9a4412489c59141214f8404
-			name = Starbeam Lander
+			name = #autoLOC_6002434		//Starbeam Lander
 			type = Lander
 			sit = LANDED
 			landed = True
@@ -10338,14 +6796,10 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
-						HibernateToggle
-						{
-							actionGroup = None
-							active = False
-						}
+						
 					}
 					UPGRADESAPPLIED
 					{
@@ -10362,25 +6816,10 @@
 					WheelState = Active
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
-						CycleAction
-						{
-							actionGroup = None
-						}
-						Activate
-						{
-							actionGroup = None
-						}
-						Deactivate
-						{
-							actionGroup = None
-						}
-						Toggle
-						{
-							actionGroup = None
-						}
+						
 					}
 					UPGRADESAPPLIED
 					{
@@ -10394,13 +6833,10 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
+						
 					}
 					UPGRADESAPPLIED
 					{
@@ -10416,17 +6852,10 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
-						DeployAction
-						{
-							actionGroup = None
-						}
-						ResetAction
-						{
-							actionGroup = None
-						}
+						
 					}
 					UPGRADESAPPLIED
 					{
@@ -10439,13 +6868,10 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
-						CollectAllAction
-						{
-							actionGroup = None
-						}
+						
 					}
 					UPGRADESAPPLIED
 					{
@@ -10459,7 +6885,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -10474,7 +6900,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -10490,7 +6916,7 @@
 					canComm = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						StartTransmissionAction
@@ -10510,7 +6936,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -10525,7 +6951,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -10631,21 +7057,10 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
-						OnAction
-						{
-							actionGroup = None
-						}
-						ShutdownAction
-						{
-							actionGroup = None
-						}
-						ActivateAction
-						{
-							actionGroup = None
-						}
+						
 					}
 					UPGRADESAPPLIED
 					{
@@ -10665,33 +7080,10 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
-						LockAction
-						{
-							actionGroup = None
-						}
-						FreeAction
-						{
-							actionGroup = None
-						}
-						TogglePitchAction
-						{
-							actionGroup = None
-						}
-						ToggleYawAction
-						{
-							actionGroup = None
-						}
-						ToggleRollAction
-						{
-							actionGroup = None
-						}
+						
 					}
 					UPGRADESAPPLIED
 					{
@@ -10705,7 +7097,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -10722,13 +7114,10 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
-						JettisonAction
-						{
-							actionGroup = None
-						}
+						
 					}
 					UPGRADESAPPLIED
 					{
@@ -10741,7 +7130,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -10756,7 +7145,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -10889,17 +7278,10 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
-						DeployAction
-						{
-							actionGroup = None
-						}
-						CutAction
-						{
-							actionGroup = None
-						}
+						
 					}
 					UPGRADESAPPLIED
 					{
@@ -10912,7 +7294,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -10927,7 +7309,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -10942,7 +7324,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -11007,17 +7389,10 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
-						DeployAction
-						{
-							actionGroup = None
-						}
-						CutAction
-						{
-							actionGroup = None
-						}
+						
 					}
 					UPGRADESAPPLIED
 					{
@@ -11030,7 +7405,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -11045,7 +7420,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -11060,7 +7435,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -11123,7 +7498,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -11138,7 +7513,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -11201,7 +7576,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -11216,7 +7591,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -11279,13 +7654,10 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
-						ActAutoFrictionToggle
-						{
-							actionGroup = None
-						}
+						
 					}
 					UPGRADESAPPLIED
 					{
@@ -11302,7 +7674,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -11320,13 +7692,10 @@
 					position = 1
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
-						ActionToggle
-						{
-							actionGroup = Gear
-						}
+						
 					}
 					UPGRADESAPPLIED
 					{
@@ -11339,7 +7708,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -11355,7 +7724,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -11418,13 +7787,10 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
-						ActAutoFrictionToggle
-						{
-							actionGroup = None
-						}
+						
 					}
 					UPGRADESAPPLIED
 					{
@@ -11441,7 +7807,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -11459,13 +7825,10 @@
 					position = 1
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
-						ActionToggle
-						{
-							actionGroup = Gear
-						}
+						
 					}
 					UPGRADESAPPLIED
 					{
@@ -11478,7 +7841,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -11494,7 +7857,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -11627,17 +7990,10 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
-						DeployAction
-						{
-							actionGroup = None
-						}
-						CutAction
-						{
-							actionGroup = None
-						}
+						
 					}
 					UPGRADESAPPLIED
 					{
@@ -11650,7 +8006,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -11665,7 +8021,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -11680,7 +8036,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -11745,17 +8101,10 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
-						DeployAction
-						{
-							actionGroup = None
-						}
-						CutAction
-						{
-							actionGroup = None
-						}
+						
 					}
 					UPGRADESAPPLIED
 					{
@@ -11768,7 +8117,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -11783,7 +8132,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -11798,7 +8147,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -11861,7 +8210,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -11876,7 +8225,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -11939,7 +8288,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -11954,7 +8303,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -12017,13 +8366,10 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
-						ActAutoFrictionToggle
-						{
-							actionGroup = None
-						}
+						
 					}
 					UPGRADESAPPLIED
 					{
@@ -12040,7 +8386,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -12058,13 +8404,10 @@
 					position = 1
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
-						ActionToggle
-						{
-							actionGroup = Gear
-						}
+						
 					}
 					UPGRADESAPPLIED
 					{
@@ -12077,7 +8420,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -12093,7 +8436,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -12156,13 +8499,10 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
-						ActAutoFrictionToggle
-						{
-							actionGroup = None
-						}
+						
 					}
 					UPGRADESAPPLIED
 					{
@@ -12179,7 +8519,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -12197,13 +8537,10 @@
 					position = 1
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
-						ActionToggle
-						{
-							actionGroup = Gear
-						}
+						
 					}
 					UPGRADESAPPLIED
 					{
@@ -12216,7 +8553,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -12232,7 +8569,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -12291,21 +8628,10 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
-						ExtendAction
-						{
-							actionGroup = None
-						}
-						RetractAction
-						{
-							actionGroup = None
-						}
+						
 					}
 					UPGRADESAPPLIED
 					{
@@ -12368,7 +8694,7 @@
 		VESSEL
 		{
 			pid = 69daf0f1a4ac43d28f1318ef90505128
-			name = Susa Kerman
+			name = #autoLOC_1200050 	//Susa Kerman
 			type = EVA
 			sit = LANDED
 			landed = True
@@ -12436,7 +8762,7 @@
 				flag = Squad/Flags/default
 				rTrf = referenceTransform
 				modCost = 0
-				crew = 苏萨·科曼
+				crew = Susa Kerman
 				EVENTS
 				{
 				}
@@ -12458,7 +8784,7 @@
 					state = Idle (Grounded)
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -12482,19 +8808,10 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
-						DeployAction
-						{
-							actionGroup = None
-							active = False
-						}
-						ResetAction
-						{
-							actionGroup = None
-							active = False
-						}
+						
 					}
 					UPGRADESAPPLIED
 					{
@@ -12510,19 +8827,10 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
-						DeployAction
-						{
-							actionGroup = None
-							active = False
-						}
-						ResetAction
-						{
-							actionGroup = None
-							active = False
-						}
+						
 					}
 					UPGRADESAPPLIED
 					{
@@ -12535,13 +8843,10 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
-						CollectAllAction
-						{
-							actionGroup = None
-						}
+						
 					}
 					UPGRADESAPPLIED
 					{
@@ -12555,7 +8860,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -12570,7 +8875,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -12750,7 +9055,7 @@
 	{
 		KERBAL
 		{
-			name = 耶比迪亚·科曼
+			name = #autoLOC_20803
 			gender = Male
 			type = Crew
 			trait = Pilot
@@ -12821,7 +9126,7 @@
 		}
 		KERBAL
 		{
-			name = 比尔·科曼
+			name = #autoLOC_20811
 			gender = Male
 			type = Crew
 			trait = Engineer
@@ -12866,7 +9171,7 @@
 		}
 		KERBAL
 		{
-			name = 鲍勃·科曼
+			name = #autoLOC_20819
 			gender = Male
 			type = Crew
 			trait = Scientist
@@ -12914,7 +9219,7 @@
 		}
 		KERBAL
 		{
-			name = 瓦伦蒂娜·科曼
+			name = #autoLOC_20827
 			gender = Female
 			type = Crew
 			trait = Pilot
@@ -12955,7 +9260,7 @@
 		}
 		KERBAL
 		{
-			name = 穆恩福特·科曼
+			name = Munfurt Kerman
 			gender = Male
 			type = Crew
 			trait = Scientist
@@ -12993,7 +9298,7 @@
 		}
 		KERBAL
 		{
-			name = 佛伦纳·科曼
+			name = Pholenna Kerman
 			gender = Female
 			type = Crew
 			trait = Pilot
@@ -13034,7 +9339,7 @@
 		}
 		KERBAL
 		{
-			name = 帕图尔·科曼
+			name = Patul Kerman
 			gender = Male
 			type = Crew
 			trait = Pilot
@@ -13067,7 +9372,7 @@
 		}
 		KERBAL
 		{
-			name = 苏萨·科曼
+			name = Susa Kerman
 			gender = Female
 			type = Crew
 			trait = Engineer
@@ -13110,7 +9415,7 @@
 		}
 		KERBAL
 		{
-			name = 特奥多林·科曼
+			name = Tradolin Kerman
 			gender = Female
 			type = Crew
 			trait = Scientist
@@ -13148,7 +9453,7 @@
 		}
 		KERBAL
 		{
-			name = 帕特维斯·科曼
+			name = Patvis Kerman
 			gender = Male
 			type = Crew
 			trait = Scientist
@@ -13180,7 +9485,7 @@
 		}
 		KERBAL
 		{
-			name = 波德蒙德·科曼
+			name = Podmund Kerman
 			gender = Male
 			type = Crew
 			trait = Scientist
@@ -13211,7 +9516,7 @@
 		}
 		KERBAL
 		{
-			name = 格尼温·科曼
+			name = Genewin Kerman
 			gender = Male
 			type = Crew
 			trait = Engineer
@@ -13240,7 +9545,7 @@
 		}
 		KERBAL
 		{
-			name = 艾德明·科曼
+			name = Edming Kerman
 			gender = Male
 			type = Crew
 			trait = Pilot
@@ -13270,7 +9575,7 @@
 		}
 		KERBAL
 		{
-			name = 提比·科曼
+			name = Tiby Kerman
 			gender = Female
 			type = Crew
 			trait = Engineer
@@ -13298,7 +9603,7 @@
 		}
 		KERBAL
 		{
-			name = 杰尔达德·科曼
+			name = Jerdard Kerman
 			gender = Male
 			type = Crew
 			trait = Scientist
@@ -13326,7 +9631,7 @@
 		}
 		KERBAL
 		{
-			name = 戴斯利·科曼
+			name = Desely Kerman
 			gender = Male
 			type = Crew
 			trait = Engineer
@@ -13354,7 +9659,7 @@
 		}
 		KERBAL
 		{
-			name = 法比恩·科曼
+			name = Fabien Kerman
 			gender = Male
 			type = Crew
 			trait = Pilot
@@ -13382,7 +9687,7 @@
 		}
 		KERBAL
 		{
-			name = 沙尔瑟·科曼
+			name = Shelsel Kerman
 			gender = Male
 			type = Crew
 			trait = Scientist

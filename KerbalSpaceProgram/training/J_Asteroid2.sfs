@@ -1,4 +1,4 @@
-﻿GAME
+GAME
 {
 	version = 1.0.0
 	Title = #autoLOC_1100086
@@ -69,7 +69,7 @@
 		VESSEL
 		{
 			pid = b4ebe429829f4221a13bb0e503f885b9
-			name = Scitest
+			name = #autoLOC_6002471		//Scitest
 			type = Ship
 			sit = ORBITING
 			landed = False
@@ -133,7 +133,7 @@
 				flag = Squad/Flags/default
 				rTrf = cupola (Scitest)
 				modCost = 0
-				crew = 耶比迪亚·科曼
+				crew = #autoLOC_20803
 				EVENTS
 				{
 				}
@@ -149,29 +149,7 @@
 					isEnabled = True
 					controlSrcStatusText = Operational
 					EVENTS
-					{
-						MakeReference
-						{
-							active = True
-							guiActive = True
-							guiIcon = Control From Here
-							guiName = Control From Here
-							category = Control From Here
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						RenameVessel
-						{
-							active = True
-							guiActive = True
-							guiIcon = Rename Vessel
-							guiName = Rename Vessel
-							category = Rename Vessel
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
+					{ 					
 					}
 					ACTIONS
 					{
@@ -185,33 +163,9 @@
 					WheelState = Active
 					EVENTS
 					{
-						OnToggle
-						{
-							active = True
-							guiActive = True
-							guiActiveEditor = True
-							guiIcon = Toggle Torque
-							guiName = Toggle Torque
-							category = Toggle Torque
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
-					{
-						Activate
-						{
-							actionGroup = None
-						}
-						Deactivate
-						{
-							actionGroup = None
-						}
-						Toggle
-						{
-							actionGroup = None
-						}
+					{						
 					}
 				}
 				MODULE
@@ -222,72 +176,9 @@
 					Inoperable = False
 					EVENTS
 					{
-						DeployExperiment
-						{
-							active = True
-							guiActive = True
-							guiIcon = Deploy
-							guiName = Crew Report
-							category = Deploy
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						CollectDataExternalEvent
-						{
-							active = False
-							guiActive = False
-							guiIcon = 
-							guiName = Take Data
-							category = 
-							guiActiveUnfocused = True
-							unfocusedRange = 1.5
-							externalToEVAOnly = True
-						}
-						ReviewDataEvent
-						{
-							active = False
-							guiActive = True
-							guiIcon = Review Data
-							guiName = Review Report
-							category = Review Data
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperiment
-						{
-							active = False
-							guiActive = True
-							guiIcon = Reset
-							guiName = Discard Crew Report
-							category = Reset
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiIcon = Reset
-							guiName = Discard Crew Report
-							category = Reset
-							guiActiveUnfocused = True
-							unfocusedRange = 1.5
-							externalToEVAOnly = True
-						}
-					}
+ 					}									
 					ACTIONS
-					{
-						DeployAction
-						{
-							actionGroup = None
-						}
-						ResetAction
-						{
-							actionGroup = None
-						}
+					{						
 					}
 				}
 				MODULE
@@ -296,40 +187,7 @@
 					isEnabled = True
 					EVENTS
 					{
-						StoreDataExternalEvent
-						{
-							active = False
-							guiActive = False
-							guiIcon = 
-							guiName = Store Experiments (0)
-							category = 
-							guiActiveUnfocused = True
-							unfocusedRange = 1.6
-							externalToEVAOnly = True
-						}
-						CollectDataExternalEvent
-						{
-							active = False
-							guiActive = False
-							guiIcon = 
-							guiName = Take Data (0)
-							category = 
-							guiActiveUnfocused = True
-							unfocusedRange = 1.6
-							externalToEVAOnly = True
-						}
-						ReviewDataEvent
-						{
-							active = False
-							guiActive = True
-							guiIcon = Review Data
-							guiName = Review Stored Data (0)
-							category = Review Data
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}										
 					ACTIONS
 					{
 					}
@@ -341,19 +199,7 @@
 					flagDisplayed = True
 					EVENTS
 					{
-						ToggleFlag
-						{
-							active = True
-							guiActive = False
-							guiActiveEditor = True
-							guiIcon = ToggleFlag
-							guiName = ToggleFlag
-							category = ToggleFlag
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}					
 					ACTIONS
 					{
 					}
@@ -364,7 +210,7 @@
 					isEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -446,114 +292,24 @@
 					grappleOrt2 = 0,0,0
 					EVENTS
 					{
-						Release
-						{
-							active = False
-							guiActive = True
-							guiIcon = Release
-							guiName = Release
-							category = Release
-							guiActiveUnfocused = True
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ReleaseSameVessel
-						{
-							active = False
-							guiActive = True
-							guiIcon = Release
-							guiName = Release
-							category = Release
-							guiActiveUnfocused = True
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Decouple
-						{
-							active = False
-							guiActive = True
-							guiIcon = Decouple Node
-							guiName = Decouple Node
-							category = Decouple Node
-							guiActiveUnfocused = True
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						MakeReferenceTransform
-						{
-							active = True
-							guiActive = True
-							guiIcon = Control from Here
-							guiName = Control from Here
-							category = Control from Here
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						SetLoose
-						{
-							active = False
-							guiActive = True
-							guiIcon = Free Pivot
-							guiName = Free Pivot
-							category = Free Pivot
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						LockPivot
-						{
-							active = False
-							guiActive = True
-							guiIcon = Lock Pivot
-							guiName = Lock Pivot
-							category = Lock Pivot
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}										
 					ACTIONS
-					{
-						ReleaseAction
-						{
-							actionGroup = None
-						}
-						DecoupleAction
-						{
-							actionGroup = None
-						}
+					{						
 					}
 				}
 				MODULE
 				{
 					name = ModuleAnimateGeneric
 					isEnabled = True
-					status = Locked
+					status = #autoLOC_215362
 					animSwitch = True
 					animTime = 0
 					animSpeed = -1
 					EVENTS
 					{
-						Toggle
-						{
-							active = True
-							guiActive = True
-							guiActiveEditor = True
-							guiIcon = Toggle
-							guiName = Arm
-							category = Toggle
-							guiActiveUnfocused = True
-							unfocusedRange = 5
-							externalToEVAOnly = True
-						}
-					}
+ 					}					
 					ACTIONS
-					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
+					{						
 					}
 				}
 				MODULE
@@ -562,7 +318,7 @@
 					isEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -574,19 +330,7 @@
 					flagDisplayed = True
 					EVENTS
 					{
-						ToggleFlag
-						{
-							active = True
-							guiActive = False
-							guiActiveEditor = True
-							guiIcon = ToggleFlag
-							guiName = ToggleFlag
-							category = ToggleFlag
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}					
 					ACTIONS
 					{
 					}
@@ -802,43 +546,9 @@
 					storedAnimationSpeed = 0
 					EVENTS
 					{
-						Extend
-						{
-							active = False
-							guiActive = True
-							guiIcon = Extend Panels
-							guiName = Extend Panels
-							category = Extend Panels
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Retract
-						{
-							active = True
-							guiActive = True
-							guiIcon = Retract Panels
-							guiName = Retract Panels
-							category = Retract Panels
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-					}
+ 					}						
 					ACTIONS
-					{
-						ExtendPanelsAction
-						{
-							actionGroup = None
-						}
-						ExtendAction
-						{
-							actionGroup = None
-						}
-						RetractAction
-						{
-							actionGroup = None
-						}
+					{						
 					}
 				}
 			}
@@ -892,43 +602,9 @@
 					storedAnimationSpeed = 0
 					EVENTS
 					{
-						Extend
-						{
-							active = False
-							guiActive = True
-							guiIcon = Extend Panels
-							guiName = Extend Panels
-							category = Extend Panels
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Retract
-						{
-							active = True
-							guiActive = True
-							guiIcon = Retract Panels
-							guiName = Retract Panels
-							category = Retract Panels
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-					}
+ 					}		
 					ACTIONS
-					{
-						ExtendPanelsAction
-						{
-							actionGroup = None
-						}
-						ExtendAction
-						{
-							actionGroup = None
-						}
-						RetractAction
-						{
-							actionGroup = None
-						}
+					{						
 					}
 				}
 			}
@@ -982,43 +658,9 @@
 					storedAnimationSpeed = 0
 					EVENTS
 					{
-						Extend
-						{
-							active = False
-							guiActive = True
-							guiIcon = Extend Panels
-							guiName = Extend Panels
-							category = Extend Panels
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Retract
-						{
-							active = True
-							guiActive = True
-							guiIcon = Retract Panels
-							guiName = Retract Panels
-							category = Retract Panels
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-					}
+ 					}						
 					ACTIONS
-					{
-						ExtendPanelsAction
-						{
-							actionGroup = None
-						}
-						ExtendAction
-						{
-							actionGroup = None
-						}
-						RetractAction
-						{
-							actionGroup = None
-						}
+					{						
 					}
 				}
 			}
@@ -1072,43 +714,9 @@
 					storedAnimationSpeed = 0
 					EVENTS
 					{
-						Extend
-						{
-							active = False
-							guiActive = True
-							guiIcon = Extend Panels
-							guiName = Extend Panels
-							category = Extend Panels
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Retract
-						{
-							active = True
-							guiActive = True
-							guiIcon = Retract Panels
-							guiName = Retract Panels
-							category = Retract Panels
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-					}
+ 					}						
 					ACTIONS
-					{
-						ExtendPanelsAction
-						{
-							actionGroup = None
-						}
-						ExtendAction
-						{
-							actionGroup = None
-						}
-						RetractAction
-						{
-							actionGroup = None
-						}
+					{						
 					}
 				}
 			}
@@ -1159,33 +767,9 @@
 					WheelState = Active
 					EVENTS
 					{
-						OnToggle
-						{
-							active = True
-							guiActive = True
-							guiActiveEditor = True
-							guiIcon = Toggle Torque
-							guiName = Toggle Torque
-							category = Toggle Torque
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}					
 					ACTIONS
-					{
-						Activate
-						{
-							actionGroup = None
-						}
-						Deactivate
-						{
-							actionGroup = None
-						}
-						Toggle
-						{
-							actionGroup = None
-						}
+					{						
 					}
 				}
 			}
@@ -1236,35 +820,9 @@
 					rcsEnabled = True
 					EVENTS
 					{
-						Disable
-						{
-							active = True
-							guiActive = True
-							guiIcon = Disable RCS Port
-							guiName = Disable RCS Port
-							category = Disable RCS Port
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Enable
-						{
-							active = False
-							guiActive = True
-							guiIcon = Enable RCS Port
-							guiName = Enable RCS Port
-							category = Enable RCS Port
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}						
 					ACTIONS
-					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
+					{						
 					}
 				}
 			}
@@ -1315,35 +873,9 @@
 					rcsEnabled = True
 					EVENTS
 					{
-						Disable
-						{
-							active = True
-							guiActive = True
-							guiIcon = Disable RCS Port
-							guiName = Disable RCS Port
-							category = Disable RCS Port
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Enable
-						{
-							active = False
-							guiActive = True
-							guiIcon = Enable RCS Port
-							guiName = Enable RCS Port
-							category = Enable RCS Port
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}						
 					ACTIONS
-					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
+					{						
 					}
 				}
 			}
@@ -1394,35 +926,9 @@
 					rcsEnabled = True
 					EVENTS
 					{
-						Disable
-						{
-							active = True
-							guiActive = True
-							guiIcon = Disable RCS Port
-							guiName = Disable RCS Port
-							category = Disable RCS Port
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Enable
-						{
-							active = False
-							guiActive = True
-							guiIcon = Enable RCS Port
-							guiName = Enable RCS Port
-							category = Enable RCS Port
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
-					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
+					{						
 					}
 				}
 			}
@@ -1473,35 +979,9 @@
 					rcsEnabled = True
 					EVENTS
 					{
-						Disable
-						{
-							active = True
-							guiActive = True
-							guiIcon = Disable RCS Port
-							guiName = Disable RCS Port
-							category = Disable RCS Port
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Enable
-						{
-							active = False
-							guiActive = True
-							guiIcon = Enable RCS Port
-							guiName = Enable RCS Port
-							category = Enable RCS Port
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}						
 					ACTIONS
-					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
+					{						
 					}
 				}
 			}
@@ -1555,7 +1035,7 @@
 					isEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -1566,7 +1046,7 @@
 					isEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -1622,7 +1102,7 @@
 					isEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -1633,7 +1113,7 @@
 					isEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -1689,7 +1169,7 @@
 					isEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -1700,7 +1180,7 @@
 					isEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -1756,7 +1236,7 @@
 					isEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -1767,7 +1247,7 @@
 					isEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -1823,7 +1303,7 @@
 					isEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -1834,7 +1314,7 @@
 					isEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -1890,7 +1370,7 @@
 					isEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -1901,7 +1381,7 @@
 					isEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -1957,7 +1437,7 @@
 					isEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -1968,7 +1448,7 @@
 					isEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2024,7 +1504,7 @@
 					isEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2035,7 +1515,7 @@
 					isEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2209,43 +1689,9 @@
 					}
 					EVENTS
 					{
-						Activate
-						{
-							active = False
-							guiActive = True
-							guiIcon = Activate Engine
-							guiName = Activate Engine
-							category = Activate Engine
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Shutdown
-						{
-							active = True
-							guiActive = True
-							guiIcon = Shutdown Engine
-							guiName = Shutdown Engine
-							category = Shutdown Engine
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}						
 					ACTIONS
-					{
-						OnAction
-						{
-							actionGroup = None
-						}
-						ShutdownAction
-						{
-							actionGroup = None
-						}
-						ActivateAction
-						{
-							actionGroup = None
-						}
+					{						
 					}
 				}
 				MODULE
@@ -2255,24 +1701,10 @@
 					isJettisoned = True
 					EVENTS
 					{
-						Jettison
-						{
-							active = False
-							guiActive = True
-							guiIcon = Jettison
-							guiName = Jettison
-							category = Jettison
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}					
 					ACTIONS
 					{
-						JettisonAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -2282,24 +1714,9 @@
 					isJettisoned = True
 					EVENTS
 					{
-						Jettison
-						{
-							active = False
-							guiActive = True
-							guiIcon = Jettison
-							guiName = Jettison
-							category = Jettison
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
-					{
-						JettisonAction
-						{
-							actionGroup = None
-						}
+					{						
 					}
 				}
 				MODULE
@@ -2308,7 +1725,7 @@
 					isEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2319,7 +1736,7 @@
 					isEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2330,18 +1747,7 @@
 					isEnabled = True
 					EVENTS
 					{
-						RunTestEvent
-						{
-							active = False
-							guiActive = True
-							guiIcon = Run Test
-							guiName = Run Test
-							category = Run Test
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}					
 					ACTIONS
 					{
 					}
@@ -2525,43 +1931,9 @@
 					}
 					EVENTS
 					{
-						Activate
-						{
-							active = False
-							guiActive = True
-							guiIcon = Activate Engine
-							guiName = Activate Engine
-							category = Activate Engine
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Shutdown
-						{
-							active = True
-							guiActive = True
-							guiIcon = Shutdown Engine
-							guiName = Shutdown Engine
-							category = Shutdown Engine
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}						
 					ACTIONS
-					{
-						OnAction
-						{
-							actionGroup = None
-						}
-						ShutdownAction
-						{
-							actionGroup = None
-						}
-						ActivateAction
-						{
-							actionGroup = None
-						}
+					{						
 					}
 				}
 				MODULE
@@ -2571,24 +1943,9 @@
 					isJettisoned = True
 					EVENTS
 					{
-						Jettison
-						{
-							active = False
-							guiActive = True
-							guiIcon = Jettison
-							guiName = Jettison
-							category = Jettison
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
-					{
-						JettisonAction
-						{
-							actionGroup = None
-						}
+					{						
 					}
 				}
 				MODULE
@@ -2598,24 +1955,9 @@
 					isJettisoned = True
 					EVENTS
 					{
-						Jettison
-						{
-							active = False
-							guiActive = True
-							guiIcon = Jettison
-							guiName = Jettison
-							category = Jettison
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
-					{
-						JettisonAction
-						{
-							actionGroup = None
-						}
+					{						
 					}
 				}
 				MODULE
@@ -2624,7 +1966,7 @@
 					isEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2635,7 +1977,7 @@
 					isEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2646,18 +1988,7 @@
 					isEnabled = True
 					EVENTS
 					{
-						RunTestEvent
-						{
-							active = False
-							guiActive = True
-							guiIcon = Run Test
-							guiName = Run Test
-							category = Run Test
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2841,43 +2172,9 @@
 					}
 					EVENTS
 					{
-						Activate
-						{
-							active = False
-							guiActive = True
-							guiIcon = Activate Engine
-							guiName = Activate Engine
-							category = Activate Engine
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Shutdown
-						{
-							active = True
-							guiActive = True
-							guiIcon = Shutdown Engine
-							guiName = Shutdown Engine
-							category = Shutdown Engine
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}						
 					ACTIONS
-					{
-						OnAction
-						{
-							actionGroup = None
-						}
-						ShutdownAction
-						{
-							actionGroup = None
-						}
-						ActivateAction
-						{
-							actionGroup = None
-						}
+					{						
 					}
 				}
 				MODULE
@@ -2887,24 +2184,9 @@
 					isJettisoned = True
 					EVENTS
 					{
-						Jettison
-						{
-							active = False
-							guiActive = True
-							guiIcon = Jettison
-							guiName = Jettison
-							category = Jettison
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
-					{
-						JettisonAction
-						{
-							actionGroup = None
-						}
+					{						
 					}
 				}
 				MODULE
@@ -2914,24 +2196,9 @@
 					isJettisoned = True
 					EVENTS
 					{
-						Jettison
-						{
-							active = False
-							guiActive = True
-							guiIcon = Jettison
-							guiName = Jettison
-							category = Jettison
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
-					{
-						JettisonAction
-						{
-							actionGroup = None
-						}
+					{						
 					}
 				}
 				MODULE
@@ -2940,7 +2207,7 @@
 					isEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2951,7 +2218,7 @@
 					isEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2962,18 +2229,7 @@
 					isEnabled = True
 					EVENTS
 					{
-						RunTestEvent
-						{
-							active = False
-							guiActive = True
-							guiIcon = Run Test
-							guiName = Run Test
-							category = Run Test
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -3157,43 +2413,9 @@
 					}
 					EVENTS
 					{
-						Activate
-						{
-							active = False
-							guiActive = True
-							guiIcon = Activate Engine
-							guiName = Activate Engine
-							category = Activate Engine
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Shutdown
-						{
-							active = True
-							guiActive = True
-							guiIcon = Shutdown Engine
-							guiName = Shutdown Engine
-							category = Shutdown Engine
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
-					{
-						OnAction
-						{
-							actionGroup = None
-						}
-						ShutdownAction
-						{
-							actionGroup = None
-						}
-						ActivateAction
-						{
-							actionGroup = None
-						}
+					{						
 					}
 				}
 				MODULE
@@ -3203,24 +2425,9 @@
 					isJettisoned = True
 					EVENTS
 					{
-						Jettison
-						{
-							active = False
-							guiActive = True
-							guiIcon = Jettison
-							guiName = Jettison
-							category = Jettison
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
-					{
-						JettisonAction
-						{
-							actionGroup = None
-						}
+					{						
 					}
 				}
 				MODULE
@@ -3230,24 +2437,9 @@
 					isJettisoned = True
 					EVENTS
 					{
-						Jettison
-						{
-							active = False
-							guiActive = True
-							guiIcon = Jettison
-							guiName = Jettison
-							category = Jettison
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
-					{
-						JettisonAction
-						{
-							actionGroup = None
-						}
+					{						
 					}
 				}
 				MODULE
@@ -3256,7 +2448,7 @@
 					isEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -3267,7 +2459,7 @@
 					isEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -3278,18 +2470,7 @@
 					isEnabled = True
 					EVENTS
 					{
-						RunTestEvent
-						{
-							active = False
-							guiActive = True
-							guiIcon = Run Test
-							guiName = Run Test
-							category = Run Test
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -3352,35 +2533,9 @@
 					rcsEnabled = True
 					EVENTS
 					{
-						Disable
-						{
-							active = True
-							guiActive = True
-							guiIcon = Disable RCS Port
-							guiName = Disable RCS Port
-							category = Disable RCS Port
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Enable
-						{
-							active = False
-							guiActive = True
-							guiIcon = Enable RCS Port
-							guiName = Enable RCS Port
-							category = Enable RCS Port
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}						
 					ACTIONS
-					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
+					{						
 					}
 				}
 			}
@@ -3431,35 +2586,9 @@
 					rcsEnabled = True
 					EVENTS
 					{
-						Disable
-						{
-							active = True
-							guiActive = True
-							guiIcon = Disable RCS Port
-							guiName = Disable RCS Port
-							category = Disable RCS Port
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Enable
-						{
-							active = False
-							guiActive = True
-							guiIcon = Enable RCS Port
-							guiName = Enable RCS Port
-							category = Enable RCS Port
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}						
 					ACTIONS
-					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
+					{						
 					}
 				}
 			}
@@ -3510,35 +2639,9 @@
 					rcsEnabled = True
 					EVENTS
 					{
-						Disable
-						{
-							active = True
-							guiActive = True
-							guiIcon = Disable RCS Port
-							guiName = Disable RCS Port
-							category = Disable RCS Port
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Enable
-						{
-							active = False
-							guiActive = True
-							guiIcon = Enable RCS Port
-							guiName = Enable RCS Port
-							category = Enable RCS Port
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}						
 					ACTIONS
-					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
+					{						
 					}
 				}
 			}
@@ -3589,35 +2692,9 @@
 					rcsEnabled = True
 					EVENTS
 					{
-						Disable
-						{
-							active = True
-							guiActive = True
-							guiIcon = Disable RCS Port
-							guiName = Disable RCS Port
-							category = Disable RCS Port
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Enable
-						{
-							active = False
-							guiActive = True
-							guiIcon = Enable RCS Port
-							guiName = Enable RCS Port
-							category = Enable RCS Port
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}						
 					ACTIONS
-					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
+					{						
 					}
 				}
 			}
@@ -3671,7 +2748,7 @@
 		VESSEL
 		{
 			pid = 8cf18ddd42a94e47b28f9b788f87cc3f
-			name = GNR-022
+			name = Ast. GNR-022
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
@@ -3751,40 +2828,7 @@
 					prefabBaseURL = Procedural/PA_B
 					EVENTS
 					{
-						MakeTarget
-						{
-							active = True
-							guiActive = True
-							guiIcon = Target Center of Mass
-							guiName = Target Center of Mass
-							category = Target Center of Mass
-							guiActiveUnfocused = True
-							unfocusedRange = 500
-							externalToEVAOnly = False
-						}
-						TakeSampleEVAEvent
-						{
-							active = False
-							guiActive = False
-							guiIcon = Take Sample
-							guiName = Take Sample
-							category = Take Sample
-							guiActiveUnfocused = True
-							unfocusedRange = 6.443072
-							externalToEVAOnly = True
-						}
-						RenameAsteroidEvent
-						{
-							active = True
-							guiActive = True
-							guiIcon = Rename Asteroid
-							guiName = Rename Asteroid
-							category = Rename Asteroid
-							guiActiveUnfocused = True
-							unfocusedRange = 6.443072
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -3797,7 +2841,7 @@
 					currentMass = 10.45136
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -3812,7 +2856,7 @@
 					FlowMode = 
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -3913,12 +2957,16 @@
 	}
 	ROSTER
 	{
-		CREW
+		KERBAL
 		{
-			name = 耶比迪亚·科曼
+			name = #autoLOC_20803
+			gender = Male
+			type = Crew
+			trait = Pilot
 			brave = 0.5
 			dumb = 0.5
 			badS = True
+			veteran = True
 			state = 1
 			ToD = 0
 			idx = 0

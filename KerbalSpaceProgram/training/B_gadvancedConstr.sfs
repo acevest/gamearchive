@@ -1,4 +1,4 @@
-﻿GAME
+GAME
 {
 	version = 1.0.0
 	Title = #autoLOC_1100024
@@ -71,13 +71,14 @@
 	{
 		KERBAL
 		{
-			name = 耶比迪亚·科曼
+			name = #autoLOC_20803
 			gender = Male
 			type = Crew
 			trait = Pilot
 			brave = 0.5
 			dumb = 0.5
 			badS = True
+			veteran = True
 			tour = False
 			state = Available
 			ToD = 0
@@ -94,13 +95,14 @@
 		}
 		KERBAL
 		{
-			name = 比尔·科曼
+			name = #autoLOC_20811
 			gender = Male
 			type = Crew
 			trait = Engineer
 			brave = 0.5
 			dumb = 0.8
 			badS = False
+			veteran = True
 			tour = False
 			state = Available
 			ToD = 0
@@ -116,13 +118,14 @@
 		}
 		KERBAL
 		{
-			name = 鲍勃·科曼
+			name = #autoLOC_20819
 			gender = Male
 			type = Crew
 			trait = Scientist
 			brave = 0.3
 			dumb = 0.1
 			badS = False
+			veteran = True
 			tour = False
 			state = Available
 			ToD = 0
@@ -138,13 +141,14 @@
 		}
 		KERBAL
 		{
-			name = 瓦伦蒂娜·科曼
+			name = #autoLOC_20827
 			gender = Female
 			type = Crew
 			trait = Pilot
 			brave = 0.55
 			dumb = 0.4
 			badS = True
+			veteran = True
 			tour = False
 			state = Available
 			ToD = 0

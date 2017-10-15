@@ -1,4 +1,4 @@
-﻿GAME
+GAME
 {
 	version = 1.2.0
 	Title = #autoLOC_1200044
@@ -129,7 +129,7 @@
 		VESSEL
 		{
 			pid = 07cb7497a5694bfebfc12979e53de3fe
-			name = Orbiter 1
+			name = #autoLOC_6002431		//Orbiter 1
 			type = Ship
 			sit = ORBITING
 			landed = False
@@ -199,8 +199,8 @@
 				flag = Squad/Flags/line
 				rTrf = Mark1-2Pod (Orbiter 1)
 				modCost = 0
-				crew = 比尔·科曼
-				crew = 鲍勃·科曼
+				crew = #autoLOC_20811
+				crew = #autoLOC_20819
 				EVENTS
 				{
 				}
@@ -219,7 +219,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						HibernateToggle
@@ -243,7 +243,7 @@
 					WheelState = Active
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						CycleAction
@@ -275,7 +275,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -297,7 +297,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						DeployAction
@@ -320,7 +320,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						CollectAllAction
@@ -340,7 +340,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -355,7 +355,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -371,7 +371,7 @@
 					canComm = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						StartTransmissionAction
@@ -391,7 +391,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -406,7 +406,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -421,7 +421,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -510,7 +510,7 @@
 					dockNodeIdx = 0
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						UndockAction
@@ -551,7 +551,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -617,7 +617,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						DecoupleAction
@@ -637,7 +637,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -664,7 +664,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -798,7 +798,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						OnAction
@@ -827,7 +827,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						JettisonAction
@@ -853,7 +853,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -893,7 +893,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -908,7 +908,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -923,7 +923,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -938,7 +938,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -1183,7 +1183,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ExtendPanelsAction
@@ -1264,7 +1264,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ExtendPanelsAction
@@ -1345,7 +1345,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ExtendPanelsAction
@@ -1426,7 +1426,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ExtendPanelsAction
@@ -1507,7 +1507,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ExtendPanelsAction
@@ -1588,7 +1588,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ExtendPanelsAction
@@ -1668,7 +1668,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						DeployAction
@@ -1691,7 +1691,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -1706,7 +1706,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -1721,7 +1721,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -1786,7 +1786,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						DeployAction
@@ -1809,7 +1809,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -1824,7 +1824,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -1839,7 +1839,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -1904,7 +1904,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						DeployAction
@@ -1927,7 +1927,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -1942,7 +1942,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -1957,7 +1957,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2022,7 +2022,7 @@
 		VESSEL
 		{
 			pid = 158cb6ba619844ff864df3d3cd3de315
-			name = Jebediah Kerman
+			name = #autoLOC_20803
 			type = EVA
 			sit = ORBITING
 			landed = False
@@ -2090,7 +2090,7 @@
 				flag = 
 				rTrf = referenceTransform
 				modCost = 0
-				crew = 耶比迪亚·科曼
+				crew = #autoLOC_20803
 				EVENTS
 				{
 				}
@@ -2112,13 +2112,13 @@
 					state = Idle (Floating)
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
 					vInfo
 					{
-						vesselName = Jebediah Kerman
+						vesselName = #autoLOC_20803
 						vesselType = 9
 						rootUId = 0
 					}
@@ -2136,7 +2136,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						DeployAction
@@ -2164,7 +2164,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						DeployAction
@@ -2189,7 +2189,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						CollectAllAction
@@ -2209,7 +2209,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2224,7 +2224,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2309,10 +2309,10 @@
 	{
 		KERBAL
 		{
-			name = 耶比迪亚·科曼
+			name = #autoLOC_20803
 			gender = Male
 			type = Crew
-			trait = Scientist
+			trait = Pilot
 			brave = 0.5
 			dumb = 0.5
 			badS = True
@@ -2337,10 +2337,10 @@
 		}
 		KERBAL
 		{
-			name = 比尔·科曼
+			name = #autoLOC_20811
 			gender = Male
 			type = Crew
-			trait = Scientist
+			trait = Engineer
 			brave = 0.5
 			dumb = 0.800000012
 			badS = False
@@ -2365,10 +2365,10 @@
 		}
 		KERBAL
 		{
-			name = 鲍勃·科曼
+			name = #autoLOC_20819
 			gender = Male
 			type = Crew
-			trait = Engineer
+			trait = Scientist
 			brave = 0.300000012
 			dumb = 0.100000001
 			badS = False

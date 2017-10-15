@@ -143,7 +143,7 @@
 				completed = 2258.3513412603002
 				crew
 				{
-					crews = 耶比迪亚·科曼
+					crews = #autoLOC_20803
 				}
 			}
 			RecordsAltitude
@@ -176,7 +176,7 @@
 				}
 				crew
 				{
-					crews = 耶比迪亚·科曼
+					crews = #autoLOC_20803
 				}
 			}
 			Kerbin
@@ -192,7 +192,7 @@
 					}
 					crew
 					{
-						crews = 耶比迪亚·科曼
+						crews = #autoLOC_20803
 					}
 				}
 				Splashdown
@@ -209,7 +209,7 @@
 					}
 					crew
 					{
-						crews = 耶比迪亚·科曼
+						crews = #autoLOC_20803
 					}
 				}
 			}
@@ -226,7 +226,7 @@
 					}
 					crew
 					{
-						crews = 吉尔尼·科曼, 巴特布斯·科曼, 瑞布里·科曼
+						crews = Jerney Kerman, Bartbus Kerman, Ribly Kerman
 					}
 				}
 			}
@@ -467,7 +467,7 @@
 		VESSEL
 		{
 			pid = e42f55c2f0b54b08aefdc3ec749a85af
-			name = Space Station 1
+			name = #autoLOC_6002452		//Space Station 1
 			type = Station
 			sit = ORBITING
 			landed = False
@@ -537,8 +537,8 @@
 				flag = Squad/Flags/default
 				rTrf = mk2LanderCabin (Space Station 1)
 				modCost = 0
-				crew = 西格布罗·科曼
-				crew = 里奇斯比·科曼
+				crew = Sigbro Kerman
+				crew = Richsby Kerman
 				EVENTS
 				{
 				}
@@ -557,7 +557,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						HibernateToggle
@@ -581,7 +581,7 @@
 					WheelState = Active
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						CycleAction
@@ -613,7 +613,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -635,7 +635,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						DeployAction
@@ -658,7 +658,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						CollectAllAction
@@ -678,7 +678,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -694,7 +694,7 @@
 					canComm = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						StartTransmissionAction
@@ -714,7 +714,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -729,7 +729,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -800,7 +800,7 @@
 				flag = Squad/Flags/default
 				rTrf = crewCabin
 				modCost = 0
-				crew = 耶比迪亚·科曼
+				crew = #autoLOC_20803
 				EVENTS
 				{
 				}
@@ -818,7 +818,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -840,7 +840,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						DeployAction
@@ -863,7 +863,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						CollectAllAction
@@ -883,7 +883,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -898,7 +898,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -1012,7 +1012,7 @@
 					WheelState = Active
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						CycleAction
@@ -1092,7 +1092,7 @@
 					WheelState = Active
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						CycleAction
@@ -1221,7 +1221,7 @@
 					dockNodeIdx = 0
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						UndockAction
@@ -1247,7 +1247,7 @@
 					}
 					DOCKEDVESSEL
 					{
-						vesselName = Space Station 1
+						vesselName = #autoLOC_6002452		//Space Station 1
 						vesselType = 6
 						rootUId = 3025240400
 					}
@@ -1401,7 +1401,7 @@
 					dockNodeIdx = 0
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						UndockAction
@@ -1575,7 +1575,7 @@
 					dockNodeIdx = 0
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						UndockAction
@@ -1749,7 +1749,7 @@
 					dockNodeIdx = 0
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						UndockAction
@@ -1775,7 +1775,7 @@
 					}
 					DOCKEDVESSEL
 					{
-						vesselName = Space Station Core
+						vesselName = #autoLOC_6002474		//Space Station Core
 						vesselType = 6
 						rootUId = 3025240400
 					}
@@ -1929,7 +1929,7 @@
 					dockNodeIdx = 0
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						UndockAction
@@ -1955,7 +1955,7 @@
 					}
 					DOCKEDVESSEL
 					{
-						vesselName = Space Station 1
+						vesselName = #autoLOC_6002452		//Space Station 1
 						vesselType = 7
 						rootUId = 3025240400
 					}
@@ -2027,7 +2027,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -2103,7 +2103,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -2179,7 +2179,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -2255,7 +2255,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -2324,7 +2324,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2339,7 +2339,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2404,7 +2404,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2419,7 +2419,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2484,7 +2484,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2499,7 +2499,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2564,7 +2564,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2579,7 +2579,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2699,7 +2699,7 @@
 					dockNodeIdx = 0
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						UndockAction
@@ -2725,7 +2725,7 @@
 					}
 					DOCKEDVESSEL
 					{
-						vesselName = Space Station Core
+						vesselName = #autoLOC_6002476		//Space Station Core
 						vesselType = 6
 						rootUId = 3025240400
 					}
@@ -3144,7 +3144,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ExtendPanelsAction
@@ -3221,7 +3221,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ExtendPanelsAction
@@ -3305,7 +3305,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -3381,7 +3381,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -3457,7 +3457,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -3533,7 +3533,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -3601,7 +3601,7 @@
 					dockNodeIdx = 0
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						UndockAction
@@ -3627,7 +3627,7 @@
 					}
 					DOCKEDVESSEL
 					{
-						vesselName = Fuel Module and Tug
+						vesselName = #autoLOC_6002475		//Fuel Module and Tug
 						vesselType = 2
 						rootUId = 226568503
 					}
@@ -3744,7 +3744,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -3820,7 +3820,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -3896,7 +3896,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -3972,7 +3972,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -4156,7 +4156,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -4171,7 +4171,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -4306,7 +4306,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -4321,7 +4321,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -4456,7 +4456,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -4471,7 +4471,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -4606,7 +4606,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -4621,7 +4621,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -4738,7 +4738,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -4814,7 +4814,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -4890,7 +4890,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -4966,7 +4966,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -5034,7 +5034,7 @@
 					dockNodeIdx = 0
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						UndockAction
@@ -5060,7 +5060,7 @@
 					}
 					DOCKEDVESSEL
 					{
-						vesselName = Space Station 1
+						vesselName = #autoLOC_6002452	//Space Station 1
 						vesselType = 6
 						rootUId = 3025240400
 					}
@@ -5124,7 +5124,7 @@
 					dockNodeIdx = 0
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						UndockAction
@@ -5150,7 +5150,7 @@
 					}
 					DOCKEDVESSEL
 					{
-						vesselName = Space Station Core Probe
+						vesselName = #autoLOC_6002476		//Space Station Core Probe
 						vesselType = 2
 						rootUId = 2413059739
 					}
@@ -5358,7 +5358,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						HibernateToggle
@@ -5381,7 +5381,7 @@
 					WheelState = Active
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						CycleAction
@@ -5413,7 +5413,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -5428,7 +5428,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						OpenKerbNetAction
@@ -5448,7 +5448,7 @@
 					canComm = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						StartTransmissionAction
@@ -5468,7 +5468,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -5776,7 +5776,7 @@
 					dockNodeIdx = 0
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						UndockAction
@@ -5868,7 +5868,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -5944,7 +5944,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -6020,7 +6020,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -6096,7 +6096,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -6164,7 +6164,7 @@
 					dockNodeIdx = 0
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						UndockAction
@@ -6190,7 +6190,7 @@
 					}
 					DOCKEDVESSEL
 					{
-						vesselName = Fuel Module and Tug
+						vesselName = #autoLOC_6002475		//Fuel Module and Tug
 						vesselType = 2
 						rootUId = 226568503
 					}
@@ -6307,7 +6307,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -6383,7 +6383,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -6459,7 +6459,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -6535,7 +6535,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -6601,7 +6601,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						HibernateToggle
@@ -6621,7 +6621,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -6636,7 +6636,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						OpenKerbNetAction
@@ -6656,7 +6656,7 @@
 					canComm = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						StartTransmissionAction
@@ -6676,7 +6676,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -6757,7 +6757,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ExtendPanelsAction
@@ -6834,7 +6834,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ExtendPanelsAction
@@ -7020,7 +7020,7 @@
 					WheelState = Active
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						CycleAction
@@ -7170,7 +7170,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						OnAction
@@ -7204,7 +7204,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -7244,7 +7244,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -7261,7 +7261,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						JettisonAction
@@ -7280,7 +7280,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -7295,7 +7295,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -7367,7 +7367,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -7443,7 +7443,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -7519,7 +7519,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -7595,7 +7595,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -7891,7 +7891,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleLightAction
@@ -7967,7 +7967,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleLightAction
@@ -8043,7 +8043,7 @@
 					dockNodeIdx = 0
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						UndockAction
@@ -8069,7 +8069,7 @@
 					}
 					DOCKEDVESSEL
 					{
-						vesselName = Space Station Core
+						vesselName = #autoLOC_6002474		//Space Station Core
 						vesselType = 5
 						rootUId = 1900147451
 					}
@@ -8272,7 +8272,7 @@
 					dockNodeIdx = 0
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						UndockAction
@@ -8471,7 +8471,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						OnAction
@@ -8500,7 +8500,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						JettisonAction
@@ -8526,7 +8526,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -8566,7 +8566,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -8581,7 +8581,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -8596,7 +8596,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -8611,7 +8611,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -8776,7 +8776,7 @@
 					dockNodeIdx = 0
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						UndockAction
@@ -8950,7 +8950,7 @@
 					dockNodeIdx = 0
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						UndockAction
@@ -9124,7 +9124,7 @@
 					dockNodeIdx = 0
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						UndockAction
@@ -9208,7 +9208,7 @@
 					WheelState = Active
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						CycleAction
@@ -9288,7 +9288,7 @@
 					WheelState = Active
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						CycleAction
@@ -9376,7 +9376,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -9452,7 +9452,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -9528,7 +9528,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -9604,7 +9604,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -9718,7 +9718,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -9733,7 +9733,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -9798,7 +9798,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -9813,7 +9813,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -9878,7 +9878,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -9893,7 +9893,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -9958,7 +9958,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -9973,7 +9973,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -10034,7 +10034,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -10056,7 +10056,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						DeployAction
@@ -10079,7 +10079,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						CollectAllAction
@@ -10099,7 +10099,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -10114,7 +10114,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -10163,7 +10163,7 @@
 				flag = Squad/Flags/default
 				rTrf = mk2LanderCabin
 				modCost = 0
-				crew = 比尔·科曼
+				crew = #autoLOC_20811
 				EVENTS
 				{
 				}
@@ -10182,7 +10182,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						HibernateToggle
@@ -10206,7 +10206,7 @@
 					WheelState = Active
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						CycleAction
@@ -10238,7 +10238,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -10260,7 +10260,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						DeployAction
@@ -10283,7 +10283,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						CollectAllAction
@@ -10303,7 +10303,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -10319,7 +10319,7 @@
 					canComm = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						StartTransmissionAction
@@ -10339,7 +10339,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -10354,7 +10354,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -10501,7 +10501,7 @@
 					dockNodeIdx = 0
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						UndockAction
@@ -10585,7 +10585,7 @@
 					dockNodeIdx = 0
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						UndockAction
@@ -10813,7 +10813,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						HibernateToggle
@@ -10836,7 +10836,7 @@
 					WheelState = Active
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						CycleAction
@@ -10868,7 +10868,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -10883,7 +10883,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						OpenKerbNetAction
@@ -10903,7 +10903,7 @@
 					canComm = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						StartTransmissionAction
@@ -10923,7 +10923,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -11231,7 +11231,7 @@
 					dockNodeIdx = 0
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						UndockAction
@@ -11323,7 +11323,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -11399,7 +11399,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -11475,7 +11475,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -11551,7 +11551,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -11974,7 +11974,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ExtendPanelsAction
@@ -12051,7 +12051,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ExtendPanelsAction
@@ -12135,7 +12135,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -12211,7 +12211,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -12287,7 +12287,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -12363,7 +12363,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -12431,7 +12431,7 @@
 					dockNodeIdx = 0
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						UndockAction
@@ -12457,7 +12457,7 @@
 					}
 					DOCKEDVESSEL
 					{
-						vesselName = Aeris 4A
+						vesselName = #autoLOC_501176	//Aeris 4A
 						vesselType = 6
 						rootUId = 1781345815
 					}
@@ -12478,7 +12478,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -12740,7 +12740,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						OnAction
@@ -12768,7 +12768,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -12784,7 +12784,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -12806,7 +12806,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -12845,7 +12845,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -12860,7 +12860,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -12875,7 +12875,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -12949,7 +12949,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ActAutoFrictionToggle
@@ -12972,7 +12972,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -12989,7 +12989,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -13006,7 +13006,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						BrakeAction
@@ -13025,7 +13025,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -13043,7 +13043,7 @@
 					position = 0
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ActionToggle
@@ -13062,7 +13062,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -13077,7 +13077,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -13092,7 +13092,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -13112,7 +13112,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleLightAction
@@ -13140,7 +13140,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -13155,7 +13155,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -13170,7 +13170,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -13229,7 +13229,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -13299,7 +13299,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -13373,7 +13373,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -13445,7 +13445,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ActionToggle
@@ -13525,7 +13525,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ActionToggle
@@ -13600,7 +13600,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -13615,7 +13615,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -13676,7 +13676,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -13695,7 +13695,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -13841,7 +13841,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						OnAction
@@ -13869,7 +13869,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -13885,7 +13885,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -13907,7 +13907,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -13946,7 +13946,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -13961,7 +13961,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -13976,7 +13976,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -14050,7 +14050,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ActAutoFrictionToggle
@@ -14073,7 +14073,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -14090,7 +14090,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -14107,7 +14107,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						BrakeAction
@@ -14126,7 +14126,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -14144,7 +14144,7 @@
 					position = 0
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ActionToggle
@@ -14163,7 +14163,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -14178,7 +14178,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -14193,7 +14193,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -14213,7 +14213,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleLightAction
@@ -14241,7 +14241,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -14256,7 +14256,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -14271,7 +14271,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -14330,7 +14330,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -14400,7 +14400,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -14474,7 +14474,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -14546,7 +14546,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ActionToggle
@@ -14626,7 +14626,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ActionToggle
@@ -14701,7 +14701,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -14716,7 +14716,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -14777,7 +14777,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -14796,7 +14796,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -14866,7 +14866,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -14936,7 +14936,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -14999,7 +14999,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -15069,7 +15069,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -15187,7 +15187,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -15254,7 +15254,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ActionToggle
@@ -15333,7 +15333,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						OnAction
@@ -15361,7 +15361,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -15376,7 +15376,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -15393,7 +15393,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						JettisonAction
@@ -15412,7 +15412,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -15427,7 +15427,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -15491,7 +15491,7 @@
 					WheelState = Active
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						CycleAction
@@ -15568,7 +15568,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						HibernateToggle
@@ -15592,7 +15592,7 @@
 					WheelState = Active
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						CycleAction
@@ -15626,7 +15626,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						DeployAction
@@ -15649,7 +15649,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						CollectAllAction
@@ -15669,7 +15669,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -15690,7 +15690,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -15710,7 +15710,7 @@
 					canComm = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						StartTransmissionAction
@@ -15730,7 +15730,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -15828,7 +15828,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -15902,7 +15902,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -15968,7 +15968,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ActAutoFrictionToggle
@@ -15991,7 +15991,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -16008,7 +16008,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -16025,7 +16025,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						BrakeAction
@@ -16044,7 +16044,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -16062,7 +16062,7 @@
 					position = 0
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ActionToggle
@@ -16081,7 +16081,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -16096,7 +16096,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -16111,7 +16111,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -16131,7 +16131,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleLightAction
@@ -16159,7 +16159,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -16174,7 +16174,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -16189,7 +16189,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -16257,7 +16257,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ActionToggle
@@ -16337,7 +16337,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ActionToggle
@@ -16414,7 +16414,7 @@
 		VESSEL
 		{
 			pid = d993691af13e468cb75e491c9b555fdd
-			name = Kerbal XX
+			name = #autoLOC_6002477		//Kerbal XX
 			type = Ship
 			sit = ORBITING
 			landed = False
@@ -16485,9 +16485,9 @@
 				flag = 
 				rTrf = 
 				modCost = 0
-				crew = 吉尔尼·科曼
-				crew = 巴特布斯·科曼
-				crew = 瑞布里·科曼
+				crew = Jerney Kerman
+				crew = Bartbus Kerman
+				crew = Ribly Kerman
 				EVENTS
 				{
 				}
@@ -16501,7 +16501,7 @@
 					controlSrcStatusText = Operational
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -16563,18 +16563,7 @@
 					isDecoupled = False
 					EVENTS
 					{
-						Decouple
-						{
-							active = True
-							guiActive = True
-							guiIcon = Decouple
-							guiName = Decouple
-							category = Decouple
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 						DecoupleAction
@@ -17176,29 +17165,8 @@
 					staged = True
 					EVENTS
 					{
-						Activate
-						{
-							active = False
-							guiActive = True
-							guiIcon = Activate Engine
-							guiName = Activate Engine
-							category = Activate Engine
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Shutdown
-						{
-							active = True
-							guiActive = True
-							guiIcon = Shutdown Engine
-							guiName = Shutdown Engine
-							category = Shutdown Engine
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 						OnAction
@@ -17221,18 +17189,7 @@
 					isEnabled = True
 					EVENTS
 					{
-						Jettison
-						{
-							active = False
-							guiActive = True
-							guiIcon = Jettison
-							guiName = Jettison
-							category = Jettison
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 						JettisonAction
@@ -17247,18 +17204,7 @@
 					isEnabled = True
 					EVENTS
 					{
-						Jettison
-						{
-							active = False
-							guiActive = True
-							guiIcon = Jettison
-							guiName = Jettison
-							category = Jettison
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 						JettisonAction
@@ -17274,29 +17220,8 @@
 					gimbalLock = False
 					EVENTS
 					{
-						LockGimbal
-						{
-							active = True
-							guiActive = True
-							guiIcon = Lock Gimbal
-							guiName = Lock Gimbal
-							category = Lock Gimbal
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						FreeGimbal
-						{
-							active = False
-							guiActive = True
-							guiIcon = Free Gimbal
-							guiName = Free Gimbal
-							category = Free Gimbal
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 						ToggleAction
@@ -17311,7 +17236,7 @@
 					isEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -17742,29 +17667,8 @@
 					isEnabled = True
 					EVENTS
 					{
-						Disable
-						{
-							active = True
-							guiActive = True
-							guiIcon = Disable RCS Port
-							guiName = Disable RCS Port
-							category = Disable RCS Port
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Enable
-						{
-							active = False
-							guiActive = True
-							guiIcon = Enable RCS Port
-							guiName = Enable RCS Port
-							category = Enable RCS Port
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 						ToggleAction
@@ -17823,29 +17727,8 @@
 					isEnabled = True
 					EVENTS
 					{
-						Disable
-						{
-							active = True
-							guiActive = True
-							guiIcon = Disable RCS Port
-							guiName = Disable RCS Port
-							category = Disable RCS Port
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Enable
-						{
-							active = False
-							guiActive = True
-							guiIcon = Enable RCS Port
-							guiName = Enable RCS Port
-							category = Enable RCS Port
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 						ToggleAction
@@ -17904,29 +17787,8 @@
 					isEnabled = True
 					EVENTS
 					{
-						Disable
-						{
-							active = True
-							guiActive = True
-							guiIcon = Disable RCS Port
-							guiName = Disable RCS Port
-							category = Disable RCS Port
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Enable
-						{
-							active = False
-							guiActive = True
-							guiIcon = Enable RCS Port
-							guiName = Enable RCS Port
-							category = Enable RCS Port
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 						ToggleAction
@@ -17985,29 +17847,8 @@
 					isEnabled = True
 					EVENTS
 					{
-						Disable
-						{
-							active = True
-							guiActive = True
-							guiIcon = Disable RCS Port
-							guiName = Disable RCS Port
-							category = Disable RCS Port
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Enable
-						{
-							active = False
-							guiActive = True
-							guiIcon = Enable RCS Port
-							guiName = Enable RCS Port
-							category = Enable RCS Port
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 						ToggleAction
@@ -18273,29 +18114,8 @@
 					storedAnimationSpeed = 0
 					EVENTS
 					{
-						Extend
-						{
-							active = False
-							guiActive = True
-							guiIcon = Extend Panels
-							guiName = Extend Panels
-							category = Extend Panels
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Retract
-						{
-							active = True
-							guiActive = True
-							guiIcon = Retract Panels
-							guiName = Retract Panels
-							category = Retract Panels
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 						ExtendPanelsAction
@@ -18365,29 +18185,8 @@
 					storedAnimationSpeed = 0
 					EVENTS
 					{
-						Extend
-						{
-							active = False
-							guiActive = True
-							guiIcon = Extend Panels
-							guiName = Extend Panels
-							category = Extend Panels
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Retract
-						{
-							active = True
-							guiActive = True
-							guiIcon = Retract Panels
-							guiName = Retract Panels
-							category = Retract Panels
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 						ExtendPanelsAction
@@ -18457,29 +18256,8 @@
 					storedAnimationSpeed = 0
 					EVENTS
 					{
-						Extend
-						{
-							active = False
-							guiActive = True
-							guiIcon = Extend Panels
-							guiName = Extend Panels
-							category = Extend Panels
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Retract
-						{
-							active = True
-							guiActive = True
-							guiIcon = Retract Panels
-							guiName = Retract Panels
-							category = Retract Panels
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 						ExtendPanelsAction
@@ -18549,29 +18327,8 @@
 					storedAnimationSpeed = 0
 					EVENTS
 					{
-						Extend
-						{
-							active = False
-							guiActive = True
-							guiIcon = Extend Panels
-							guiName = Extend Panels
-							category = Extend Panels
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Retract
-						{
-							active = True
-							guiActive = True
-							guiIcon = Retract Panels
-							guiName = Retract Panels
-							category = Retract Panels
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 						ExtendPanelsAction
@@ -18638,95 +18395,8 @@
 					dockNodeIdx = 0
 					EVENTS
 					{
-						Undock
-						{
-							active = False
-							guiActive = True
-							guiIcon = Undock
-							guiName = Undock
-							category = Undock
-							guiActiveUnfocused = True
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						UndockSameVessel
-						{
-							active = False
-							guiActive = True
-							guiIcon = Undock
-							guiName = Undock
-							category = Undock
-							guiActiveUnfocused = True
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Decouple
-						{
-							active = False
-							guiActive = True
-							guiIcon = Decouple Node
-							guiName = Decouple Node
-							category = Decouple Node
-							guiActiveUnfocused = True
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						SetAsTarget
-						{
-							active = True
-							guiActive = False
-							guiIcon = Set as Target
-							guiName = Set as Target
-							category = Set as Target
-							guiActiveUnfocused = True
-							unfocusedRange = 200
-							externalToEVAOnly = False
-						}
-						UnsetTarget
-						{
-							active = False
-							guiActive = False
-							guiIcon = Unset Target
-							guiName = Unset Target
-							category = Unset Target
-							guiActiveUnfocused = True
-							unfocusedRange = 200
-							externalToEVAOnly = False
-						}
-						EnableXFeed
-						{
-							active = False
-							guiActive = True
-							guiIcon = Enable Crossfeed
-							guiName = Enable Crossfeed
-							category = Enable Crossfeed
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						DisableXFeed
-						{
-							active = False
-							guiActive = True
-							guiIcon = Disable Crossfeed
-							guiName = Disable Crossfeed
-							category = Disable Crossfeed
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						MakeReferenceTransform
-						{
-							active = True
-							guiActive = True
-							guiIcon = Control from Here
-							guiName = Control from Here
-							category = Control from Here
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 						UndockAction
@@ -18748,18 +18418,7 @@
 					animSpeed = -1
 					EVENTS
 					{
-						Toggle
-						{
-							active = True
-							guiActive = True
-							guiIcon = Toggle
-							guiName = Open Shield
-							category = Toggle
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -18816,40 +18475,8 @@
 					staged = False
 					EVENTS
 					{
-						Deploy
-						{
-							active = True
-							guiActive = True
-							guiIcon = Deploy Chute
-							guiName = Deploy Chute
-							category = Deploy Chute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						CutParachute
-						{
-							active = False
-							guiActive = True
-							guiIcon = Cut Parachute
-							guiName = Cut Parachute
-							category = Cut Parachute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Repack
-						{
-							active = False
-							guiActive = False
-							guiIcon = Repack Chute
-							guiName = Repack Chute
-							category = Repack Chute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 						DeployAction
@@ -19475,7 +19102,7 @@
 	{
 		KERBAL
 		{
-			name = 耶比迪亚·科曼
+			name = #autoLOC_20803
 			gender = Male
 			type = Crew
 			trait = Pilot
@@ -19504,7 +19131,7 @@
 		}
 		KERBAL
 		{
-			name = 比尔·科曼
+			name = #autoLOC_20811
 			gender = Male
 			type = Crew
 			trait = Engineer
@@ -19533,7 +19160,7 @@
 		}
 		KERBAL
 		{
-			name = 鲍勃·科曼
+			name = #autoLOC_20819
 			gender = Male
 			type = Crew
 			trait = Scientist
@@ -19561,7 +19188,7 @@
 		}
 		KERBAL
 		{
-			name = 瓦伦蒂娜·科曼
+			name = #autoLOC_20827
 			gender = Female
 			type = Crew
 			trait = Pilot
@@ -19594,7 +19221,7 @@
 		}
 		KERBAL
 		{
-			name = 西格布罗·科曼
+			name = #autoLOC_1200169
 			gender = Male
 			type = Crew
 			trait = Scientist
@@ -19623,7 +19250,7 @@
 		}
 		KERBAL
 		{
-			name = 里奇斯比·科曼
+			name = #autoLOC_1200170
 			gender = Male
 			type = Crew
 			trait = Pilot
@@ -19652,7 +19279,7 @@
 		}
 		KERBAL
 		{
-			name = 吉尔尼·科曼
+			name = #autoLOC_1200171
 			gender = Female
 			type = Crew
 			trait = Engineer
@@ -19680,7 +19307,7 @@
 		}
 		KERBAL
 		{
-			name = 巴特布斯·科曼
+			name = #autoLOC_1200172
 			gender = Male
 			type = Crew
 			trait = Scientist
@@ -19708,7 +19335,7 @@
 		}
 		KERBAL
 		{
-			name = 瑞布里·科曼
+			name = #autoLOC_1200173
 			gender = Male
 			type = Crew
 			trait = Scientist
@@ -19736,7 +19363,7 @@
 		}
 		KERBAL
 		{
-			name = 恩赛尔·科曼
+			name = #autoLOC_1200174
 			gender = Male
 			type = Applicant
 			trait = Pilot
@@ -19764,7 +19391,7 @@
 		}
 		KERBAL
 		{
-			name = 黑吉·科曼
+			name = #autoLOC_1200175
 			gender = Female
 			type = Applicant
 			trait = Scientist
@@ -19792,7 +19419,7 @@
 		}
 		KERBAL
 		{
-			name = 开奈米·科曼
+			name = #autoLOC_1200176
 			gender = Male
 			type = Applicant
 			trait = Pilot
@@ -19820,7 +19447,7 @@
 		}
 		KERBAL
 		{
-			name = 马吉尔·科曼
+			name = #autoLOC_1200177
 			gender = Male
 			type = Applicant
 			trait = Pilot
@@ -19848,7 +19475,7 @@
 		}
 		KERBAL
 		{
-			name = 托姆森·科曼
+			name = #autoLOC_1200178
 			gender = Male
 			type = Applicant
 			trait = Pilot
@@ -19876,7 +19503,7 @@
 		}
 		KERBAL
 		{
-			name = 沙农·科曼
+			name = #autoLOC_1200179
 			gender = Female
 			type = Applicant
 			trait = Engineer
@@ -19904,7 +19531,7 @@
 		}
 		KERBAL
 		{
-			name = 安比恩·科曼
+			name = #autoLOC_1200180
 			gender = Male
 			type = Applicant
 			trait = Pilot
@@ -19932,7 +19559,7 @@
 		}
 		KERBAL
 		{
-			name = 吉恩达斯·科曼
+			name = #autoLOC_1200181
 			gender = Male
 			type = Applicant
 			trait = Engineer
@@ -19960,7 +19587,7 @@
 		}
 		KERBAL
 		{
-			name = 内尔波特·科曼
+			name = #autoLOC_1200182
 			gender = Male
 			type = Applicant
 			trait = Engineer
@@ -19988,7 +19615,7 @@
 		}
 		KERBAL
 		{
-			name = 本杰明·科曼
+			name = #autoLOC_1200183
 			gender = Male
 			type = Applicant
 			trait = Engineer

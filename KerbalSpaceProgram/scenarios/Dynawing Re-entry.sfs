@@ -1,4 +1,4 @@
-﻿GAME
+GAME
 {
 	version = 1.2.0
 	Title = #autoLOC_1200027
@@ -171,7 +171,7 @@
 				}
 				crew
 				{
-					crews = 卡塔·科曼, 米提多斯·科曼, 伊尔特里德·科曼, 艾德勒·科曼
+					crews = Kata Kerman, Mitdos Kerman, Irtrid Kerman, Edler Kerman
 				}
 			}
 			Kerbin
@@ -187,7 +187,7 @@
 					}
 					crew
 					{
-						crews = 卡塔·科曼, 米提多斯·科曼, 伊尔特里德·科曼, 艾德勒·科曼
+						crews = Kata Kerman, Mitdos Kerman, Irtrid Kerman, Edler Kerman
 					}
 				}
 			}
@@ -963,10 +963,10 @@
 				flag = Squad/Flags/default
 				rTrf = mk3Cockpit.Shuttle (Dynawing)
 				modCost = 0
-				crew = 卡塔·科曼
-				crew = 米提多斯·科曼
-				crew = 伊尔特里德·科曼
-				crew = 艾德勒·科曼
+				crew = Kata Kerman
+				crew = Mitdos Kerman
+				crew = Irtrid Kerman
+				crew = Edler Kerman
 				EVENTS
 				{
 				}
@@ -985,7 +985,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						HibernateToggle
@@ -1009,7 +1009,7 @@
 					WheelState = Active
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						CycleAction
@@ -1043,7 +1043,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						DeployAction
@@ -1066,7 +1066,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						CollectAllAction
@@ -1086,7 +1086,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -1107,7 +1107,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -1127,7 +1127,7 @@
 					canComm = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						StartTransmissionAction
@@ -1147,7 +1147,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -1239,7 +1239,7 @@
 					dockNodeIdx = 0
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						UndockAction
@@ -1280,7 +1280,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -1352,7 +1352,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ActionToggle
@@ -1432,7 +1432,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ActionToggle
@@ -1570,7 +1570,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -1644,7 +1644,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -1718,7 +1718,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -1792,7 +1792,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -1864,7 +1864,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -1883,7 +1883,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2001,7 +2001,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -2075,7 +2075,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -2149,7 +2149,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -2223,7 +2223,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -2297,7 +2297,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -2371,7 +2371,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -2441,7 +2441,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						OnAction
@@ -2475,7 +2475,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -2565,7 +2565,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						OnAction
@@ -2599,7 +2599,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -2689,7 +2689,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						OnAction
@@ -2723,7 +2723,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -2813,7 +2813,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						OnAction
@@ -2847,7 +2847,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -2939,7 +2939,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						OnAction
@@ -2966,7 +2966,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2983,7 +2983,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						JettisonAction
@@ -3009,7 +3009,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -3049,7 +3049,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -3064,7 +3064,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -3079,7 +3079,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -3158,7 +3158,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						OnAction
@@ -3185,7 +3185,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -3202,7 +3202,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						JettisonAction
@@ -3228,7 +3228,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -3268,7 +3268,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -3283,7 +3283,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -3298,7 +3298,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -3597,7 +3597,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ActionToggle
@@ -3677,7 +3677,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ActionToggle
@@ -3759,7 +3759,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -3833,7 +3833,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -3896,7 +3896,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -3959,7 +3959,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ActAutoFrictionToggle
@@ -3982,7 +3982,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -3999,7 +3999,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						BrakeAction
@@ -4021,7 +4021,7 @@
 					position = 0
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ActionToggle
@@ -4040,7 +4040,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -4055,7 +4055,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -4070,7 +4070,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -4085,7 +4085,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -4105,7 +4105,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleLightAction
@@ -4133,7 +4133,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -4148,7 +4148,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -4163,7 +4163,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -4222,7 +4222,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -4292,7 +4292,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -4366,7 +4366,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -4429,7 +4429,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -4492,7 +4492,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ActAutoFrictionToggle
@@ -4515,7 +4515,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -4532,7 +4532,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						BrakeAction
@@ -4554,7 +4554,7 @@
 					position = 0
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ActionToggle
@@ -4573,7 +4573,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -4588,7 +4588,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -4603,7 +4603,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -4618,7 +4618,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -4638,7 +4638,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleLightAction
@@ -4666,7 +4666,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -4681,7 +4681,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -4696,7 +4696,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -4755,7 +4755,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -4825,7 +4825,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -4899,7 +4899,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -4962,7 +4962,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -5021,7 +5021,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -5080,7 +5080,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -5139,7 +5139,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -5207,7 +5207,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ActionToggle
@@ -5278,7 +5278,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -5346,7 +5346,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ActionToggle
@@ -5426,7 +5426,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ActionToggle
@@ -5506,7 +5506,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ActionToggle
@@ -5586,7 +5586,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ActionToggle
@@ -5657,7 +5657,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -5716,7 +5716,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -5784,7 +5784,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ActionToggle
@@ -5855,7 +5855,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -5923,7 +5923,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ActionToggle
@@ -6003,7 +6003,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ActionToggle
@@ -6083,7 +6083,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ActionToggle
@@ -6163,7 +6163,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ActionToggle
@@ -6509,7 +6509,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -6524,7 +6524,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -6746,7 +6746,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -6761,7 +6761,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -6869,7 +6869,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -6884,7 +6884,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -6947,7 +6947,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -6962,7 +6962,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -7116,7 +7116,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ActAutoFrictionToggle
@@ -7139,7 +7139,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -7156,7 +7156,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -7173,7 +7173,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						BrakeAction
@@ -7192,7 +7192,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -7210,7 +7210,7 @@
 					position = 0
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ActionToggle
@@ -7229,7 +7229,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -7244,7 +7244,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -7259,7 +7259,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -7279,7 +7279,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleLightAction
@@ -7307,7 +7307,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -7322,7 +7322,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -7337,7 +7337,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -7402,7 +7402,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ExtendPanelsAction
@@ -7479,7 +7479,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ExtendPanelsAction
@@ -7561,7 +7561,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -7635,7 +7635,7 @@
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -7698,7 +7698,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -7966,7 +7966,7 @@
 	{
 		KERBAL
 		{
-			name = 耶比迪亚·科曼
+			name = #autoLOC_20803
 			gender = Male
 			type = Crew
 			trait = Pilot
@@ -7994,7 +7994,7 @@
 		}
 		KERBAL
 		{
-			name = 比尔·科曼
+			name = #autoLOC_20811
 			gender = Male
 			type = Crew
 			trait = Engineer
@@ -8022,7 +8022,7 @@
 		}
 		KERBAL
 		{
-			name = 鲍勃·科曼
+			name = Bob Kerman
 			gender = Male
 			type = Crew
 			trait = Scientist
@@ -8050,7 +8050,7 @@
 		}
 		KERBAL
 		{
-			name = 瓦伦蒂娜·科曼
+			name = #autoLOC_20827
 			gender = Female
 			type = Crew
 			trait = Pilot
@@ -8078,7 +8078,7 @@
 		}
 		KERBAL
 		{
-			name = 艾德勒·科曼
+			name = Edler Kerman
 			gender = Male
 			type = Crew
 			trait = Scientist
@@ -8110,7 +8110,7 @@
 		}
 		KERBAL
 		{
-			name = 艾瑞安娜·科曼
+			name = Erianna Kerman
 			gender = Female
 			type = Applicant
 			trait = Engineer
@@ -8138,7 +8138,7 @@
 		}
 		KERBAL
 		{
-			name = 伊尔特里德·科曼
+			name = Irtrid Kerman
 			gender = Female
 			type = Crew
 			trait = Engineer
@@ -8170,7 +8170,7 @@
 		}
 		KERBAL
 		{
-			name = 米提多斯·科曼
+			name = Mitdos Kerman
 			gender = Male
 			type = Crew
 			trait = Pilot
@@ -8202,7 +8202,7 @@
 		}
 		KERBAL
 		{
-			name = 卡塔·科曼
+			name = Kata Kerman
 			gender = Female
 			type = Crew
 			trait = Pilot
@@ -8234,7 +8234,7 @@
 		}
 		KERBAL
 		{
-			name = 苏艾恩·科曼
+			name = Suene Kerman
 			gender = Female
 			type = Applicant
 			trait = Scientist
@@ -8262,7 +8262,7 @@
 		}
 		KERBAL
 		{
-			name = 哲根·科曼
+			name = Jergun Kerman
 			gender = Male
 			type = Applicant
 			trait = Engineer
@@ -8290,7 +8290,7 @@
 		}
 		KERBAL
 		{
-			name = 奈尔顿·科曼
+			name = Neldun Kerman
 			gender = Male
 			type = Applicant
 			trait = Engineer
@@ -8318,7 +8318,7 @@
 		}
 		KERBAL
 		{
-			name = 达艾特·科曼
+			name = Daet Kerman
 			gender = Female
 			type = Applicant
 			trait = Pilot
@@ -8346,7 +8346,7 @@
 		}
 		KERBAL
 		{
-			name = 吉不勒斯·科曼
+			name = Gilbles Kerman
 			gender = Male
 			type = Applicant
 			trait = Scientist
@@ -8374,7 +8374,7 @@
 		}
 		KERBAL
 		{
-			name = 迈克斯纳·科曼
+			name = Maxuna Kerman
 			gender = Female
 			type = Applicant
 			trait = Scientist

@@ -1,4 +1,4 @@
-﻿GAME
+GAME
 {
 	version = 1.0.0
 	Title = #autoLOC_1100018
@@ -73,7 +73,7 @@
 		VESSEL
 		{
 			pid = a81c914a952248f5acdeb63f9db8fd47
-			name = Kerbal 0
+			name = #autoLOC_6002477 	//Kerbal XX
 			type = Ship
 			sit = PRELAUNCH
 			landed = True
@@ -140,48 +140,10 @@
 				flag = Squad/Flags/default
 				rTrf = mk1pod
 				modCost = 0
-				crew = 耶比迪亚·科曼
+				crew = #autoLOC_20803
 				EVENTS
 				{
-					Debug_OpenCFG
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Edit CFG
-						guiName = [EDITOR]: Edit CFG
-						category = [EDITOR]: Edit CFG
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
-					PingMe
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Show in Inspector
-						guiName = [EDITOR]: Show in Inspector
-						category = [EDITOR]: Show in Inspector
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
-					PingPrefab
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Ping Part Prefab
-						guiName = [EDITOR]: Ping Part Prefab
-						category = [EDITOR]: Ping Part Prefab
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
+					
 				}
 				ACTIONS
 				{
@@ -197,43 +159,8 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						MakeReference
-						{
-							active = True
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Control From Here
-							guiName = Control From Here
-							category = Control From Here
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						RenameVessel
-						{
-							active = True
-							guiActive = True
-							guiActiveUncommand = True
-							guiIcon = Rename Vessel
-							guiName = Rename Vessel
-							category = Rename Vessel
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 					}
@@ -247,46 +174,11 @@
 					WheelState = Active
 					EVENTS
 					{
-						OnToggle
-						{
-							active = True
-							guiActive = True
-							guiActiveEditor = True
-							guiActiveUncommand = False
-							guiIcon = Toggle Torque
-							guiName = Toggle Torque
-							category = Toggle Torque
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						Activate
-						{
-							actionGroup = None
-						}
-						Deactivate
-						{
-							actionGroup = None
-						}
-						Toggle
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -298,113 +190,11 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						DeployExperiment
-						{
-							active = True
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Deploy
-							guiName = Crew Report
-							category = Deploy
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						CollectDataExternalEvent
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = 
-							guiName = Take Data
-							category = 
-							guiActiveUnfocused = True
-							unfocusedRange = 1.5
-							externalToEVAOnly = True
-						}
-						ReviewDataEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Review Data
-							guiName = Review Report
-							category = Review Data
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperiment
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Reset
-							guiName = Discard Crew Report
-							category = Reset
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						DeployExperimentExternal
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Deploy
-							guiName = Crew Report
-							category = Deploy
-							guiActiveUnfocused = True
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Reset
-							guiName = Discard Crew Report
-							category = Reset
-							guiActiveUnfocused = True
-							unfocusedRange = 1.5
-							externalToEVAOnly = True
-						}
-						CleanUpExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Restore
-							guiName = Restore
-							category = Restore
-							guiActiveUnfocused = True
-							unfocusedRange = 1.5
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						DeployAction
-						{
-							actionGroup = None
-						}
-						ResetAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -414,55 +204,8 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						StoreDataExternalEvent
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = 
-							guiName = Store Experiments (0)
-							category = 
-							guiActiveUnfocused = True
-							unfocusedRange = 1.3
-							externalToEVAOnly = True
-						}
-						CollectDataExternalEvent
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = 
-							guiName = Take Data (0)
-							category = 
-							guiActiveUnfocused = True
-							unfocusedRange = 1.3
-							externalToEVAOnly = True
-						}
-						ReviewDataEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Review Data
-							guiName = Review Stored Data (0)
-							category = Review Data
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 					}
@@ -475,32 +218,8 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleFlag
-						{
-							active = True
-							guiActive = False
-							guiActiveEditor = True
-							guiActiveUncommand = False
-							guiIcon = Toggle Flag
-							guiName = Toggle Flag
-							category = Toggle Flag
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 					}
@@ -512,19 +231,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -536,19 +243,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -564,31 +259,8 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						SpawnDialog
-						{
-							active = True
-							guiActive = True
-							guiActiveUncommand = True
-							guiIcon = Transfer Crew
-							guiName = Transfer Crew
-							category = Transfer Crew
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 					}
@@ -650,45 +322,6 @@
 				modCost = 0
 				EVENTS
 				{
-					Debug_OpenCFG
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Edit CFG
-						guiName = [EDITOR]: Edit CFG
-						category = [EDITOR]: Edit CFG
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
-					PingMe
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Show in Inspector
-						guiName = [EDITOR]: Show in Inspector
-						category = [EDITOR]: Show in Inspector
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
-					PingPrefab
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Ping Part Prefab
-						guiName = [EDITOR]: Ping Part Prefab
-						category = [EDITOR]: Ping Part Prefab
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
 				}
 				ACTIONS
 				{
@@ -712,38 +345,11 @@
 					}
 					EVENTS
 					{
-						Decouple
-						{
-							active = True
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Decouple
-							guiName = Decouple
-							category = Decouple
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveEditor = True
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Decoupler: Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						DecoupleAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -754,46 +360,11 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleEvent
-						{
-							active = True
-							guiActive = True
-							guiActiveEditor = True
-							guiActiveUncommand = False
-							guiIcon = Disable Crossfeed
-							guiName = Enable Crossfeed
-							category = Disable Crossfeed
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
-						EnableAction
-						{
-							actionGroup = None
-						}
-						DisableAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -803,31 +374,8 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						RunTestEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Run Test
-							guiName = Run Test
-							category = Run Test
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 					}
@@ -867,45 +415,6 @@
 				modCost = 0
 				EVENTS
 				{
-					Debug_OpenCFG
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Edit CFG
-						guiName = [EDITOR]: Edit CFG
-						category = [EDITOR]: Edit CFG
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
-					PingMe
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Show in Inspector
-						guiName = [EDITOR]: Show in Inspector
-						category = [EDITOR]: Show in Inspector
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
-					PingPrefab
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Ping Part Prefab
-						guiName = [EDITOR]: Ping Part Prefab
-						category = [EDITOR]: Ping Part Prefab
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
 				}
 				ACTIONS
 				{
@@ -970,45 +479,7 @@
 				modCost = 0
 				EVENTS
 				{
-					Debug_OpenCFG
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Edit CFG
-						guiName = [EDITOR]: Edit CFG
-						category = [EDITOR]: Edit CFG
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
-					PingMe
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Show in Inspector
-						guiName = [EDITOR]: Show in Inspector
-						category = [EDITOR]: Show in Inspector
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
-					PingPrefab
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Ping Part Prefab
-						guiName = [EDITOR]: Ping Part Prefab
-						category = [EDITOR]: Ping Part Prefab
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
+					
 				}
 				ACTIONS
 				{
@@ -1073,45 +544,7 @@
 				modCost = 0
 				EVENTS
 				{
-					Debug_OpenCFG
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Edit CFG
-						guiName = [EDITOR]: Edit CFG
-						category = [EDITOR]: Edit CFG
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
-					PingMe
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Show in Inspector
-						guiName = [EDITOR]: Show in Inspector
-						category = [EDITOR]: Show in Inspector
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
-					PingPrefab
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Ping Part Prefab
-						guiName = [EDITOR]: Ping Part Prefab
-						category = [EDITOR]: Ping Part Prefab
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
+					
 				}
 				ACTIONS
 				{
@@ -1176,45 +609,7 @@
 				modCost = 0
 				EVENTS
 				{
-					Debug_OpenCFG
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Edit CFG
-						guiName = [EDITOR]: Edit CFG
-						category = [EDITOR]: Edit CFG
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
-					PingMe
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Show in Inspector
-						guiName = [EDITOR]: Show in Inspector
-						category = [EDITOR]: Show in Inspector
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
-					PingPrefab
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Ping Part Prefab
-						guiName = [EDITOR]: Ping Part Prefab
-						category = [EDITOR]: Ping Part Prefab
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
+					
 				}
 				ACTIONS
 				{
@@ -1279,45 +674,7 @@
 				modCost = 0
 				EVENTS
 				{
-					Debug_OpenCFG
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Edit CFG
-						guiName = [EDITOR]: Edit CFG
-						category = [EDITOR]: Edit CFG
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
-					PingMe
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Show in Inspector
-						guiName = [EDITOR]: Show in Inspector
-						category = [EDITOR]: Show in Inspector
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
-					PingPrefab
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Ping Part Prefab
-						guiName = [EDITOR]: Ping Part Prefab
-						category = [EDITOR]: Ping Part Prefab
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
+					
 				}
 				ACTIONS
 				{
@@ -1383,45 +740,7 @@
 				modCost = 0
 				EVENTS
 				{
-					Debug_OpenCFG
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Edit CFG
-						guiName = [EDITOR]: Edit CFG
-						category = [EDITOR]: Edit CFG
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
-					PingMe
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Show in Inspector
-						guiName = [EDITOR]: Show in Inspector
-						category = [EDITOR]: Show in Inspector
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
-					PingPrefab
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Ping Part Prefab
-						guiName = [EDITOR]: Ping Part Prefab
-						category = [EDITOR]: Ping Part Prefab
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
+					
 				}
 				ACTIONS
 				{
@@ -1436,19 +755,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -1489,45 +796,7 @@
 				modCost = 0
 				EVENTS
 				{
-					Debug_OpenCFG
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Edit CFG
-						guiName = [EDITOR]: Edit CFG
-						category = [EDITOR]: Edit CFG
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
-					PingMe
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Show in Inspector
-						guiName = [EDITOR]: Show in Inspector
-						category = [EDITOR]: Show in Inspector
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
-					PingPrefab
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Ping Part Prefab
-						guiName = [EDITOR]: Ping Part Prefab
-						category = [EDITOR]: Ping Part Prefab
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
+					
 				}
 				ACTIONS
 				{
@@ -1542,19 +811,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -1595,45 +852,7 @@
 				modCost = 0
 				EVENTS
 				{
-					Debug_OpenCFG
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Edit CFG
-						guiName = [EDITOR]: Edit CFG
-						category = [EDITOR]: Edit CFG
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
-					PingMe
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Show in Inspector
-						guiName = [EDITOR]: Show in Inspector
-						category = [EDITOR]: Show in Inspector
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
-					PingPrefab
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Ping Part Prefab
-						guiName = [EDITOR]: Ping Part Prefab
-						category = [EDITOR]: Ping Part Prefab
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
+					
 				}
 				ACTIONS
 				{
@@ -1648,19 +867,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -1701,45 +908,7 @@
 				modCost = 0
 				EVENTS
 				{
-					Debug_OpenCFG
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Edit CFG
-						guiName = [EDITOR]: Edit CFG
-						category = [EDITOR]: Edit CFG
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
-					PingMe
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Show in Inspector
-						guiName = [EDITOR]: Show in Inspector
-						category = [EDITOR]: Show in Inspector
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
-					PingPrefab
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Ping Part Prefab
-						guiName = [EDITOR]: Ping Part Prefab
-						category = [EDITOR]: Ping Part Prefab
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
+					
 				}
 				ACTIONS
 				{
@@ -1754,19 +923,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -1806,45 +963,7 @@
 				modCost = 0
 				EVENTS
 				{
-					Debug_OpenCFG
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Edit CFG
-						guiName = [EDITOR]: Edit CFG
-						category = [EDITOR]: Edit CFG
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
-					PingMe
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Show in Inspector
-						guiName = [EDITOR]: Show in Inspector
-						category = [EDITOR]: Show in Inspector
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
-					PingPrefab
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Ping Part Prefab
-						guiName = [EDITOR]: Ping Part Prefab
-						category = [EDITOR]: Ping Part Prefab
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
+					
 				}
 				ACTIONS
 				{
@@ -1873,57 +992,11 @@
 					}
 					EVENTS
 					{
-						Activate
-						{
-							active = True
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Activate Engine
-							guiName = Activate Engine
-							category = Activate Engine
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Shutdown
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Shutdown Engine
-							guiName = Shutdown Engine
-							category = Shutdown Engine
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+					
 					ACTIONS
 					{
-						OnAction
-						{
-							actionGroup = None
-						}
-						ShutdownAction
-						{
-							actionGroup = None
-						}
-						ActivateAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -1939,37 +1012,11 @@
 					}
 					EVENTS
 					{
-						Jettison
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Jettison
-							guiName = Jettison
-							category = Jettison
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						JettisonAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -1993,33 +1040,10 @@
 					}
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
-						LockAction
-						{
-							actionGroup = None
-						}
-						FreeAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -2029,19 +1053,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2053,19 +1065,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2077,19 +1077,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2101,31 +1089,8 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						RunTestEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Run Test
-							guiName = Run Test
-							category = Run Test
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 					}
@@ -2175,45 +1140,7 @@
 				modCost = 0
 				EVENTS
 				{
-					Debug_OpenCFG
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Edit CFG
-						guiName = [EDITOR]: Edit CFG
-						category = [EDITOR]: Edit CFG
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
-					PingMe
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Show in Inspector
-						guiName = [EDITOR]: Show in Inspector
-						category = [EDITOR]: Show in Inspector
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
-					PingPrefab
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Ping Part Prefab
-						guiName = [EDITOR]: Ping Part Prefab
-						category = [EDITOR]: Ping Part Prefab
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
+					
 				}
 				ACTIONS
 				{
@@ -2245,77 +1172,11 @@
 					}
 					EVENTS
 					{
-						Deploy
-						{
-							active = True
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Deploy Chute
-							guiName = Deploy Chute
-							category = Deploy Chute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						CutParachute
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Cut Parachute
-							guiName = Cut Parachute
-							category = Cut Parachute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Repack
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Repack Chute
-							guiName = Repack Chute
-							category = Repack Chute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Disarm
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Disarm
-							guiName = Disarm
-							category = Disarm
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						DeployAction
-						{
-							actionGroup = None
-						}
-						CutAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -2325,31 +1186,8 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						RunTestEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Run Test
-							guiName = Run Test
-							category = Run Test
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
 					}
@@ -2361,19 +1199,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2385,19 +1211,7 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2436,45 +1250,7 @@
 				modCost = 0
 				EVENTS
 				{
-					Debug_OpenCFG
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Edit CFG
-						guiName = [EDITOR]: Edit CFG
-						category = [EDITOR]: Edit CFG
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
-					PingMe
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Show in Inspector
-						guiName = [EDITOR]: Show in Inspector
-						category = [EDITOR]: Show in Inspector
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
-					PingPrefab
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Ping Part Prefab
-						guiName = [EDITOR]: Ping Part Prefab
-						category = [EDITOR]: Ping Part Prefab
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
+					
 				}
 				ACTIONS
 				{
@@ -2501,38 +1277,11 @@
 					}
 					EVENTS
 					{
-						Toggle
-						{
-							active = True
-							guiActive = False
-							guiActiveEditor = True
-							guiActiveUncommand = False
-							guiIcon = Toggle
-							guiName = Deploy
-							category = Toggle
-							guiActiveUnfocused = True
-							unfocusedRange = 5
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -2544,113 +1293,11 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						DeployExperiment
-						{
-							active = True
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Deploy
-							guiName = Observe Mystery Goo
-							category = Deploy
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						CollectDataExternalEvent
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = 
-							guiName = Collect Data
-							category = 
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						ReviewDataEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Review Data
-							guiName = Review Data
-							category = Review Data
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperiment
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Reset
-							guiName = Reset Goo Canister
-							category = Reset
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						DeployExperimentExternal
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Deploy
-							guiName = Observe Mystery Goo
-							category = Deploy
-							guiActiveUnfocused = True
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Reset
-							guiName = Reset Goo Canister
-							category = Reset
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						CleanUpExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Restore
-							guiName = Restore
-							category = Restore
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						DeployAction
-						{
-							actionGroup = None
-						}
-						ResetAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 			}
@@ -2687,45 +1334,7 @@
 				modCost = 0
 				EVENTS
 				{
-					Debug_OpenCFG
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Edit CFG
-						guiName = [EDITOR]: Edit CFG
-						category = [EDITOR]: Edit CFG
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
-					PingMe
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Show in Inspector
-						guiName = [EDITOR]: Show in Inspector
-						category = [EDITOR]: Show in Inspector
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
-					PingPrefab
-					{
-						active = True
-						guiActive = True
-						guiActiveEditor = True
-						guiActiveUncommand = True
-						guiIcon = [EDITOR]: Ping Part Prefab
-						guiName = [EDITOR]: Ping Part Prefab
-						category = [EDITOR]: Ping Part Prefab
-						guiActiveUnfocused = True
-						unfocusedRange = 2
-						externalToEVAOnly = True
-					}
+					
 				}
 				ACTIONS
 				{
@@ -2752,38 +1361,11 @@
 					}
 					EVENTS
 					{
-						Toggle
-						{
-							active = True
-							guiActive = False
-							guiActiveEditor = True
-							guiActiveUncommand = False
-							guiIcon = Toggle
-							guiName = Deploy
-							category = Toggle
-							guiActiveUnfocused = True
-							unfocusedRange = 5
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 				MODULE
@@ -2795,113 +1377,11 @@
 					stagingEnabled = True
 					EVENTS
 					{
-						DeployExperiment
-						{
-							active = True
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Deploy
-							guiName = Observe Mystery Goo
-							category = Deploy
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						CollectDataExternalEvent
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = 
-							guiName = Collect Data
-							category = 
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						ReviewDataEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Review Data
-							guiName = Review Data
-							category = Review Data
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperiment
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Reset
-							guiName = Reset Goo Canister
-							category = Reset
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						DeployExperimentExternal
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Deploy
-							guiName = Observe Mystery Goo
-							category = Deploy
-							guiActiveUnfocused = True
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Reset
-							guiName = Reset Goo Canister
-							category = Reset
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						CleanUpExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Restore
-							guiName = Restore
-							category = Restore
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
+ 					}
+						
 					ACTIONS
 					{
-						DeployAction
-						{
-							actionGroup = None
-						}
-						ResetAction
-						{
-							actionGroup = None
-						}
+						
 					}
 				}
 			}
@@ -2952,13 +1432,14 @@
 	{
 		KERBAL
 		{
-			name = 耶比迪亚·科曼
+			name = #autoLOC_20803
 			gender = Male
 			type = Crew
 			trait = Pilot
 			brave = 0.5
 			dumb = 0.5
 			badS = True
+			veteran = True
 			tour = False
 			state = Assigned
 			ToD = 0
@@ -2975,13 +1456,14 @@
 		}
 		KERBAL
 		{
-			name = 比尔·科曼
+			name = #autoLOC_20811
 			gender = Male
 			type = Crew
 			trait = Engineer
 			brave = 0.5
 			dumb = 0.8
 			badS = False
+			veteran = True
 			tour = False
 			state = Available
 			ToD = 0
@@ -2997,13 +1479,14 @@
 		}
 		KERBAL
 		{
-			name = 鲍勃·科曼
+			name = #autoLOC_20819
 			gender = Male
 			type = Crew
 			trait = Scientist
 			brave = 0.3
 			dumb = 0.1
 			badS = False
+			veteran = True
 			tour = False
 			state = Available
 			ToD = 0
@@ -3019,13 +1502,14 @@
 		}
 		KERBAL
 		{
-			name = 瓦伦蒂娜·科曼
+			name = #autoLOC_20827
 			gender = Female
 			type = Crew
 			trait = Pilot
 			brave = 0.55
 			dumb = 0.4
 			badS = True
+			veteran = True
 			tour = False
 			state = Available
 			ToD = 0

@@ -1,4 +1,4 @@
-﻿GAME
+GAME
 {
 	version = 1.0.0
 	Title = #autoLOC_1100042
@@ -139,32 +139,44 @@
 	}
 	ROSTER
 	{
-		CREW
+		KERBAL
 		{
-			name = 耶比迪亚·科曼
+			name = #autoLOC_20803
+			gender = Male
+			type = Crew
+			trait = Pilot
 			brave = 0.5
 			dumb = 0.5
 			badS = True
+			veteran = True
 			state = 0
 			ToD = 7663.07999999987
 			idx = 0
 		}
-		CREW
+		KERBAL
 		{
-			name = 比尔·科曼
+			name = #autoLOC_20811
+			gender = Male
+			type = Crew
+			trait = Engineer
 			brave = 0.5
 			dumb = 0.8
 			badS = False
+			veteran = True
 			state = 0
 			ToD = 13100736.3688264
 			idx = 1
 		}
-		CREW
+		KERBAL
 		{
-			name = 鲍勃·科曼
+			name = #autoLOC_20819
+			gender = Male
+			type = Crew
+			trait = Scientist
 			brave = 0.3
 			dumb = 0.1
 			badS = False
+			veteran = True
 			state = 0
 			ToD = 7838.27999999971
 			idx = 1
