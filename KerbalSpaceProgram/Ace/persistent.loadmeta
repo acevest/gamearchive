@@ -1,6 +1,6 @@
-saveMD5 = 0997feae7d998ae10f87a9cdf0b6d5a9
-vesselCount = 32
-UT = 1194710458.1795409
+saveMD5 = 04d0d968f017b9d4970e5e71e248d780
+vesselCount = 29
+UT = 1194735840.707242
 gameMode = CAREER
 gameNull = False
 gameCompatible = True
@@ -8,4 +8,4 @@ funds = 75824625.410221905
 science = 336
 reputationPercent = 78
 ongoingContracts = 0
-saveMD5 = 0997feae7d998ae10f87a9cdf0b6d5a9
+saveMD5 = 04d0d968f017b9d4970e5e71e248d780
